@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vidner</title>
+    <link>https://vidner.github.io/</link>
+    <description>Recent content on vidner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="https://vidner.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design</title>
+      <link>https://vidner.github.io/blog/design/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://vidner.github.io/blog/design/</guid>
+      <description>moon-walk Terinspirasi dari maskot ilkomerz yaitu space troopers.
+a-man-with-a-hoodie saia suka sekali pake hoodie, simple, keren, dan bisa dipake buat kuliah (ps:ini hoodie favorit saya).</description>
+    </item>
+    
+  </channel>
+</rss>
