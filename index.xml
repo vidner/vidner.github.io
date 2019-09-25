@@ -6,10 +6,19 @@
     <description>Recent content on vidner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 26 Sep 2019 00:40:15 +0700</lastBuildDate>
     
 	<atom:link href="https://vidner.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[ inctf - 2019 ] Cliche_crackme</title>
+      <link>https://vidner.github.io/blog/cliche_crackme/</link>
+      <pubDate>Thu, 26 Sep 2019 00:40:15 +0700</pubDate>
+      
+      <guid>https://vidner.github.io/blog/cliche_crackme/</guid>
+      <description>cliche_crackme Soo cliche.. One for the noobs out there like us!</description>
+    </item>
     
     <item>
       <title>Design</title>
