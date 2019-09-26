@@ -195,7 +195,8 @@ d59fd3f37182486a44231de4713131d20324fbfe80e91ae48658ba707cb84841972305fc3e0111c7
 <p><code>permuted</code> function but the opposite way</p>
 
 <pre><code class="language-python">def permute(hexBlock):
-    permutation = [20, 10, 26, 23, 11, 21, 15, 25, 0, 9, 6, 2, 17, 30, 29, 12, 18, 16, 28, 14, 5, 7, 1, 22, 19, 8, 27, 13, 3, 31, 24, 4]
+    permutation = [8, 4, 15, 9, 3, 14, 6, 2,
+                    13, 1, 7, 5, 12, 10, 11, 0]
     block = int(hexBlock, 16)
     permutedBlock = 0
     counter = 0
@@ -210,7 +211,10 @@ d59fd3f37182486a44231de4713131d20324fbfe80e91ae48658ba707cb84841972305fc3e0111c7
 
 <pre><code class="language-python">def substitute(hexBlock):
     substitutedHexBlock = &quot;&quot;
-    substitution = [10, 13, 0, 8, 11, 7, 6, 12, 15, 14, 3, 4, 2, 1, 5, 9]
+    substitution = [6, 22, 30, 18, 29, 4, 23, 19,
+                    15, 1, 31, 11, 28, 14, 25, 2,
+                    27, 12, 21, 26, 10, 16, 0, 24,
+                     7, 5, 3, 20, 13, 9, 17, 8]
     for hexDigit in hexBlock:
         newDigit = substitution.index(int(hexDigit, 16)) #opposite-way
         substitutedHexBlock += hex(newDigit)[2:]
