@@ -6,13 +6,22 @@
     <description>Recent content on vidner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Sep 2019 00:40:15 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 26 Sep 2019 10:55:56 +0700</lastBuildDate>
     
 	<atom:link href="https://vidner.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>[ inctf - 2019 ] Cliche_crackme</title>
+      <title>[ nactf - 2019 - crypto ]  super_duper_AES</title>
+      <link>https://vidner.github.io/blog/super_duper_aes/</link>
+      <pubDate>Thu, 26 Sep 2019 10:55:56 +0700</pubDate>
+      
+      <guid>https://vidner.github.io/blog/super_duper_aes/</guid>
+      <description>super duper AES The Advanced Encryption Standard (AES) has got to go.</description>
+    </item>
+    
+    <item>
+      <title>[ inctf - 2019 - rev ] Cliche_crackme</title>
       <link>https://vidner.github.io/blog/cliche_crackme/</link>
       <pubDate>Thu, 26 Sep 2019 00:40:15 +0700</pubDate>
       

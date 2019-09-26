@@ -27,7 +27,10 @@
   <link rel="shortcut icon" href="https://vidner.github.io/images/favicon.png " type="image/x-icon">
   <link rel="icon" href="https://vidner.github.io/images/favicon.png " type="image/x-icon">
 
-</head><body>
+</head><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+   <script>hljs.initHighlightingOnLoad();</script>
+   <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/xt256.min.css>
+   <body>
 <!-- preloader start -->
 <div class="preloader">
 </div>
@@ -74,7 +77,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">[ inctf - 2019 ] Cliche_crackme</h1>
+        <h1 class="text-white font-tertiary">[ inctf - 2019 - rev ] Cliche_crackme</h1>
       </div>
     </div>
   </div>
@@ -94,7 +97,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h3 class="font-tertiary mb-5">[ inctf - 2019 ] Cliche_crackme</h3>
+          <h3 class="font-tertiary mb-5">[ inctf - 2019 - rev ] Cliche_crackme</h3>
           <p class="font-secondary">Published on Sep 26, 2019 by <span class="text-primary">vidner</span></p>
           <div class="content">
             <img src="https://ctf.inctf.in/files/1304216b3b091872c554ee2b3be82a1e/INCTF-logo.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
@@ -106,7 +109,7 @@
 
 <h3 id="attachment">attachment</h3>
 
-<p>cliche_crackme: Mach-O 64-bit x86_64 executable, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|PIE></p>
+<p>cliche_crackme: <br>Mach-O 64-bit x86_64 executable.</p>
 
 <h3 id="decompiled">decompiled</h3>
 
@@ -185,15 +188,16 @@
 }
 </code></pre>
 
-<h3 id="analitycs">analitycs</h3>
+<h3 id="analysis">analysis</h3>
 
-<p>in order to get the flag , this <code>if ( v10(v8) &amp;&amp; v9(v7) &amp;&amp; a2(v7, &amp;unk_100001040)</code> statement must be true . but actually yes , emm no , emm idk , after reading all the functions i found out that , if this <code>a2(v7, &amp;unk_100001040)</code> is true , then we would get the flag . a2 or <code>sub_100000C80</code> is a function with 2 paramater , each of them is a array , the goal of this  function is to compare those 2 array , if those 2 array are equal this function should return true. so we need to make <code>v7</code> is equal to <code>&amp;unk_100001040</code>.</p>
+<p>in order to get the flag , this <code>if ( v10(v8) &amp;&amp; v9(v7) &amp;&amp; a2(v7, &amp;unk_100001040)</code> condition must be true . but actually yes , emm no , emm idk , after reading all the functions i found out that , this <code>a2(v7, &amp;unk_100001040)</code> condition is enough to get the flag ,because the other condition will return true if we get this one true. a2 or <code>sub_100000C80</code> is a function with 2 paramater , each of them is a array , if those 2 array are equal this function should return true. so we need to make <code>v7</code> is equal to <code>&amp;unk_100001040</code>.</p>
 
-<p><code>v7</code> initiated with <code>a1(a6, a5);</code> or <code>sub_100000D00(alloc[0x29b],our input)</code> . the goal of a1 function is to fill the allocated array with our input <br> example : alloc[0] = input[0]+input[1] .</p>
+<p><code>v7</code> initiated with <code>a1(a6, a5);</code> or <code>sub_100000D00</code> . a1 is a function with 2 parameter , the fisrt paramater is an allocated array , and the second parameter is our input. nested loop in this function fill <code>alloc[ v5 ]</code> with <code>input[i]+input[j]</code> , btw <code>v5</code> is a <code>counter</code>.
+ example : alloc[0] = input[0]+input[1] .</p>
 
 <p>this is what &amp;unk_100001040 look like</p>
 
-<pre><code>__data:0000000100001040 unk_100001040   db 0D7h                 ; DATA XREF: sub_100000DB0+5C↑o
+<pre><code class="language-c">__data:0000000100001040 unk_100001040   db 0D7h                 ; DATA XREF: sub_100000DB0+5C↑o
 __data:0000000100001041                 db    0
 __data:0000000100001042                 db    0
 __data:0000000100001043                 db    0
@@ -215,9 +219,11 @@ __data:0000000100001AA7                 db    0
 __data:0000000100001AA7 __data          ends
 </code></pre>
 
-<p>conclusion , we need to fill alloc[i] that would have the same exact value with unk_100001040[i]. we can solve this with z3 sat solver or do the math with barehand , i prefer to use z3 , this my lil script</p>
+<p>conclusion , we need to fill <code>alloc[i]</code> that would have the same exact value with <code>unk_100001040[i]</code>. we can solve this with <code>z3</code> sat solver.</p>
 
-<pre><code>from z3 import *
+<h3 id="script">script</h3>
+
+<pre><code class="language-python">from z3 import *
 
 LEN = 37 
 s = Solver()
@@ -244,7 +250,7 @@ if s.check() == sat:
 
 <h3 id="flag">flag</h3>
 
-<p>inctf{Th4ts_he11_l0t_0f_w0rk_w4s_it?}</p>
+<p><code>inctf{Th4ts_he11_l0t_0f_w0rk_w4s_it?}</code></p>
 
           </div>
         </div>

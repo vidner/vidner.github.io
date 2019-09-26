@@ -6,7 +6,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description.">
+  <meta name="description" content="This is meta description">
   <meta name="author" content="Themefisher">
   <meta name="generator" content="Hugo 0.58.3" />
 
@@ -77,7 +77,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">Blog</h1>
+        <h1 class="text-white font-tertiary">[ nactf - 2019 - crypto ]  super_duper_AES</h1>
       </div>
     </div>
   </div>
@@ -93,55 +93,149 @@
 
 
 
-  
   <section class="section">
     <div class="container">
       <div class="row">
-        
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="https://www.nactf.com/files/6183507d6fd7e02c2cc69792dbbeab31/NA.png" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="https://vidner.github.io/blog/super_duper_aes/">[ nactf - 2019 - crypto ]  super_duper_AES</a>
-              </h4>
-              <p class="cars-text">super duper AES The Advanced Encryption Standard (AES) has got to go.</p>
-              <a href="https://vidner.github.io/blog/super_duper_aes/" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
+        <div class="col-lg-12">
+          <h3 class="font-tertiary mb-5">[ nactf - 2019 - crypto ]  super_duper_AES</h3>
+          <p class="font-secondary">Published on Sep 26, 2019 by <span class="text-primary">vidner</span></p>
+          <div class="content">
+            <img src="https://www.nactf.com/files/6183507d6fd7e02c2cc69792dbbeab31/NA.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+            
+
+<h3 id="super-duper-aes">super duper AES</h3>
+
+<p>The Advanced Encryption Standard (AES) has got to go. Spencer just invented the Super Duper Advanced Encryption Standard (SDAES), and it&rsquo;s 100% unbreakable. AES only performs up to 14 rounds of substitution and permutation, while SDAES performs 10,000. That&rsquo;s so secure, SDAES doesn&rsquo;t even use a key!</p>
+
+<h3 id="attachment">attachment</h3>
+
+<p>cipher.txt: <br>ASCII text, with no line terminators</p>
+
+<p>sdaes.py: <br>Python script, ASCII text executable, with CRLF line terminators</p>
+
+<h3 id="analysis">analysis</h3>
+
+<p>sdaes.py</p>
+
+<pre><code class="language-python">import sys
+from binascii import hexlify
+
+def substitute(hexBlock):
+    substitutedHexBlock = &quot;&quot;
+    substitution =  [8, 4, 15, 9, 3, 14, 6, 2,
+                    13, 1, 7, 5, 12, 10, 11, 0]
+    for hexDigit in hexBlock:
+        newDigit = substitution[int(hexDigit, 16)]
+        substitutedHexBlock += hex(newDigit)[2:]
+    return substitutedHexBlock
+
+def pad(message):
+    numBytes = 4-(len(message)%4)
+    return message + numBytes * chr(numBytes)
+
+def hexpad(hexBlock):
+    numZeros = 8 - len(hexBlock)
+    return numZeros*&quot;0&quot; + hexBlock
+
+def permute(hexBlock):
+    permutation =   [6, 22, 30, 18, 29, 4, 23, 19,
+                    15, 1, 31, 11, 28, 14, 25, 2,
+                    27, 12, 21, 26, 10, 16, 0, 24,
+                     7, 5, 3, 20, 13, 9, 17, 8]
+    block = int(hexBlock, 16)
+    permutedBlock = 0
+    for i in range(32):
+        bit = (block &amp; (1 &lt;&lt; i)) &gt;&gt; i
+        permutedBlock |= bit &lt;&lt; permutation[i]
+    return hexpad(hex(permutedBlock)[2:])
+
+def round(hexMessage):
+    numBlocks = len(hexMessage)//8
+    substitutedHexMessage = &quot;&quot;
+    for i in range(numBlocks):
+        substitutedHexMessage += substitute(hexMessage[8*i:8*i+8])
+    permutedHexMessage = &quot;&quot;
+    for i in range(numBlocks):
+        permutedHexMessage += permute(substitutedHexMessage[8*i:8*i+8])
+    return permutedHexMessage
+
+
+
+if __name__ == &quot;__main__&quot;:
+    hexMessage = str(hexlify(str.encode(pad(sys.argv[1]))))
+    if &quot;\'&quot; in hexMessage:
+        hexMessage = hexMessage[2:-1]
+
+    for i in range(10000):
+        hexMessage = round(hexMessage)
+    print (hexMessage)
+</code></pre>
+
+<p>cipher.txt</p>
+
+<pre><code class="language-sh">ian@vidner ~/Downloads&gt; cat cipher.txt
+d59fd3f37182486a44231de4713131d20324fbfe80e91ae48658ba707cb84841972305fc3e0111c753733cf2⏎
+</code></pre>
+
+<p>sdaes.py is python implemented <code>AES</code> but without a <code>key</code> , wtf ? ? ?  , doesnt matter how many rounds this cipher does , we can get the plaintext easily by doing it the opposite way .</p>
+
+<p>round function but the opposite way</p>
+
+<pre><code class="language-python">def round(hexMessage):
+    numBlocks = len(hexMessage)//8
+    permutedHexMessage = &quot;&quot;
+    for i in range(numBlocks):
+        permutedHexMessage += permute(hexMessage[8*i:8*i+8]) #opposite-way
+    subtitutedHexMessage = &quot;&quot;
+    for i in range(numBlocks):
+        subtitutedHexMessage += substitute(permutedHexMessage[8*i:8*i+8]) #opposite-way
+    return subtitutedHexMessage
+</code></pre>
+
+<p><code>permuted</code> function but the opposite way</p>
+
+<pre><code class="language-python">def permute(hexBlock):
+    permutation = [20, 10, 26, 23, 11, 21, 15, 25, 0, 9, 6, 2, 17, 30, 29, 12, 18, 16, 28, 14, 5, 7, 1, 22, 19, 8, 27, 13, 3, 31, 24, 4]
+    block = int(hexBlock, 16)
+    permutedBlock = 0
+    counter = 0
+    for i in permutation:
+        bit = (block &amp; (1 &lt;&lt; i)) &gt;&gt; i
+        permutedBlock |= bit &lt;&lt; counter #opposite-way
+        counter+=1
+    return hexpad(hex(permutedBlock)[2:])
+</code></pre>
+
+<p><code>substitute</code> function but the opposite way</p>
+
+<pre><code class="language-python">def substitute(hexBlock):
+    substitutedHexBlock = &quot;&quot;
+    substitution = [10, 13, 0, 8, 11, 7, 6, 12, 15, 14, 3, 4, 2, 1, 5, 9]
+    for hexDigit in hexBlock:
+        newDigit = substitution.index(int(hexDigit, 16)) #opposite-way
+        substitutedHexBlock += hex(newDigit)[2:]
+    return substitutedHexBlock
+</code></pre>
+
+<p>now just loop it 10000 times then we should get the flag</p>
+
+<pre><code class="language-python">if __name__ == &quot;__main__&quot;:
+    hexMessage = &quot;d59fd3f37182486a44231de4713131d20324fbfe80e91ae48658ba707cb84841972305fc3e0111c753733cf2&quot;
+    # a = hexMessage
+    for i in range(10000):
+        hexMessage = round(hexMessage)
+    print (unhexlify(hexMessage))
+</code></pre>
+
+<h3 id="flag">flag</h3>
+
+<p><code>nactf{5ub5t1tut10n_p3rmutat10n_n33d5_a_k3y}</code></p>
+
+          </div>
         </div>
-        
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="https://ctf.inctf.in/files/1304216b3b091872c554ee2b3be82a1e/INCTF-logo.png" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="https://vidner.github.io/blog/cliche_crackme/">[ inctf - 2019 - rev ] Cliche_crackme</a>
-              </h4>
-              <p class="cars-text">cliche_crackme Soo cliche.. One for the noobs out there like us!</p>
-              <a href="https://vidner.github.io/blog/cliche_crackme/" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
-        </div>
-        
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="https://github.com/vidner/design/blob/master/moon%20walk.png?raw=true" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="https://vidner.github.io/blog/design/">Design</a>
-              </h4>
-              <p class="cars-text">moon-walk Terinspirasi dari maskot ilkomerz yaitu space troopers.
-a-man-with-a-hoodie saia suka sekali pake hoodie, simple, keren, dan bisa dipake buat kuliah (ps:ini hoodie favorit saya).</p>
-              <a href="https://vidner.github.io/blog/design/" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
-        </div>
-        
       </div>
     </div>
   </section>
-  
-
-  
-  
 
 
 
