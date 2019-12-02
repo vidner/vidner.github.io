@@ -336,10 +336,17 @@ undefined2 __cdecl16near FUN_1000_01fa(char *param_1)
 }
 </code></pre>
 
-<p>so many interesting shit goin here and i thought this is the main function, you can see where the <code>FUN_1000_01fa</code> is called, not far from that this main function also called other interesting function who just look like <code>FUN_1000_01fa</code> kinda function .the difference is only on the index of its array , and most importantly there is if statement who brackets all of that function , and if that condition true it should call <code>FUN_1000_2744</code> with <code>0x403</code> parameter. you know what&rsquo;s rhyme with <code>0x403</code>? , YESS 0x403 is the location of <code>flag incorrect, please try again</code> string, so my guess is the <code>FUN_1000_2744</code> is a printf function. so in order to get the flag the if statement should be false, because it will call <code>FUN_1000_2744</code> with parameter <code>0x3e0</code> which is the <code>key file is correct! good one!</code> string. after that there is a loop printing <code>(uint)local_1ea</code> variable, which is the parameter of a function that i&rsquo;ve looked before and also the parameter of all other function who just look the same but the index is differ.</p>
+<p>so many interesting shit goin here and i thought this is the main function, you can see where the <code>FUN_1000_01fa</code> is called, not far from that this main function also called other interesting function who just look like <code>FUN_1000_01fa</code> kinda function .the difference is only on the index of its array , and most importantly there is if statement who brackets all of that function , and if that condition true it should call <code>FUN_1000_2744</code> with <code>0x403</code> parameter. you know what&rsquo;s rhyme with <code>0x403</code>? , YESS 0x403 is the location of <code>flag incorrect, please try again</code> string, so my guess is the <code>FUN_1000_2744</code> is a printf function. in order to get the flag the if statement should be false, because it will call <code>FUN_1000_2744</code> with parameter <code>0x3e0</code> which is the <code>key file is correct! good one!</code> string. after that there is a loop printing <code>(uint)local_1ea</code> variable, which is the parameter of a function that i&rsquo;ve looked before and also the parameter of all other function who just look the same but the index is differ.</p>
 
 <p>i looked back to that function , all of that function did just comparing the parameter with some weird ascii character, wait wait wait i remembered when the flag is true <code>local_1ea</code> printed with an <code>uint</code> cast in front of it. so i try to print some of that weird ascii character with <code>uint</code> cast in front of it.
 guess what , its look like some ascii art , so i print all of that character in those tons of <code>if statement</code> , and i got the flag.</p>
+
+<h3 id="solver">solver</h3>
+
+<pre><code class="language-python">param_1 = [37, 37, 37, 69, 32, 32, 32, 37, 37, 69, 32, 37, 37, 69, 32, 37, 37, 37, 37, 37, 37, 69, 37, 37, 37, 37, 37, 37, 69, 32, 32, 32, 32, 32, 32, 32, 32, 32, 37, 37, 37, 37, 37, 37, 37, 69, 37, 37, 69, 32, 32, 32, 32, 32, 32, 37, 37, 37, 37, 37, 69, 32, 32, 37, 37, 37, 37, 37, 37, 69, 32, 37, 37, 69, 32, 37, 37, 69, 13, 10, 37, 37, 37, 37, 69, 32, 32, 37, 37, 70, 37, 37, 37, 70, 37, 37, 55, 51, 51, 51, 51, 68, 56, 51, 51, 51, 51, 37, 37, 69, 32, 32, 32, 32, 32, 32, 32, 32, 37, 37, 55, 51, 51, 51, 51, 68, 37, 37, 70, 32, 32, 32, 32, 32, 37, 37, 55, 51, 51, 37, 37, 69, 37, 37, 55, 51, 51, 51, 51, 68, 32, 37, 37, 70, 37, 37, 37, 70, 13, 10, 37, 37, 55, 37, 37, 69, 32, 37, 37, 70, 56, 37, 37, 70, 37, 37, 70, 32, 32, 32, 32, 32, 32, 37, 37, 37, 37, 37, 55, 68, 32, 32, 32, 32, 32, 32, 32, 32, 37, 37, 37, 37, 37, 69, 32, 32, 37, 37, 70, 32, 32, 32, 32, 32, 37, 37, 37, 37, 37, 37, 37, 70, 37, 37, 70, 32, 32, 37, 37, 37, 69, 37, 37, 70, 56, 37, 37, 70, 13, 10, 37, 37, 70, 56, 37, 37, 69, 37, 37, 70, 32, 37, 37, 70, 37, 37, 70, 32, 32, 32, 32, 32, 32, 56, 51, 51, 51, 37, 37, 69, 32, 32, 32, 32, 32, 32, 32, 32, 37, 37, 55, 51, 51, 68, 32, 32, 37, 37, 70, 32, 32, 32, 32, 32, 37, 37, 55, 51, 51, 37, 37, 70, 37, 37, 70, 32, 32, 32, 37, 37, 70, 56, 51, 68, 32, 37, 37, 70, 13, 10, 37, 37, 70, 32, 56, 37, 37, 37, 37, 70, 32, 37, 37, 70, 56, 37, 37, 37, 37, 37, 37, 69, 37, 37, 37, 37, 37, 37, 55, 68, 37, 37, 37, 37, 37, 37, 37, 69, 37, 37, 70, 32, 32, 32, 32, 32, 37, 37, 37, 37, 37, 37, 37, 69, 37, 37, 70, 32, 32, 37, 37, 70, 56, 37, 37, 37, 37, 37, 37, 55, 68, 37, 37, 69, 32, 37, 37, 70, 13, 10, 56, 51, 68, 32, 32, 56, 51, 51, 51, 68, 32, 56, 51, 68, 32, 56, 51, 51, 51, 51, 51, 68, 56, 51, 51, 51, 51, 51, 68, 32, 56, 51, 51, 51, 51, 51, 51, 68, 56, 51, 68, 32, 32, 32, 32, 32, 56, 51, 51, 51, 51, 51, 51, 68, 56, 51, 68, 32, 32, 56, 51, 68, 32, 56, 51, 51, 51, 51, 51, 68, 32, 56, 51, 68, 32, 56, 51, 68, 13, 10]
+c = [chr(i) for i in param_1]
+print(&quot;&quot;.join(c))
+</code></pre>
 
 <h3 id="flag">flag</h3>
 
@@ -351,7 +358,7 @@ guess what , its look like some ascii art , so i print all of that character in 
 83D  8333D 83D 833333D833333D 8333333D83D     8333333D83D  83D 833333D 83D 83D
 </code></pre>
 
-<p><code>ctfzone{NIC3_FLAG!1}</code></p>
+<p>`<code>ctfzone{NIC3_FLAG!1}</code></p>
 
           </div>
         </div>
