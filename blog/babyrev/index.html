@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>vidner</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.58.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://vidner.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://vidner.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://vidner.github.io/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://vidner.github.io/css/style.min.css" integrity="" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://vidner.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://vidner.github.io/images/favicon.png " type="image/x-icon">
+
+</head><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+   <script>hljs.initHighlightingOnLoad();</script>
+   <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/xt256.min.css>
+   <body>
+<!-- preloader start -->
+<div class="preloader">
+</div>
+<!-- preloader end -->
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="https://vidner.github.io"><h3 class="text-white font-tertiary">vidner</h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://vidner.github.io"> Home </a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://vidner.github.io/about">About</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://vidner.github.io/blog">Blog</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://vidner.github.io/contact">Contact</a>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+
+  
+<section class="page-title bg-primary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">[ ctfzone - 2019 - rev ] Baby_rev</h1>
+      </div>
+    </div>
+  </div>
+  
+  <img src="/images/illustrations/page-title.svg" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="/images/illustrations/leaf-pink-round.svg" alt="illustrations" class="bg-shape-2">
+  <img src="/images/illustrations/dots-cyan.svg" alt="illustrations" class="bg-shape-3">
+  <img src="/images/illustrations/leaf-orange.svg" alt="illustrations" class="bg-shape-4">
+  <img src="/images/illustrations/leaf-yellow.svg" alt="illustrations" class="bg-shape-5">
+  <img src="/images/illustrations/dots-group-cyan.svg" alt="illustrations" class="bg-shape-6">
+  <img src="/images/illustrations/leaf-cyan-lg.svg" alt="illustrations" class="bg-shape-7">
+</section>
+
+
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="font-tertiary mb-5">[ ctfzone - 2019 - rev ] Baby_rev</h3>
+          <p class="font-secondary">Published on Dec 02, 2019 by <span class="text-primary">vidner</span></p>
+          <div class="content">
+            <img src="https://vidner.github.io/images/writeup/ctfzone.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+            
+
+<h3 id="baby-rev">baby rev</h3>
+
+<p>EZ task for beginners in RE.</p>
+
+<h3 id="attachment">attachment</h3>
+
+<p>BABY_REV.EXE:<br>MS-DOS executable, MZ for MS-DOS (it&rsquo;s my firts time with MS-DOS btw)</p>
+
+<h3 id="analysis">analysis</h3>
+
+<p>this is my firts time work with MS-DOS. i use ghidra to decompile it but there is no <code>main</code> function. so i lookup at the <code>defined strings</code> tryna find some insteresting shit.</p>
+
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>String Value</th>
+<th>String Representation</th>
+<th>Data type</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>137f:0641</td>
+<td>0123456789ABCDEF</td>
+<td>0123456789ABCDEF</td>
+<td>ds</td>
+</tr>
+
+<tr>
+<td>137f:0606</td>
+<td>print scanf : floating point formats not linked</td>
+<td>print scanf : floating point formats not linked</td>
+<td>ds</td>
+</tr>
+
+<tr>
+<td>137f:<code>0403</code></td>
+<td><code>flag incorrect, please try again</code></td>
+<td>flag incorrect, please try again</td>
+<td>ds</td>
+</tr>
+
+<tr>
+<td>137f:<code>03e0</code></td>
+<td><code>key file is correct! good one!</code></td>
+<td>key file is correct! good one!</td>
+<td>ds</td>
+</tr>
+
+<tr>
+<td>137f:03c1</td>
+<td>cannot open file %s, exiting.</td>
+<td>cannot open file %s, exiting.</td>
+<td>ds</td>
+</tr>
+
+<tr>
+<td>137f:03a1</td>
+<td>usage: task1.exe <key_file></td>
+<td>usage: task1.exe <key_file></td>
+<td>ds</td>
+</tr>
+
+<tr>
+<td>137f:0374</td>
+<td>This program cannot be run in DOS mode.</td>
+<td>This program cannot be run in DOS mode.</td>
+<td>ds</td>
+</tr>
+
+<tr>
+<td>137f:002f</td>
+<td>Null pointer assignmentDivide errorAbnormal program termination</td>
+<td>Null pointer assignmentDivide errorAbnormal program termination</td>
+<td>ds</td>
+</tr>
+
+<tr>
+<td>137f:0004</td>
+<td>Turbo-C - Copyright &copy; 1988 Borland Intl.</td>
+<td>Turbo-C - Copyright &copy; 1988 Borland Intl.</td>
+<td>ds</td>
+</tr>
+</tbody>
+</table>
+
+<p>after reading this , we know the flag is checked somewhere right?.then i look at the decompiled function, and i found freakin tons of if statement.</p>
+
+<pre><code class="language-c">
+undefined2 __cdecl16near FUN_1000_01fa(char *param_1)
+
+{
+  undefined2 uVar1;
+  
+  if (&amp;stack0xfffc &lt;= DAT_137f_009e) {
+    FUN_1000_338b(0x1000);
+  }
+  if (((((((*param_1 == -0x25) &amp;&amp; (param_1[1] == -0x25)) &amp;&amp; (param_1[2] == -0x25)) &amp;&amp;
+        ((param_1[3] == -0x45 &amp;&amp; (param_1[4] == ' ')))) &amp;&amp;
+       ((param_1[5] == ' ' &amp;&amp; ((param_1[6] == ' ' &amp;&amp; (param_1[7] == -0x25)))))) &amp;&amp;
+      ((param_1[8] == -0x25 &amp;&amp;
+       (((param_1[9] == -0x45 &amp;&amp; (param_1[10] == ' ')) &amp;&amp; (param_1[0xb] == -0x25)))))) &amp;&amp;
+     ((((((param_1[0xc] == -0x25 &amp;&amp; (param_1[0xd] == -0x45)) &amp;&amp;
+         ((param_1[0xe] == ' ' &amp;&amp; ((param_1[0xf] == -0x25 &amp;&amp; (param_1[0x10] == -0x25)))))) &amp;&amp;
+        ((param_1[0x11] == -0x25 &amp;&amp;
+         (((((param_1[0x12] == -0x25 &amp;&amp; (param_1[0x13] == -0x25)) &amp;&amp; (param_1[0x14] == -0x25)) &amp;&amp;
+           ((param_1[0x15] == -0x45 &amp;&amp; (param_1[0x16] == -0x25)))) &amp;&amp;
+          (((param_1[0x17] == -0x25 &amp;&amp; ((param_1[0x18] == -0x25 &amp;&amp; (param_1[0x19] == -0x25)))) &amp;&amp;
+           ((param_1[0x1a] == -0x25 &amp;&amp;
+            ((((param_1[0x1b] == -0x25 &amp;&amp; (param_1[0x1c] == -0x45)) &amp;&amp; (param_1[0x1d] == ' ')) &amp;&amp;
+             ((param_1[0x1e] == ' ' &amp;&amp; (param_1[0x1f] == ' ')))))))))))))) &amp;&amp;
+       (((((param_1[0x20] == ' ' &amp;&amp; ((param_1[0x21] == ' ' &amp;&amp; (param_1[0x22] == ' ')))) &amp;&amp;
+          (param_1[0x23] == ' ')) &amp;&amp;
+         (((param_1[0x24] == ' ' &amp;&amp; (param_1[0x25] == ' ')) &amp;&amp; (param_1[0x26] == -0x25)))) &amp;&amp;
+        (((((param_1[0x27] == -0x25 &amp;&amp; (param_1[0x28] == -0x25)) &amp;&amp;
+           ((param_1[0x29] == -0x25 &amp;&amp; ((param_1[0x2a] == -0x25 &amp;&amp; (param_1[0x2b] == -0x25)))))) &amp;&amp;
+          (param_1[0x2c] == -0x25)) &amp;&amp;
+         (((param_1[0x2d] == -0x45 &amp;&amp; (param_1[0x2e] == -0x25)) &amp;&amp; (param_1[0x2f] == -0x25))))))))
+      &amp;&amp; (((((param_1[0x30] == -0x45 &amp;&amp; (param_1[0x31] == ' ')) &amp;&amp;
+            ((param_1[0x32] == ' ' &amp;&amp; ((param_1[0x33] == ' ' &amp;&amp; (param_1[0x34] == ' ')))))) &amp;&amp;
+           (param_1[0x35] == ' ')) &amp;&amp;
+          ((((((param_1[0x36] == ' ' &amp;&amp; (param_1[0x37] == -0x25)) &amp;&amp; (param_1[0x38] == -0x25)) &amp;&amp;
+             ((param_1[0x39] == -0x25 &amp;&amp; (param_1[0x3a] == -0x25)))) &amp;&amp; (param_1[0x3b] == -0x25)) &amp;&amp;
+           (((param_1[0x3c] == -0x45 &amp;&amp; (param_1[0x3d] == ' ')) &amp;&amp;
+            ((param_1[0x3e] == ' ' &amp;&amp; (param_1[0x3f] == -0x25)))))))))))) {
+    uVar1 = 1;
+  }
+  else {
+    uVar1 = 0;
+  }
+  return uVar1;
+}
+</code></pre>
+
+<p>this function must reference to something , and of course it is.</p>
+
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Code Unit</th>
+<th>Context</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1000:14c2</td>
+<td>CALL FUN_1000_01fa</td>
+<td>UNCONDITIONAL_CALL</td>
+</tr>
+</tbody>
+</table>
+
+<p>so <code>FUN_1000_01fa</code> called by <code>FUN_1000_13db</code>, guess what i found a string that i&rsquo;ve lookin for, just look at this function</p>
+
+<pre><code class="language-c">undefined2 __cdecl16near FUN_1000_13db(int param_1,int param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined2 unaff_SS;
+  undefined2 local_1ec;
+  byte local_1ea [480];
+  undefined2 local_a;
+  undefined2 local_8;
+  int local_6;
+  byte local_3;
+  
+  if ((&amp;stack0xfffe &lt; &amp;stack0xfe10) || (&amp;stack0xfe10 &lt;= DAT_137f_009e)) {
+    FUN_1000_338b(0x1000);
+  }
+  local_1ec = 0;
+  FUN_1000_3399(0x194,0x137f,local_1ea,unaff_SS);
+  local_a = 0;
+  local_8 = 0;
+  local_6 = 0;
+  local_3 = 0;
+  FUN_1000_293d(0x374);
+  FUN_1000_2744(0x39c);
+  FUN_1000_319c(5000);
+  FUN_1000_314d(2);
+  FUN_1000_3124();
+  if (param_1 &lt; 2) {
+    FUN_1000_2744(0x3a1);
+  }
+  else {
+    local_6 = FUN_1000_1abd(*(undefined2 *)(param_2 + 2),0x3be);
+    if (local_6 != 0) {
+      iVar1 = 0;
+      while (iVar1 &lt; 6) {
+        iVar2 = 0;
+        while (iVar2 &lt; 0x50) {
+          local_3 = FUN_1000_1e8d(local_6);
+          if ((uint)local_3 != 0xffff) {
+            local_1ea[iVar1 * 0x50 + iVar2] = local_3;
+          }
+          iVar2 = iVar2 + 1;
+        }
+        iVar1 = iVar1 + 1;
+      }
+      iVar1 = FUN_1000_01fa(local_1ea);
+      if (((((iVar1 == 0) || (iVar1 = FUN_1000_042b(local_1ea), iVar1 == 0)) ||
+           (iVar1 = FUN_1000_065d(local_1ea), iVar1 == 0)) ||
+          ((iVar1 = FUN_1000_08d2(local_1ea), iVar1 == 0 ||
+           (iVar1 = FUN_1000_0b47(local_1ea), iVar1 == 0)))) ||
+         ((iVar1 = FUN_1000_0dbc(local_1ea), iVar1 == 0 ||
+          ((iVar1 = FUN_1000_1031(local_1ea), iVar1 == 0 ||
+           (iVar1 = FUN_1000_12a6(local_1ea), iVar1 == 0)))))) {
+        FUN_1000_2744(0x403);
+      }
+      else {
+        FUN_1000_2744(0x3e0);
+        iVar1 = 0;
+        while (iVar1 &lt; 6) {
+          iVar2 = 0;
+          while (iVar2 &lt; 0x50) {
+            FUN_1000_2744(0x400,(uint)local_1ea[iVar1 * 0x50 + iVar2]);
+            iVar2 = iVar2 + 1;
+          }
+          iVar1 = iVar1 + 1;
+        }
+      }
+      return 0;
+    }
+    FUN_1000_2744(0x3c1,*(undefined2 *)(param_2 + 2));
+  }
+  return 1;
+}
+</code></pre>
+
+<p>so many interesting shit goin here and i thought this is the main function, you can see where the <code>FUN_1000_01fa</code> is called, not far from that this main function also called other interesting function who just look like <code>FUN_1000_01fa</code> kinda function .the difference is only on the index of its array , and most importantly there is if statement who brackets all of that function , and if that condition true it should call <code>FUN_1000_2744</code> with <code>0x403</code> parameter. you know what&rsquo;s rhyme with <code>0x403</code>? , YESS 0x403 is the location of <code>flag incorrect, please try again</code> string, so my guess is the <code>FUN_1000_2744</code> is a printf function. so in order to get the flag the if statement should be false, because it will call <code>FUN_1000_2744</code> with parameter <code>0x3e0</code> which is the <code>key file is correct! good one!</code> string. after that there is a loop printing <code>(uint)local_1ea</code> variable, which is the parameter of a function that i&rsquo;ve looked before and also the parameter of all other function who just look the same but the index is differ.</p>
+
+<p>i looked back to that function , all of that function did just comparing the parameter with some weird ascii character, wait wait wait i remembered when the flag is true <code>local_1ea</code> printed with an <code>uint</code> cast in front of it. so i try to print some of that weird ascii character with <code>uint</code> cast in front of it.
+guess what , its look like some ascii art , so i print all of that character in those tons of <code>if statement</code> , and i got the flag.</p>
+
+<h3 id="flag">flag</h3>
+
+<pre><code>%%%E   %%E %%E %%%%%%E%%%%%%E         %%%%%%%E%%E      %%%%%E  %%%%%%E %%E %%E
+%%%%E  %%F%%%F%%73333D83333%%E        %%73333D%%F     %%733%%E%%73333D %%F%%%F
+%%7%%E %%F8%%F%%F      %%%%%7D        %%%%%E  %%F     %%%%%%%F%%F  %%%E%%F8%%F
+%%F8%%E%%F %%F%%F      8333%%E        %%733D  %%F     %%733%%F%%F   %%F83D %%F
+%%F 8%%%%F %%F8%%%%%%E%%%%%%7D%%%%%%%E%%F     %%%%%%%E%%F  %%F8%%%%%%7D%%E %%F
+83D  8333D 83D 833333D833333D 8333333D83D     8333333D83D  83D 833333D 83D 83D
+</code></pre>
+
+<p><code>ctfzone{NIC3_FLAG!1}</code></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">vidnerian@mail.ru</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">&#43;62</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">Bogor, Indonesia</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Powered by <a href="https://themefisher.com/best-hugo-themes">Hugo Themes</a></p>
+  </div>
+</footer>
+
+
+<!-- Google Map API -->
+<script src="https://vidner.github.io"></script>
+<!-- JS Plugins -->
+
+<script src="https://vidner.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://vidner.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://vidner.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://vidner.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://vidner.github.io/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
