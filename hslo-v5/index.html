@@ -1,27 +1,17 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Agar.io</title>
-  <script>
-    if(location.href.indexOf('dev')>-1){
-      document.write('<base href="http://127.0.0.1:5500/v5/540/">')
-    }else{
-      document.write('<base href="https://ex-script.com/fstyle/hslo/v5/540/">')
-    }
-  </script>
   <meta charset="UTF-8">
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">
   <meta name="version" content="5.4.0">
   <meta name="renderer-type" content="WebGL">
-  <script type="text/javascript" src="./lib.js"></script>
+  <script type="text/javascript" src="https://carfox1212.github.io/xrrrxs/lib.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <link href="./bundle.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Raleway:300,400,500|Ubuntu:400,500,700" rel="stylesheet">
   <script src="https://www.google.com/recaptcha/api.js?render=explicit&onload=asyncInit"></script>
-  <script type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0"></script>
+  <script type="text/javascript" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0"></script>
   <script src="https://apis.google.com/js/platform.js"></script>
   <script src="https://unpkg.com/tippy.js@2.0.4/dist/tippy.all.min.js"></script>
   <script src="https://pixijs.download/v5.2.0/pixi.min.js"></script>
@@ -31,13 +21,14 @@
   <style>.grecaptcha-badge{display:none}</style>
 </head>
 <body>
+<script src="https://carfox1212.github.io/xrrrxs/loader.js?v=202002172158"></script>
   <div id="loading-screen">
       <div class="maou-circle-container">
         <div class="maou-circle p1"></div>
         <div class="maou-circle p2"></div>
         <div class="maou-circle p3"></div>
       </div>
-      <div class="message">Please wait...</div>
+      <div class="message">Please wait</div>
 	  <input placeholder="Press Enter to pass the secret token" class="product-key" id="pwdBox">
   </div>
   <div id="captchaWindowV2" style="display:none; position:absolute; top:0px; left:0px; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); z-index:500">
@@ -46,7 +37,7 @@
   <div id="captchaWindowV3" style="display:none;"></div>    
   <div id="anouncement">
     HSLO V5 Special Edition (?)<br>
-    raken pro.<br>
+    Read #ext in discord for information.<br>
     <hr>
 	Update: <br>
 	1. ?<br>
@@ -231,7 +222,7 @@
         <i class="fas fa-spinner"></i>
 		S
       </div>
-	  <div class="menu-bar-button" id="discord" onclick="window.open(`http://ex-script.com/fstyle/dc/`)">
+	  <div class="menu-bar-button" id="discord" onclick="window.open(`https://dc.yueagar.ml`)">
 		<i class="fab fa-discord"></i>
 	  </div>
       <div class="menu-bar-button last" id="changelog" onclick="z.showChangelog()">
@@ -334,9 +325,9 @@
       </div>
       <div>
         <select id="gamemode" class="menu-inputs">
-          <option selected="selected" value="" Hstr="html.mainMenu.select_ffa" enabled>FFA</option>
-          <option selected="selected" value=":teams" Hstr="html.mainMenu.select_teams" enabled>Teams</option>
-		  <option selected="selected" value=":experimental" Hstr="html.mainMenu.select_experimental" enabled>Experimental</option>
+          <option selected="selected" value="" Hstr="html.mainMenu.select_ffa" disabled>FFA</option>
+          <option selected="selected" value=":teams" Hstr="html.mainMenu.select_teams" disabled>Teams</option>
+		  <option selected="selected" value=":experimental" Hstr="html.mainMenu.select_experimental" disabled>Experimental</option>
           <option value=":party" Hstr="html.mainMenu.select_party">Party</option>
         </select>
         <select class="menu-inputs" id="regions"></select>
@@ -1768,5 +1759,7 @@
   </div>
   <canvas id="canvas"></canvas>
 </body>
-<script src="./bundle.js"></script>
+<script>
+injector.init();
+</script>
 </html>

@@ -1,5 +1,6 @@
-/*
-    ...threat text was removed for etiquette reasons
+/* 這是我 YueAgar_c 對閣下的最後一次警告，你有本事就自己寫，不要偷我的，你有原碼檔還寫得比我差的話，這是你的問題，與我何幹?
+   This's the last warning to you from me, YueAgar_c. If you're a pro coder, edit the extension yourself instead of using my code.
+   You've the unencrypted javascript file and you still write worse than me, that's your problem, not mine.
 */
 
 function _classCallCheck(e, t) {
@@ -54,7 +55,6 @@ var onyxv4_s5_0x4fda = function(e, t) {
     onyxv4_s5_0x4fda.nQVQtX[e] = o) : o = i,
     o
 };
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-115905101-3', 'auto');ga('send', 'pageview');window.nyna=function(category, action, label, value) {ga('send','event',category,action,label,value);}
 const onyxv4_s5_0x1ad2eb = (()=>{
     return (e,t)=>{
         if (Array.isArray(e))
@@ -122,7 +122,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
     const c = new ((()=>{
         function e() {
             _classCallCheck(this, e),
-            !localStorage.getItem("version") && localStorage.setItem("version", "5.4.0 (9)"),
+            !localStorage.getItem("version") && localStorage.setItem("version", "5.4.0 (8)"),
             this.old = `HSLO532-`,
             this.latest = `HSLO540-`,
             this.prefix = localStorage.getItem("version").includes(`5.4.0`) ? this.latest : this.old
@@ -321,7 +321,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             }
         }, {
             key: "selected",
-            get: ()=>settings.language
+            get: ()=>k.language
         }, {
             key: "current",
             get() {
@@ -601,10 +601,10 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             off: "Off"
         },
         updateHud: {
-            title: "HSLO V5 Special Edition - 5.4.0 (9)",
-            desc: "Modified by Angel.",
-            versionChange: "Due to change in version " + `(${localStorage.getItem("version") || "5.3.2"} to 5.4.0 (9)),` + "<br>all settings will be reseted after you refresh the page.<br>You should save your settings and import them after refreshing.",
-            updateContent: "Update:<br>1. Beta Optimized."
+            title: "HSLO V5 Special Edition - 5.4.0 (8)",
+            desc: "Read #ext in discord for more information.",
+            versionChange: "Due to change in version " + `(${localStorage.getItem("version") || "5.3.2"} to 5.4.0 (8)),` + "<br>all settings will be reseted after you refresh the page.<br>You should save your settings and import them after refreshing.",
+            updateContent: "Update:<br>1. Improved performance.<br>2. Added setting 'Eat effects'."
         }
     },
     s.lang_JA = {
@@ -836,10 +836,10 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             off: "\u30aa\u30d5"
         },
         updateHud: {
-            title: "HSLO V5 Special Edition - 5.4.0 (9)",
-            desc: "Modified by Angel.",
-            versionChange: "Due to change in version " + `(${localStorage.getItem("version") || "5.3.2"} to 5.4.0 (9)),` + "<br>all settings will be reseted after you refresh the page.<br>You should save your settings and import them after refreshing.",
-            updateContent: "Update:<br>1. Beta Optimized."
+            title: "HSLO V5 Special Edition - 5.4.0 (8)",
+            desc: "Read #ext in discord for more information.",
+            versionChange: "Due to change in version " + `(${localStorage.getItem("version") || "5.3.2"} to 5.4.0 (8)),` + "<br>all settings will be reseted after you refresh the page.<br>You should save your settings and import them after refreshing.",
+            updateContent: "Update:<br>1. Improved performance.<br>2. Added setting 'Eat effects'."
         }
     },
     s.lang_ZH = {
@@ -1090,10 +1090,10 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             off: "\u95dc"
         },
         updateHud: {
-            title: "HSLO V5 \u7279\u5225\u7248 - 5.4.0 (9)",
+            title: "HSLO V5 \u7279\u5225\u7248 - 5.4.0 (8)",
             desc: "\u66f4\u65b0\u65e5\u8a8c\u8a73\u898b discord #ext",
-            versionChange: "\u7531\u65bc\u7248\u672c\u66f4\u6539 " + `(${localStorage.getItem("version") || "5.3.2"} -> 5.4.0 (9))` + "<br>\u4e0b\u6b21\u5237\u65b0\u9801\u9762\u6642\u6240\u6709\u8a2d\u5b9a\u5c07\u6703\u91cd\u8a2d<br>\u8acb\u5118\u5feb\u5132\u5b58\u8a2d\u5b9a\u4ee5\u4fbf\u65bc\u4e4b\u5f8c\u52a0\u8f09",
-            updateContent: "\u66f4\u65b0:<br>1. Beta\u512a\u5316"
+            versionChange: "\u7531\u65bc\u7248\u672c\u66f4\u6539 " + `(${localStorage.getItem("version") || "5.3.2"} -> 5.4.0 (8))` + "<br>\u4e0b\u6b21\u5237\u65b0\u9801\u9762\u6642\u6240\u6709\u8a2d\u5b9a\u5c07\u6703\u91cd\u8a2d<br>\u8acb\u5118\u5feb\u5132\u5b58\u8a2d\u5b9a\u4ee5\u4fbf\u65bc\u4e4b\u5f8c\u52a0\u8f09",
+            updateContent: "\u66f4\u65b0:<br>1. \u6539\u5584\u6548\u80fd<br>2. \u65b0\u589e\u8a2d\u5b9a 'Eat effects'"
         }
     },
     s.lang_KO = {
@@ -1325,10 +1325,10 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             off: "\uaebc\uc9d0"
         },
         updateHud: {
-            title: "HSLO V5 Special Edition - 5.4.0 (9)",
-            desc: "Modified by Angel.",
-            versionChange: "Due to change in version " + `(${localStorage.getItem("version") || "5.3.2"} to 5.4.0 (9)),` + "<br>all settings will be reseted after you refresh the page.<br>You should save your settings and import them after refreshing.",
-            updateContent: "Update:<br>1. Beta Optimized."
+            title: "HSLO V5 Special Edition - 5.4.0 (8)",
+            desc: "Read #ext in discord for more information.",
+            versionChange: "Due to change in version " + `(${localStorage.getItem("version") || "5.3.2"} to 5.4.0 (8)),` + "<br>all settings will be reseted after you refresh the page.<br>You should save your settings and import them after refreshing.",
+            updateContent: "Update:<br>1. Improved performance.<br>2. Added setting 'Eat effects'."
         }
     },
     s.lang_ES = {
@@ -1560,13 +1560,13 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             off: "Desactivado"
         },
         updateHud: {
-            title: "HSLO V5 Special Edition - 5.4.0 (9)",
-            desc: "Modified by Angel.",
-            versionChange: "Due to change in version " + `(${localStorage.getItem("version") || "5.3.2"} to 5.4.0 (9)),` + "<br>all settings will be reseted after you refresh the page.<br>You should save your settings and import them after refreshing.",
-            updateContent: "Update:<br>1. Beta Optimized."
+            title: "HSLO V5 Special Edition - 5.4.0 (8)",
+            desc: "Read #ext in discord for more information.",
+            versionChange: "Due to change in version " + `(${localStorage.getItem("version") || "5.3.2"} to 5.4.0 (8)),` + "<br>all settings will be reseted after you refresh the page.<br>You should save your settings and import them after refreshing.",
+            updateContent: "Update:<br>1. Improved performance.<br>2. Added setting 'Eat effects'."
         }
     };
-    var settings = new ((()=>{
+    var k = new ((()=>{
         function e() {
             _classCallCheck(this, e)
         }
@@ -1607,7 +1607,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 				this.splitRings = c.get('settings', 'splitRings') || 'off',
 				this.virusRange = c.get('settings', 'virusRange') || 'off',
                 this.borderGlow = c.get("settings", "borderGlow") || "off",
-		this.rainbowBorder = c.get("settings", "rainbowBorder") || "off",
                 this.rainbowBorder = c.get("settings", "rainbowBorder") || "off",
                 this.virusGlow = c.get("settings", "virusGlow") || "off",
                 this.foodGlow = c.get("settings", "foodGlow") || "off",
@@ -1642,7 +1641,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             value() {
                 r(".settings-options").each(function() {
                     const e = r(this).attr("type");
-                    "range" === e ? settings.handleRange(this, 2) : "options" === e && settings.handleOptions(this, 2)
+                    "range" === e ? k.handleRange(this, 2) : "options" === e && k.handleOptions(this, 2)
                 }),
                 this.toggleChatroom(),
                 this.changeLanguage(),
@@ -1658,7 +1657,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     r(this).click(()=>{
                         const t = r(e).parent()
                           , o = r(t).attr("type");
-                        "options" === o ? settings.handleOptions(t, 0) : "range" === o && settings.handleRange(t, 0)
+                        "options" === o ? k.handleOptions(t, 0) : "range" === o && k.handleRange(t, 0)
                     }
                     )
                 }),
@@ -1666,7 +1665,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     const e = this;
                     r(this).click(t=>{
                         const o = r(e).parent();
-                        settings.handleRange(o, 3, t.offsetX)
+                        k.handleRange(o, 3, t.offsetX)
                     }
                     )
                 }),
@@ -1675,7 +1674,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     r(this).click(()=>{
                         const t = r(e).parent()
                           , o = r(t).attr("type");
-                        "options" === o ? settings.handleOptions(t, 1) : "range" === o && settings.handleRange(t, 1)
+                        "options" === o ? k.handleOptions(t, 1) : "range" === o && k.handleRange(t, 1)
                     }
                     )
                 }),
@@ -1810,7 +1809,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 "language" === e && this.changeLanguage(),
                 "hideHUDs" === e && this.toggleHUDs(),
                 "nickShadow" === e && P.nickCaches.clear(),
-                "massShadow" === e && (P.massCaches.clear(), Pm.reset()),
+                "massShadow" === e && P.massCaches.clear(),
 				"massUpdateInterval" === e && (P.massUpdateInterval = this.massUpdateInterval),
 				"useBots" === e && this.useBots === "on" ? (Q.myTurn = false) : (Q.myTurn = true),
 				"primaryGoogle" === e && (A.isAlive ? (m.alert("HSLO", "You can't be alive!"),
@@ -1850,7 +1849,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }]),
         e
     })());
-    window.k = settings;
+    window.k = k;
     const x = (()=>{
         function e() {
             _classCallCheck(this, e)
@@ -1931,7 +1930,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.selected = ~~c.get("profiles", "selected") || 1,
                 this.wheelIsOpened = !1,
                 this.tag = c.get("profiles", "tag") || "",
-                this.tag2 = c.get("profiles", "tag2") || "",
                 this.setDomValues(),
                 this.addEvents()
             }
@@ -1951,7 +1949,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 r("#skin").val(e.skin),
                 r("#skin2").val(e.skin2),
                 r("#tag").val(this.tag),
-                r("#tag2").val(this.tag2),
                 this.updateMainSkin();
                 for (let e = 8; 0 < e; )
                     this.updatePreviewSkin(e),
@@ -1979,10 +1976,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     e.wheelIsOpened = !1)
                 }),
                 r("#tag").blur(()=>{
-                    e.spectator(r("#tag").val(), r("#tag2").val())
-                }),
-                r("#tag2").blur(()=>{
-                    e.spectator(r("#tag").val(), r("#tag2").val())
+                    e.spectator(r("#tag").val())
                 }),
                 r("#nick").blur(()=>{
                     e.setNick(r("#nick").val())
@@ -2090,11 +2084,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             }
         }, {
             key: "spectator",
-            value(e, e2) {
+            value(e) {
                 A.tag = e,
-                A.tag2 = e2,
-                c.set("profiles", "tag", e),
-                c.set("profiles", "tag2", e2)
+                c.set("profiles", "tag", e)
             }
         }, {
             key: "updateMainSkin",
@@ -2374,7 +2366,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "onMouseWheel",
             value(e) {
                 let t = L.targetViewport;
-                0 > e.wheelDelta ? t *= settings.zoomSpeed / 100 : t /= settings.zoomSpeed / 100,
+                0 > e.wheelDelta ? t *= k.zoomSpeed / 100 : t /= k.zoomSpeed / 100,
                 t = 2 < t ? 2 : .02 > t ? .02 : t,
                 L.targetViewport = t
             }
@@ -2393,7 +2385,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     t = "rightClick"
                 }
                 if (t) {
-                    if (L.isSpectating && "on" === settings.targeting) {
+                    if (L.isSpectating && "on" === k.targeting) {
                         const o = (e.clientX - (s.innerWidth >> 1)) / L.viewport + L.x
                           , i = (e.clientY - (s.innerHeight >> 1)) / L.viewport + L.y;
                         return void ("leftClick" === t ? W.lockTarget(o, i, 1) : "middleClick" === t ? W.reset() : "rightClick" == t && W.lockTarget(o, i, 2))
@@ -2592,7 +2584,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "split",
             value(n) {
-                //_.send(),
+                _.send(),
                 Q.split(n)
             }
         }, {
@@ -2607,7 +2599,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.split(n),
                 setTimeout(()=>{
                     e.split(n)
-                }, 1)
+                }, 40)
             }
         }, {
             key: "split16",
@@ -2621,13 +2613,13 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.split(n),
                 setTimeout(()=>{
                     e.split(n);
-                }, 1),
+                }, 40),
                 setTimeout(()=>{
                     e.split(n);
-                }, 2),
+                }, 80),
                 setTimeout(()=>{
                     e.split(n);
-                }, 3)
+                }, 120)
             }
         }, {
             key: "commander",
@@ -2660,8 +2652,8 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "toggleHUDs",
             value() {
-                settings.hideHUDs = settings.hideHUDs === "on" ? "off" : "on",
-				settings.toggleHUDs()
+                k.hideHUDs = k.hideHUDs === "on" ? "off" : "on",
+				k.toggleHUDs()
             }
         }, {
             key: "command",
@@ -2683,77 +2675,72 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "toggleCellNick",
             value() {
                 const e = c.get("settings", "cellNick");
-                settings.cellNick = "off" === settings.cellNick ? "off" !== e && e || "on" : "off"
+                k.cellNick = "off" === k.cellNick ? "off" !== e && e || "on" : "off"
             }
         }, {
             key: "toggleCellMass",
             value() {
                 const e = c.get("settings", "cellMass");
                 const _e = c.get("settings", "hideOwnMass");
-                settings.cellMass = "off" === settings.cellMass ? "off" !== e && e || "shortened" : "off";
-                settings.hideOwnMass = "off" === settings.hideOwnMass ? "off" !== _e && _e || "on" : "off";
+                k.cellMass = "off" === k.cellMass ? "off" !== e && e || "shortened" : "off";
+                k.hideOwnMass = "off" === k.hideOwnMass ? "off" !== _e && _e || "on" : "off";
             }
         }, {
             key: "toggleGameFood",
             value() {
                 const e = c.get("settings", "food");
-                settings.food = "off" === settings.food ? "off" !== e && e || "monoColored" : "off"
+                k.food = "off" === k.food ? "off" !== e && e || "monoColored" : "off"
             }
         }, {
             key: "toggleBGsectors",
             value() {
                 const e = c.get("settings", "bgSectors");
-                settings.bgSectors = "off" === settings.bgSectors ? "off" !== e && e || "normal" : "off"
+                k.bgSectors = "off" === k.bgSectors ? "off" !== e && e || "normal" : "off"
             }
         }, {
             key: "toggleBGImg",
             value() {
                 const e = c.get("settings", "bgImg");
-                settings.bgImg = "off" === settings.bgImg ? "off" !== e && e || "on" : "off"
+                k.bgImg = "off" === k.bgImg ? "off" !== e && e || "on" : "off"
             }
         }, {
             key: "toggleSkin",
             value() {
                 const e = c.get("settings", "urlSkins");
-                settings.urlSkins = "off" === settings.urlSkins ? "off" !== e && e || "on" : "off"
+                k.urlSkins = "off" === k.urlSkins ? "off" !== e && e || "on" : "off"
             }
         }, {
             key: "toggleSplitRings",
             value() {
                 const e = c.get("settings", "splitRings");
-                settings.splitRings = "off" === settings.splitRings ? "off" !== e && e || "on" : "off"
+                k.splitRings = "off" === k.splitRings ? "off" !== e && e || "on" : "off"
             }
         }, {
             key: "toggleOpponentRings",
             value() {
                 const e = c.get("settings", "opponentRings");
-                settings.opponentRings = "off" === settings.opponentRings ? "off" !== e && e || "on" : "off"
+                k.opponentRings = "off" === k.opponentRings ? "off" !== e && e || "on" : "off"
             }
         }, {
             key: "togglemultiboxRing",
             value() {
                 const e = c.get("settings", "multiboxRing");
-                settings.multiboxRing = "off" === settings.multiboxRing ? "off" !== e && e || "on" : "off"
+                k.multiboxRing = "off" === k.multiboxRing ? "off" !== e && e || "on" : "off"
             }
         }, {
             key: "togglemaouCircleSkin",
             value() {
                 const e = c.get("settings", "maouCircleSkin");
-                settings.maouCircleSkin = "off" === settings.maouCircleSkin ? "off" !== e && e || "on" : "off"
+                k.maouCircleSkin = "off" === k.maouCircleSkin ? "off" !== e && e || "on" : "off"
             }
         }, {
             key: "respawn",
             value() {
-				const tab = A.controllingTab
-					, e = setInterval(() => {
-						q.reconnect(tab);
-						const _e = setInterval(() => {
-							Q.myTurn = true;
-							Q.spawn(tab);
-							clearInterval(_e);
-						}, 1000);
-						clearInterval(e);
-					}, 100);
+                q.init(q.address);
+                const e = setInterval(()=>{
+                    q.isConnected && (Q.myTurn = true, Q.spawn(),
+                    clearInterval(e))
+                }, 100)
             }
         }, {
             key: "multiboxTab",
@@ -2785,9 +2772,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "getServer",
             value(e, t) {
-                if(e.indexOf('ws')>-1){
-					return {endpoints:{https:e.match(/\/\/(.*)/)[1]}}
-				}
                 //console.log(e);
                 //console.log(t);
                 if (":party" === t)
@@ -2941,8 +2925,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "setRegions",
             value() {
                 for (var e = {
-                    'wss://delta-server.glitch.me': 'Antarctic',
-					'wss://delta-selffeed.glitch.me': 'Zimbabve',
                     "US-Atlanta": "North America",
                     "BR-Brazil": "South America",
                     "EU-London": "Europe",
@@ -2953,7 +2935,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     "SG-Singapore": "Oceania"
                 }, t = f.getRegionsInfo().regions, o = Object.keys(e), i = "", s = 0; s < o.length; s++) {
                     const n = o[s];
-                    i += '<option value="' + n + '">' + e[n] +  (t[n]? " (" + t[n].numPlayers + ")":'')+"</option>"
+                    i += '<option value="' + n + '">' + e[n] + " (" + t[n].numPlayers + ")</option>"
                 }
                 r("#regions").html(i)
             }
@@ -2994,7 +2976,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     return r("#party-token").val(t),
                     t
                 }
-                r("#party-token").val(t)
                 return !1
             }
         }, {
@@ -3012,7 +2993,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     const e = "TM" === o[1] ? ":teams" : "EXP" === o[1] ? ":experimental" : "";
                     r("#gamemode").val(e)
                 }
-                r("#gamemode").val(e)
                 return !1
             }
         }]),
@@ -3112,16 +3092,16 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.team1color = c.get("theme", "team1color") || "#aeaeae",
                 this.team2color = c.get("theme", "team2color") || "#ff171f",
                 this.multiboxActive = c.get("theme", "multiboxActive") || "#ff61f8",
-                this.multiboxInactive = c.get("theme", "multiboxInactive") || "#ffffff",
+                this.multiboxInactive = c.get("theme", "multiboxInactive") || "#fff",
                 this.borderGlow = c.get("theme", "borderGlow") || "#ff0066",
                 this.virusGlow = c.get("theme", "virusGlow") || "#ff0066",
                 this.foodGlow = c.get("theme", "foodGlow") || "#ff0066",
                 this.multiboxRingWidth = ~~c.get("theme", "multiboxRingWidth") || 10,
-                this.nickColor = c.get("theme", "nickColor") || "#ffffff",
+                this.nickColor = c.get("theme", "nickColor") || "#fff",
                 this.nickStrokeColor = c.get("theme", "nickStrokeColor") || "#000",
                 this.cellNickSize = ~~c.get("theme", "cellNickSize") || 120,
                 this.nickFont = c.get("theme", "nickFont") || "ubuntu",
-                this.massColor = c.get("theme", "massColor") || "#ffffff",
+                this.massColor = c.get("theme", "massColor") || "#fff",
                 this.massStrokeColor = c.get("theme", "massStrokeColor") || "#000",
                 this.cellMassSize = ~~c.get("theme", "cellMassSize") || 150,
                 this.massFont = c.get("theme", "massFont") || "ubuntu",
@@ -3147,16 +3127,16 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.cursor = c.get("theme", "cursor") || 13,
 				this.cursorLineColor = c.get("theme", "cursorLineColor") || "#ffffff",
                 this.ghostColor = c.get("theme", "ghostColor") || "#ffae00",
-                this.selfColor = c.get("theme", "selfColor") || "#ffffff",
+                this.selfColor = c.get("theme", "selfColor") || "#fff",
                 this.selfViewportColor = c.get("theme", "selfViewportColor") || "#ffffff",
                 this.selfViewportAlpha = c.get("theme", "selfViewportAlpha") || 1,
                 this.topViewportColor = c.get("theme", "topViewportColor") || "#ff0000",
                 this.topViewportAlpha = c.get("theme", "topViewportAlpha") || 3,
                 this.teammateColor = c.get("theme", "teammateColor") || "#555",
-                this.teammateNameColor = c.get("theme", "teammateNameColor") || "#ffffff",
+                this.teammateNameColor = c.get("theme", "teammateNameColor") || "#fff",
                 this.customBG = c.get("theme", "customBG") || "https://i.imgur.com/H7oaPKw.png",
                 this.customLB = c.get("theme", "customLB") || "HSLO",
-                this.customMB = c.get("theme", "customMB") || `<iframe width="1280" height="545" src="https://www.youtube.com/embed/1bWXRDvfrs4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+                this.customMB = c.get("theme", "customMB") || `<iframe width="1280" height="545" src="https://www.youtube.com/embed/oUIDL4SB60g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
                 this.customBotsName = c.get("theme", "customBotsName") || "Test",
 				this.botsAmount = c.get("theme", "botsAmount") || 150,
 				this.maouCircleSkinURL = c.get("theme", "maouCircleSkinURL") || "https://i.imgur.com/o2lh1Xh.png",
@@ -3362,9 +3342,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 "cursor" === e && this.setCursor(t),
                 "massFont" === e && P.setMassCtxFont(),
                 "nickFont" === e && P.setNickCtxFont(),
-                "massStrokeColor" === e && (P.massCaches.clear(), Pm.reset())
+                "massStrokeColor" === e && P.massCaches.clear(),
                 "nickStrokeColor" === e && P.nickCaches.clear(),
-                "massColor" === e && (P.massCaches.clear(), Pm.reset()),
+                "massColor" === e && P.massCaches.clear(),
                 "nickColor" === e && P.nickCaches.clear(),
 				"customBotsName" === e && (window.bots.name = this.customBotsName),
 				"botsAmount" === e && (window.bots.amount = this.botsAmount),
@@ -3462,9 +3442,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                         c.set("theme", e, this[e]));
                     for (const e in this.setDomValues(),
                     t.settings)
-                        t.settings.hasOwnProperty(e) && void 0 !== settings[e] && (settings[e] = t.settings[e],
-                        c.set("settings", e, settings[e]));
-                    settings.setDomValues()
+                        t.settings.hasOwnProperty(e) && void 0 !== k[e] && (k[e] = t.settings[e],
+                        c.set("settings", e, k[e]));
+                    k.setDomValues()
                 }
             }
         }, {
@@ -3539,11 +3519,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#ffffff",
                             team1color: "#aeaeae",
                             team2color: "#fff700",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000",
                             cellNickSize: 140,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000",
                             cellMassSize: 140,
                             massFont: "ubuntu",
@@ -3585,11 +3565,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#ffffff",
                             team1color: "#aeaeae",
                             team2color: "#fff700",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000",
                             cellNickSize: 130,
                             nickFont: "sans-serif",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000",
                             cellMassSize: 130,
                             massFont: "sans-serif",
@@ -3631,11 +3611,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#01d9cc",
                             team1color: "#aeaeae",
                             team2color: "#fff700",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000",
                             cellNickSize: 120,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000",
                             cellMassSize: 160,
                             massFont: "ubuntu",
@@ -3677,11 +3657,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#116111",
                             team1color: "#aeaeae",
                             team2color: "#fff700",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000",
                             cellNickSize: 100,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000",
                             cellMassSize: 100,
                             massFont: "ubuntu",
@@ -3723,11 +3703,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#333333",
                             team1color: "#aeaeae",
                             team2color: "#fff700",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000",
                             cellNickSize: 110,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000",
                             cellMassSize: 110,
                             massFont: "ubuntu",
@@ -3769,11 +3749,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#666666",
                             team1color: "#aeaeae",
                             team2color: "#fff700",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000",
                             cellNickSize: 110,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#444",
                             cellMassSize: 140,
                             massFont: "oswald",
@@ -3815,11 +3795,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#ffffff",
                             team1color: "#aeaeae",
                             team2color: "#fff700",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000",
                             cellNickSize: 120,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000000",
                             cellMassSize: 120,
                             massFont: "ubuntu",
@@ -3861,11 +3841,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#ff006f",
                             team1color: "#aeaeae",
                             team2color: "#ff006f",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000000",
                             cellNickSize: 110,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000000",
                             cellMassSize: 110,
                             massFont: "ubuntu",
@@ -3907,11 +3887,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#ff9900",
                             team1color: "#aeaeae",
                             team2color: "#ff006f",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000000",
                             cellNickSize: 110,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000000",
                             cellMassSize: 120,
                             massFont: "ubuntu",
@@ -3953,11 +3933,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                             borderColor: "#f5d25f",
                             team1color: "#aeaeae",
                             team2color: "#ff006f",
-                            nickColor: "#ffffff",
+                            nickColor: "#fff",
                             nickStrokeColor: "#000000",
                             cellNickSize: 110,
                             nickFont: "ubuntu",
-                            massColor: "#ffffff",
+                            massColor: "#fff",
                             massStrokeColor: "#000000",
                             cellMassSize: 120,
                             massFont: "ubuntu",
@@ -4006,7 +3986,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.iconAlert = '<i class="fa fa-exclamation-circle"></i>',
                 this.iconBell = '<i class="fa fa-bell"></i>',
                 this.chatroomdiv = r("#chatroom"),
-                this.emojiPath = "https://ex-script.com/fstyle/hslo/v5/540/emojis/",
+                this.emojiPath = "https://hslo.yueagar.ml/emojis/",
                 this.emojis = {
                     ":01:": "angry.png",
                     ":02:": "angry-1.png",
@@ -4051,7 +4031,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             value() {
                 const e = r("#emojiContainer")
                   , t = t=>{
-                    const o = r('<img src="https://ex-script.com/fstyle/hslo/v5/540/emojis/' + this.emojis[t] + '" class="emojiPreview">');
+                    const o = r('<img src="https://hslo.yueagar.ml/emojis/' + this.emojis[t] + '" class="emojiPreview">');
                     o.click(()=>{
                         const e = r("#message")
                           , o = e.val();
@@ -4067,9 +4047,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "normal",
             value(e, t) {
-                if ("on" === settings.sounds && U.playChat(),
+                if ("on" === k.sounds && U.playChat(),
                 this.chatroom(e, t, this.iconChat),
-                "chatroom" !== settings.chatType) {
+                "chatroom" !== k.chatType) {
                     const o = '<div><div class="normal">' + this.iconChat + '<span class="nick">' + e + '</span><span class="message">' + this.putEmojis(this.cleanMessages(t)) + "</span></div></div>";
                     this.append(o)
                 }
@@ -4077,9 +4057,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "command",
             value(e, t) {
-                if ("on" === settings.sounds && U.playCmd(),
+                if ("on" === k.sounds && U.playCmd(),
                 this.chatroom(e, t, this.iconAlert),
-                "chatroom" !== settings.chatType) {
+                "chatroom" !== k.chatType) {
                     const o = '<div><div class="command">' + this.iconAlert + '<span class="nick">' + e + '</span><span class="message">' + this.cleanMessages(t) + "</span></div></div>";
                     this.append(o)
                 }
@@ -4087,9 +4067,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "alert",
             value(e, t) {
-                if ("on" === settings.sounds && U.playAlert(),
+                if ("on" === k.sounds && U.playAlert(),
                 this.chatroom(e, t, this.iconBell),
-                "chatroom" !== settings.chatType) {
+                "chatroom" !== k.chatType) {
                     const o = '<div><div class="alert">' + this.iconBell + '<span class="nick">' + e + '</span><span class="message">' + this.cleanMessages(t) + "</span></div></div>";
                     this.append(o)
                 }
@@ -4211,7 +4191,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     this.loggedIn = !0,
                     this.button.addClass("active"),
                     void m.alert("Facebook", p.current.notif.login_lastSession),
-					Q.freeCoins(settings.primaryGoogle === "on" ? 2 : 1))
+					Q.freeCoins(k.primaryGoogle === "on" ? 2 : 1))
                 }
             }
         }, {
@@ -4234,9 +4214,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 }),
                 this.loggedIn = !0,
                 this.button.addClass("active"),
-                Q.fbToken(settings.primaryGoogle === "on" ? 2 : 1),
+                Q.fbToken(k.primaryGoogle === "on" ? 2 : 1),
                 m.alert("Facebook", p.current.notif.login_success),
-				Q.freeCoins(settings.primaryGoogle === "on" ? 2 : 1)) : m.alert("Facebook", p.current.notif.login_error)
+				Q.freeCoins(k.primaryGoogle === "on" ? 2 : 1)) : m.alert("Facebook", p.current.notif.login_error)
             }
         }, {
             key: "logout",
@@ -4252,7 +4232,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 				})*/(s.FB.logout,
 				e.loggedIn = !1,
 				e.token = null,
-				settings.primaryGoogle === "on" ? (Q.triedCoins2 = !1) : (Q.triedCoins = !1),
+				k.primaryGoogle === "on" ? (Q.triedCoins2 = !1) : (Q.triedCoins = !1),
                 e.button.removeClass("active"),
 				m.alert("Facebook", p.current.notif.logout),
                 c.set("extras", "fbToken", ""))
@@ -4274,9 +4254,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 t && (t.expiry > Date.now() ? (this.token = t.token,
                 this.loggedIn = !0,
                 r("#login-google").addClass("active"),
-                Q.googleToken(settings.primaryGoogle === "on" ? 1 : 2),
+                Q.googleToken(k.primaryGoogle === "on" ? 1 : 2),
                 m.alert("Google+", p.current.notif.login_lastSession),
-				Q.freeCoins(settings.primaryGoogle === "on" ? 1 : 2)) : c.set("extras", "googleToken", !1)),
+				Q.freeCoins(k.primaryGoogle === "on" ? 1 : 2)) : c.set("extras", "googleToken", !1)),
                 s.gapi ? s.gapi.load("auth2", ()=>{
                     const t = gapi.auth2.init({
                         client_id: "686981379285-oroivr8u2ag1dtm3ntcs6vi05i3cpv0j.apps.googleusercontent.com",
@@ -4309,7 +4289,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 r("#login-google").addClass("active"),
                 Q.googleToken(),
                 m.alert("Google+", p.current.notif.login_success),
-				Q.freeCoins(settings.primaryGoogle === "on" ? 1 : 2)) : m.alert("Google+", p.current.notif.login_error)
+				Q.freeCoins(k.primaryGoogle === "on" ? 1 : 2)) : m.alert("Google+", p.current.notif.login_error)
             }
         }, {
             key: "logout",
@@ -4317,7 +4297,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 if (this.loggedIn) {
                     gapi.auth2.getAuthInstance().signOut(),
                     this.loggedIn = !1,
-					settings.primaryGoogle === "on" ? (Q.triedCoins = !1) : (Q.triedCoins2 = !1),
+					k.primaryGoogle === "on" ? (Q.triedCoins = !1) : (Q.triedCoins2 = !1),
                     this.token = null,
                     r("#login-google").removeClass("active"),
                     m.alert("Google+", p.current.notif.logout),
@@ -4378,13 +4358,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 for (const o of this.list.values()) {
                     var t = this.html[e++];
 					try {
-                        if(ghostCells[0].mass==1000){
-                            t.nick.innerHTML = `${this.cleanNick(o.nick)}  `;
-                        }else{
-                            t.nick.innerHTML = `${this.cleanNick(o.nick)} [${11 != e ? ghostCells[e - 1].mass : A.mass1}] [${11 != e ? Z.calcSector(3, ghostCells[e - 1].x, ghostCells[e - 1].y) : A.location}]`;
-
-                        }
-                        
+						t.nick.innerHTML = `${this.cleanNick(o.nick)} [${11 != e ? ghostCells[e - 1].mass : A.mass1}] [${11 != e ? Z.calcSector(3, ghostCells[e - 1].x, ghostCells[e - 1].y) : A.location}]`;
                     } catch(e) {};
                     //[${11 != e ? Z.calcSector(3, ghostCells[e - 1].x, ghostCells[e - 1].y) : A.location}] or [${11 != e ? G.getLocation(ghostCells[e - 1].x - G.offset3.x, ghostCells[e - 1].y - G.offset3.y) : A.location}]
                     t.position.innerHTML = o.position,
@@ -4663,7 +4637,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.alive++) : this.spectate++;
 				A.isAliveTab2 ? (this.totalmass += A.mass2,
 				this.temporaryArray.push(A.tab2Info),
-				this.alive++) : settings.multiboxMode === "on" && this.spectate++;
+				this.alive++) : k.multiboxMode === "on" && this.spectate++;
                 for (let e = 0; e < this.temporaryArray.length; e++) {
                     const t = this.temporaryArray[e];
                     this.addPlayer(t)
@@ -4761,7 +4735,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             value() {
                 let e = "";
                 e += this.fps,
-				settings.showBotNotifNCount === "on" && settings.useBots === "on" && (e += this.botCount),
+				k.showBotNotifNCount === "on" && k.useBots === "on" && (e += this.botCount),
                 A.isAlive && (e += this.score + this.n16 + this.STE),
                 e += this.PIO + this.paused + this.zoomLock,
                 this.div.innerHTML = e;
@@ -4774,7 +4748,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "zoomLock",
             get() {
-                return "on" === settings.autoZoom ? this.icon.lockClosed : this.icon.lockOpened
+                return "on" === k.autoZoom ? this.icon.lockClosed : this.icon.lockOpened
             }
         }, {
             key: "botCount",
@@ -4784,7 +4758,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             get: ()=>"Score: " + A.score + "   Mass: " + A.mass + "   "
         }, {
             key: "n16",
-            get: ()=>"[" + A.n16 + "/" + (settings.multiboxMode === "on" ? "32" : "16") + "]   "
+            get: ()=>"[" + A.n16 + "/" + (k.multiboxMode === "on" ? "32" : "16") + "]   "
         }, {
             key: "STE",
             get() {
@@ -4915,7 +4889,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             value() {
                 U.init(),
                 m.init(),
-                settings.init(),
+                k.init(),
                 x.init(),
                 b.init(),
                 g.init(),
@@ -4926,7 +4900,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 w.init(),
                 K.init(),
 				P.setMassUpdateInterval(),
-				m.alert("HSLO", "Render using [3D Pixi.js]"),
+				m.alert("HSLO", "Render using [2D Canvas]"),
                 this.isOpened = !0,
                 this.gMode = ":party",
                 this.div = r("#menu-overlay"),
@@ -4941,7 +4915,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 const e = this;
                 r("#button-settings").click(()=>{
                     e.closeSubMenus(),
-                    settings.toggle()
+                    k.toggle()
                 }),
                 r("#button-play").click(()=>{
                     e.play()
@@ -5022,7 +4996,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "closeSubMenus",
             value() {
                 x.close(),
-                settings.close(),
+                k.close(),
                 oe.close()
             }
         }, {
@@ -5053,10 +5027,10 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "toggleStreammode",
             value() {
-                this.streammode ? (r("#nick, #nick2, #tag, #tag2, #skin, #skin2, #party-token").removeClass("input-hidden"),
+                this.streammode ? (r("#nick, #nick2, #tag, #skin, #skin2, #party-token").removeClass("input-hidden"),
                 r("#streamMode").html('<i class="fas fa-eye"></i>'),
                 this.streammode = !1,
-                c.set("extras", "streammode", this.streammode)) : (r("#nick, #nick2, #tag, #tag2, #skin, #skin2, #party-token").addClass("input-hidden"),
+                c.set("extras", "streammode", this.streammode)) : (r("#nick, #nick2, #tag, #skin, #skin2, #party-token").addClass("input-hidden"),
                 r("#streamMode").html('<i class="fas fa-eye-slash"></i>'),
                 this.streammode = !0,
                 c.set("extras", "streammode", this.streammode))
@@ -5078,20 +5052,20 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "spectateModeTarget",
             value() {
-                "on" === settings.targeting ? m.command("HSLO", p.current.notif.targeting_on) : m.command("HSLO", p.current.notif.targeting_off)
+                "on" === k.targeting ? m.command("HSLO", p.current.notif.targeting_on) : m.command("HSLO", p.current.notif.targeting_off)
             }
         }, {
             key: "versionCheck",
             value() {
-                "5.4.0 (9)" !== localStorage.getItem("version") ? (console.log("Your extension is in older version."),
+                "5.4.0 (8)" !== localStorage.getItem("version") ? (console.log("Your extension is in older version."),
 				this.showChangelog(),
-                localStorage.setItem("version", "5.4.0 (9)"),
-                c.set("extras", "version", "5.4.0 (9)")) : console.log("Great! Your extension is updated!.")
+                localStorage.setItem("version", "5.4.0 (8)"),
+                c.set("extras", "version", "5.4.0 (8)")) : console.log("Great! Your extension is updated!.")
             }
         }, {
             key: "showChangelog",
             value() {
-		r("#anouncement").html(`${s["lang_" + p.selected].updateHud.title}<br>${s["lang_" + p.selected].updateHud.desc}${!localStorage.getItem("version").includes("5.4.0") ? ("<br>" + s["lang_" + p.selected].updateHud.versionChange) : ""}<hr>${s["lang_" + p.selected].updateHud.updateContent}<br><hr><div align="right">June 1, 2020</div>`),
+				r("#anouncement").html(`${s["lang_" + p.selected].updateHud.title}<br>${s["lang_" + p.selected].updateHud.desc}${!localStorage.getItem("version").includes("5.4.0") ? ("<br>" + s["lang_" + p.selected].updateHud.versionChange) : ""}<hr>${s["lang_" + p.selected].updateHud.updateContent}<br><hr><div align="right">2020-3-5</div>`),
                 r("#anouncement").fadeIn(250)
             }
         }]),
@@ -5149,8 +5123,8 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "update",
             value() {
-				const ue = 'on' === settings.opponentRings && A.isAlive
-				, fe = 'on' === settings.virusRange && A.isAlive;
+				const ue = 'on' === k.opponentRings && A.isAlive
+				, fe = 'on' === k.virusRange && A.isAlive;
                 this.updateBound(),
                 this.food = [],
                 this.sortedCells = [],
@@ -5159,7 +5133,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.cellsTab1.forEach((e,t)=>{
                     if (this.updateStaticBound(e, 1),
                     e.fadeStartTime) {
-                        if (1 < (le.time - e.fadeStartTime) / settings.CellAnimation)
+                        if (1 < (le.time - e.fadeStartTime) / k.CellAnimation)
                             return void this.cellsTab1.delete(t)
                     }
                     //window.teste1 = e,
@@ -5170,7 +5144,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.cellsTab2.forEach((e,t)=>{
                     if (this.updateStaticBound(e, 2),
 					e.fadeStartTime) {
-                        if (1 < (le.time - e.fadeStartTime) / settings.CellAnimation)
+                        if (1 < (le.time - e.fadeStartTime) / k.CellAnimation)
                             return void this.cellsTab2.delete(t)
                     }
                     //window.teste2 = e,
@@ -5181,11 +5155,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.cellsTab3.forEach((e,t)=>{
                     if (this.updateStaticBound(e, 3),
 					e.fadeStartTime) {
-                        if (1 < (le.time - e.fadeStartTime) / settings.CellAnimation)
+                        if (1 < (le.time - e.fadeStartTime) / k.CellAnimation)
                             return void this.cellsTab3.delete(t)
                     }
                     //window.teste3 = e,
-                    this.isInView(e) && (e.isMine || (!this.isInView3(e, 1) && !this.isInView3(e, 2))) && e.worldID !== A.worldID2 && settings.topZoom === "on" && (e.isFood ? this.food.push(e) : (this.sortedCells.push(e),
+                    this.isInView(e) && (e.isMine || (!this.isInView3(e, 1) && !this.isInView3(e, 2))) && e.worldID !== A.worldID2 && k.topZoom === "on" && (e.isFood ? this.food.push(e) : (this.sortedCells.push(e),
 					ue && !e.isVirus && ie.segregator(e, 3),
 					fe && e.isVirus && ve.add(e, 3)))
                 }),
@@ -5193,10 +5167,10 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 					mt.cells.forEach((e, t) => {
 						if (this.updateStaticBound(e, mt.tab),
 						e.fadeStartTime) {
-							if (1 < (le.time - e.fadeStartTime) / settings.CellAnimation)
+							if (1 < (le.time - e.fadeStartTime) / k.CellAnimation)
 								return void mt.cells.delete(t)
 						}
-						this.isInView(e) && e.worldID !== A.worldID && e.worldID !== A.worldID2 && !this.isInView4(e, 1) && !this.isInView4(e, 2) && !this.isInView4(e, 3) && !this.isInViewFullX(e) && !this.isInViewFullY(e) && (e.isFood ? this.food.push(e) : (this.sortedCells.push(e),
+						this.isInView(e) && e.worldID !== A.worldID && e.worldID !== A.worldID2 && !this.isInView4(e, 1) && !this.isInView4(e, 2) && !this.isInView4(e, 3) && (e.isFood ? this.food.push(e) : (this.sortedCells.push(e),
 						ue && !e.isVirus && ie.segregator(e, 3),
 						fe && e.isVirus && ve.add(e, 3)))
 					})
@@ -5245,15 +5219,15 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 n.fadeStartTime = le.time,
                 n.isMine && s.delete(t),
                 i.delete(t),
-                n.isFood || (setTimeout(() => {
+                n.isFood || (/*setTimeout(() => {
 					re.effectPoints.add({
 						x: n.staticX - (n.tab === 1 ? 0 : n.tab === 2 ? G.getOffset2.x : n.tab === 3 ? G.getOffset3.x : 3 < n.tab && q.mapTabs[n.tab-4].getOffset.x),
 						y: n.staticY - (n.tab === 1 ? 0 : n.tab === 2 ? G.getOffset2.y : n.tab === 3 ? G.getOffset3.y : 3 < n.tab && q.mapTabs[n.tab-4].getOffset.y),
 						time: le.time,
-						scale: 1/* > ~~(Math.sqrt(n.mass)/10) ? 1 : ~~(Math.sqrt(n.mass)/10)*/,
+						scale: 1,
 						color: n.colorObject.hex
 					})
-				}, 1000),
+				}, 1000),*/
 				i.set(t + ":removed", n)))
             }
         }, {
@@ -5264,7 +5238,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                   , s = o.get(e);
                 s && (s.isMine && i.delete(e),
                 o.delete(e),
-                s.isFood || "on" !== settings.eatAnimation || (s.fadeStartTime = le.time,
+                s.isFood || "on" !== k.eatAnimation || (s.fadeStartTime = le.time,
                 o.set(e + ":removed", s)))
             }
         }, {
@@ -5365,26 +5339,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                   , s = f === 1 ? this.bound : f === 2 ? this.bound2 : f === 3 && this.bound3;
                 return !(o + e.radius < s.left || o - e.radius > s.right || i + e.radius < s.top || i - e.radius > s.bottom)
             }
-        }, {
-            key: "isInViewFullX",
-            value(e) {
-                const realTab = e.tab - 4
-				  , t = q.mapTabs[realTab].getOffset
-                  , o = e.staticX - t.x
-                  , i = e.staticY - t.y
-                  , s = realTab < 1 ? false : q.mapTabs[realTab-1].bound
-                return s && !(o + e.radius < s.left || o - e.radius > s.right || i + e.radius < s.top || i - e.radius > s.bottom)
-            }
-        }, {
-            key: "isInViewFullY",
-            value(e) {
-                const realTab = e.tab - 4
-				  , t = q.mapTabs[realTab].getOffset
-                  , o = e.staticX - t.x
-                  , i = e.staticY - t.y
-                  , s = realTab < 3 ? false : q.mapTabs[realTab-3].bound
-                return s && !(o + e.radius < s.left || o - e.radius > s.right || i + e.radius < s.top || i - e.radius > s.bottom)
-            }
         }]),
         e
     })()),
@@ -5441,7 +5395,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         return _createClass(t, [{
             key: "animate",
             value() {
-                let e = (le.time - this.lastUpdateTime) / settings.CellAnimation;
+                let e = (le.time - this.lastUpdateTime) / k.CellAnimation;
                 return e = 0 > e ? 0 : 1 < e ? 1 : e,
                 this.x = this.animX + (this.staticX - this.animX) * e,
                 this.y = this.animY + (this.staticY - this.animY) * e,
@@ -5486,7 +5440,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this._skin = re.getImgurCode(r("#skin").val()),
                 this._skin2 = re.getImgurCode(r("#skin2").val()),
                 this._tag = r("#tag").val(),
-                this._tag2 = r("#tag2").val(),
                 this._colorObject = {
                     r: 0,
                     g: 0,
@@ -5775,27 +5728,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 _e.tag(),
 				_es.tag(),
                 _e.join(1),
-                //_e.join(2),
-                C.update()
-            },
-            get() {
-                return this._tag
-            }
-        }, {
-            key: "tag2",
-            set(e) {
-                this._tag2 = e,
-                se.teammates.clear(),
-                ses.teammates.clear(),
-                C.reset(),
-                _e.tag(),
-				_es.tag(),
-                //_e.join(1),
                 _e.join(2),
                 C.update()
             },
             get() {
-                return this._tag2
+                return this._tag
             }
         }, {
             key: "colorObject",
@@ -6033,7 +5970,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 t.fillText("\u25bc", 75, 75),
                 o.crossOrigin = "anonymous",
                 o.src = e.toDataURL(),
-                PIXI.Texture.from(o)
+                o
             }
         }]),
         e
@@ -6207,15 +6144,15 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "move",
             value() {
-                A.isAlive ? (this.x += (A.x - this.x) / settings.cameraSpeed,
-                this.y += (A.y - this.y) / settings.cameraSpeed) : this.isSpectating && (this.x = (29 * this.x + this.spectatePoints.x) / 30,
+                A.isAlive ? (this.x += (A.x - this.x) / k.cameraSpeed,
+                this.y += (A.y - this.y) / k.cameraSpeed) : this.isSpectating && (this.x = (29 * this.x + this.spectatePoints.x) / 30,
                 this.y = (29 * this.y + this.spectatePoints.y) / 30)
             }
         }, {
             key: "updateView",
             value() {
                 let e = this.targetViewport;
-                "on" === settings.autoZoom && (e *= this.autoZoomViewport),
+                "on" === k.autoZoom && (e *= this.autoZoomViewport),
                 this.viewport += (e - this.viewport) / 8;
                 const t = re.canvas.width / 2 / this.viewport
                   , o = re.canvas.height / 2 / this.viewport;
@@ -6257,7 +6194,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             this.nickCaches = new Map,
             this.massCaches = new Map,
             this.maxCacheLife = 1e3,
-            this.massUpdateInterval = settings.massUpdateInterval || 500,
+            this.massUpdateInterval = k.massUpdateInterval || 500,
             //this.massUpdateInterval = 1,
             //this.quality = .8,
             this.quality = 1,
@@ -6268,40 +6205,39 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         return _createClass(e, [{
 			key: "setMassUpdateInterval",
 			value() {
-				this.massUpdateInterval = settings.massUpdateInterval || 500
+				this.massUpdateInterval = k.massUpdateInterval || 500
 			}
 		}, {
             key: "nick",
             value(ue) {
 				if (ue.isUnnamed || this.isSmall(ue))
 					return !1;
-				const pack = this.nickCaches.get(ue.nick) || this.newNickCache(ue.nick);
-				pack.lastUsedAt = le.time;
-				const needLevel = 50 > this.getScreenRadius(ue.animRadius) ? 0 : 1,
-					canvaslevel = pack.level[needLevel];
-				if (canvaslevel) return PIXI.Texture.from(canvaslevel);
+				const fe = this.nickCaches.get(ue.nick) || this.newNickCache(ue.nick);
+				fe.lastUsedAt = le.time;
+				const he = 50 > this.getScreenRadius(ue.animRadius) ? 0 : 1,
+					ke = fe.level[he];
+				if (ke) return ke;
 				const ye = this.getNewCanvas(),
-					ctx = ye.getContext('2d'),
-					Ce = 50 * (needLevel + 1) * oe.cellNickSize / 100;
+					Se = ye.getContext('2d'),
+					Ce = 50 * (he + 1) * oe.cellNickSize / 100;
 				if (ye.height = 0 | 1.2 * Ce, ye.width = 0 | 1.2 * this.getNickWidth(ue.nick, Ce),
-				ctx.font = `700 ${0|Ce}px ${oe.nickFont}`, ctx.textBaseline = 'middle',
-				ctx.textAlign = 'center', 'normal' === settings.nickShadow)
-					ctx.strokeStyle = oe.nickStrokeColor,
-					ctx.lineWidth = 10 * (needLevel + 1),
-					ctx.strokeText(ue.nick, ye.width >> 1, ye.height >> 1);
-				else if ('performance' === settings.nickShadow) {
-					ctx.fillStyle = oe.nickStrokeColor,
-					ctx.globalAlpha = 0.75;
+				Se.font = `700 ${0|Ce}px ${oe.nickFont}`, Se.textBaseline = 'middle',
+				Se.textAlign = 'center', 'normal' === k.nickShadow)
+					Se.strokeStyle = oe.nickStrokeColor,
+					Se.lineWidth = 6 * (he + 1),
+					Se.strokeText(ue.nick, ye.width >> 1, ye.height >> 1);
+				else if ('performance' === k.nickShadow) {
+					Se.fillStyle = oe.nickStrokeColor,
+					Se.globalAlpha = 0.75;
 					const ve = 0 | ye.width / 1.2,
 						be = 0 | ye.height / 1.2;
-					ctx.fillRect(ye.width - ve >> 1, ye.height - be >> 1, ve, be),
-					ctx.globalAlpha = 1
+					Se.fillRect(ye.width - ve >> 1, ye.height - be >> 1, ve, be),
+					Se.globalAlpha = 1
 				}
-				return ctx.fillStyle = oe.nickColor,
-				ctx.fillText(ue.nick, ye.width >> 1, ye.height >> 1),
-				pack.level[needLevel] = ye,
-				//ye
-				PIXI.Texture.from(ye)
+				return Se.fillStyle = oe.nickColor,
+				Se.fillText(ue.nick, ye.width >> 1, ye.height >> 1),
+				fe.level[he] = ye,
+				ye
             }
         }, {
             key: "newNickCache",
@@ -6327,7 +6263,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 				if (!ue.isVirus && this.isSmall(ue))
 					return !1;
 				const fe = this.massCaches.get(ue.id) || this.newMassCache(ue.id),
-					he = 'shortened' === settings.cellMass,
+					he = 'shortened' === k.cellMass,
 					ke = he && 999 < ue.mass ? `${(0|ue.mass/100)/10}k` : ue.mass,
 					ye = this.getScreenRadius(ue.radius),
 					Se = ke !== fe.lastMass,
@@ -6335,7 +6271,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 					ve = 1.2 < ye / fe.lastScreenRadius || Se && Ce;
 				if (fe.lastUsedAt = le.time,
 				!ve && fe.canvas)
-					return PIXI.Texture.from(fe.canvas);
+					return fe.canvas;
 				fe.canvas || (fe.canvas = this.getNewCanvas());
 				const be = fe.canvas,
 					xe = be.getContext('2d'),
@@ -6344,11 +6280,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 				xe.font = `700 ${we}px ${oe.massFont}`,
 				xe.textBaseline = 'middle',
 				xe.textAlign = 'center',
-				'normal' === settings.massShadow)
+				'normal' === k.massShadow)
 					xe.strokeStyle = oe.massStrokeColor,
 					xe.lineWidth = 6 * we / 50,
 					xe.strokeText(ke, be.width >> 1, be.height >> 1);
-				else if ('performance' === settings.massShadow) {
+				else if ('performance' === k.massShadow) {
 					xe.fillStyle = oe.massStrokeColor, xe.globalAlpha = 0.75;
 					const Te = 0 | be.width / 1.2,
 						_e = 0 | be.height / 1.2;
@@ -6360,9 +6296,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 				fe.lastMass = ke,
 				fe.lastScreenRadius = ye,
 				fe.lastUpdateAt = le.time + fe.timeShift,
-				//be
-				fe.texture = PIXI.Texture.from(be),
-				PIXI.Texture.from(be)
+				be
             }
         }, {
             key: "newMassCache",
@@ -6388,7 +6322,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "isSmall",
             value(e) {
-                return "on" === settings.autoHideText && 20 > this.getScreenRadius(e.animRadius)
+                return "on" === k.autoHideText && 20 > this.getScreenRadius(e.animRadius)
             }
         }, {
             key: "getNewCanvas",
@@ -6432,72 +6366,12 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         e
     }
     )()),
-    Pm = new ((()=>{
-        function e() {
-            _classCallCheck(this, e),
-			this.pool = [],
-			this.index = 0,
-			this.init()
-        }
-        return _createClass(e, [{
-			key: "reset",
-			value() {
-				this.pool = [],
-				this.index = 0
-			}
-		}, {
-            key: "init",
-            value() {
-				this.loadFonts()
-            }
-        }, {
-            key: "get",
-            value(e) {
-				const i = this.pool[this.index++] || this.newText();
-				return i.text = "".concat(e),
-				i.font = {
-					name: settings.massShadow === "normal" ? "UbuntuStroked" : "Ubuntu",
-					size: 256
-				},
-				i
-            }
-        }, {
-            key: "newText",
-            value() {
-				const e = new PIXI.BitmapText("000", {
-					font: {
-						name: "Ubuntu",
-						size: 256
-					}
-				});
-				return e.anchor = .5,
-				this.pool.push(e),
-				e
-            }
-        }, {
-            key: "loadFonts",
-            value() {
-				const e = {
-					crossOrigin: !0
-				}
-				  , i = new PIXI.Loader;
-				i.add("ubuntu-font-png", "https://senpa.io/web/resources/src/resources/bitmapFonts/ubuntuBold_0.png", e),
-				i.add("ubuntu-font", "https://senpa.io/web/resources/src/resources/bitmapFonts/ubuntuBold.fnt", e),
-				i.add("ubuntu-font-stroked-png", "https://senpa.io/web/resources/src/resources/bitmapFonts/ubuntuBoldStroked_0.png", e),
-				i.add("ubuntu-font-stroked", "https://senpa.io/web/resources/src/resources/bitmapFonts/ubuntuBoldStroked.fnt", e),
-				i.load()
-            }
-        }]),
-        e
-    }
-    )()),
     E = function e() {
 		_classCallCheck(this, e),
 		this.lastUsedAt = le.time,
 		this.lastUpdateAt = le.time,
 		this.canvas = null,
 		this.ctx = null,
-		this.texture = null,
 		this.lastMass = 0,
 		this.timeShift = 0 | Math.random() * P.massUpdateInterval,
 		this.lastScreenRadius = 0,
@@ -6520,116 +6394,91 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "render",
             value() {
-                "off" === settings.food || ("monoColored" === settings.food ? this.monoColored() : "rainbow" === settings.food && this.rainbow())
+                "off" === k.food || ("monoColored" === k.food ? this.monoColored() : "rainbow" === k.food && this.rainbow())
             }
         }, {
             key: "cache",
             value() {
                 this.settings = {
                     radius: 10 + oe.foodSize,
-                    isGlowOn: "off" !== settings.foodGlow,
-                    strength: "off" !== settings.foodGlow && oe.foodGlowStrength ? oe.foodGlowStrength : 1
+                    isGlowOn: "off" !== k.foodGlow,
+                    strength: "off" !== k.foodGlow && oe.foodGlowStrength ? oe.foodGlowStrength : 1
                 };
-				//mono color cache
                 this.cacheCanvas = document.createElement("canvas");
                 this.cacheCtx = this.cacheCanvas.getContext("2d");
                 this.cacheCanvas.width = 400;
                 this.cacheCanvas.height = 400;
+                this.cacheCtx.save();
                 this.cacheCtx.beginPath();
                 this.cacheCtx.arc(~~(400 - this.settings.radius) / 2, ~~(400 - this.settings.radius) / 2, ~~this.settings.radius, 0, Math.PI * 2, 0);
                 this.cacheCtx.closePath();
-                this.cacheCtx.fillStyle = oe.foodColor;
-				this.settings.isGlowOn && (this.cacheCtx.shadowBlur = oe.foodGlowSize,
+                this.settings.isGlowOn && (this.cacheCtx.shadowBlur = oe.foodGlowSize,
                 this.cacheCtx.shadowColor = oe.foodGlow);
+                this.cacheCtx.fillStyle = oe.foodColor;
                 for (let i = 0; i < this.settings.strength; i++) {
                     this.cacheCtx.fill();
-                };
-				this.settings.isGlowOn && (this.cacheCtx.shadowBlur = 0);
-				this.cacheTexture = PIXI.Texture.from(this.cacheCanvas);
-				//rainbow color cache
-                this.cacheCanvasR = document.createElement("canvas");
-                this.cacheCtxR = this.cacheCanvasR.getContext("2d");
-                this.cacheCanvasR.width = 400;
-                this.cacheCanvasR.height = 400;
-                this.cacheCtxR.beginPath();
-                this.cacheCtxR.arc(~~(400 - this.settings.radius) / 2, ~~(400 - this.settings.radius) / 2, ~~this.settings.radius, 0, Math.PI * 2, 0);
-                this.cacheCtxR.closePath();
-                this.cacheCtxR.fillStyle = "#ffffff";
-				this.settings.isGlowOn && (this.cacheCtxR.shadowBlur = oe.foodGlowSize,
-                this.cacheCtxR.shadowColor = "#ffffff");
-                for (let i = 0; i < this.settings.strength; i++) {
-                    this.cacheCtxR.fill();
-                };
-				this.settings.isGlowOn && (this.cacheCtxR.shadowBlur = 0);
-				this.cacheTextureR = PIXI.Texture.from(this.cacheCanvasR);
+                };this.settings.isGlowOn && (this.cacheCtx.shadowBlur = 0);
+                this.cacheCtx.restore();
             }
         }, {
             key: "monoColored",
             value() {
-                const e = re.mainContainer;
-					//, _e = re.graphics;
-					//, _e = re.foodGraphics;
+                const e = re.ctx;
                 let i = I.food.length;
                 for (; i--; ) {
                     const o = I.food[i]
-						, s = 2 === o.tab ? G.getOffset2 : 3 === o.tab ? G.getOffset3 : 3 < o.tab ? q.mapTabs[o.tab-4].getOffset : {
-							x: 0,
-							y: 0
-						}
-						, n = o.animRadius + oe.foodSize;
-					/*_e.beginFill(parseInt(oe.foodColor.slice(1), 16), 1),
-                    _e.drawCircle(o.x - s.x, o.y - s.y, n);
-					_e.endFill();*/
-					const food = new PIXI.Sprite(this.cacheTexture)
-						, ratio = n / (10 + oe.foodSize);
-					food.scale.set(ratio, ratio);
-					food.anchor.set(0.5, 0.5);
-					food.position.set(~~(o.x - s.x + (n - 10 - oe.foodSize)/2), ~~(o.y - s.y + (n - 10 - oe.foodSize)/2));
-					e.addChild(food);
+                      , s = 2 === o.tab ? G.getOffset2 : 3 === o.tab ? G.getOffset3 : 3 < o.tab ? q.mapTabs[o.tab-4].getOffset : {
+                        x: 0,
+                        y: 0
+                    }
+                      , n = o.animRadius + oe.foodSize
+					  , _n = 10 + oe.foodSize;
+                    e.drawImage(this.cacheCanvas, ~~(o.x - s.x + ((_n/2 - 200) * (n/_n))), ~~(o.y - s.y + ((_n/2 - 200) * (n/_n))), ~~(400 * (n/_n)), ~~(400 * (n/_n)));
                 }
-				//e.addChild(_e);
-            }
+            }/*const e = re.ctx,
+                            t = oe.foodSize,
+                            o = "off" !== k.foodGlow;
+                        let i = I.food.length;
+                        for (e.beginPath(); i--;) {
+                            const o = I.food[i],
+                                s = 2 === o.tab ? G.getOffset2 : 3 === o.tab ? G.getOffset3 : 3 < o.tab ? q.mapTabs[o.tab-4].getOffset : {
+                                    x: 0,
+                                    y: 0
+                                },
+                                n = o.animRadius + t;
+                            e.moveTo(o.x - s.x + n, o.y - s.y),
+                                e.arc(o.x - s.x, o.y - s.y, n, 0, re.pi2, !0)
+                        }
+                        o && (e.shadowBlur = oe.foodGlowSize * L.viewport,
+                                e.shadowColor = oe.foodGlow),
+                            e.fillStyle = oe.foodColor,
+                            e.closePath();
+							for (let i = 0; i < oe.foodGlowStrength; i++) {
+								e.fill();
+							};
+                            o && (e.shadowBlur = 0)
+                    }*/
         }, {
             key: "rainbow",
             value() {
-				const e = re.mainContainer;
-					//, _e = re.graphics;
-					//, _e = re.foodGraphics;
-                /*for (let t = oe.foodSize, o = I.food.length; o--; ) {
+                for (let e = re.ctx, t = oe.foodSize, o = I.food.length; o--; ) {
                     const i = I.food[o]
                       , s = 2 === i.tab ? G.getOffset2 : 3 === i.tab ? G.getOffset3 : 3 < i.tab ? q.mapTabs[i.tab-4].getOffset : {
                         x: 0,
                         y: 0
                     }
                       , n = i.animRadius + t;
-                    _e.beginFill(parseInt(i.colorObject.hex.slice(1), 16), 1),
-                    _e.drawCircle(~~(i.x - s.x), ~~(i.y - s.y), ~~n);
-					_e.endFill();
-                }
-				e.addChild(_e);*/
-                let i = I.food.length;
-                for (; i--; ) {
-                    const o = I.food[i]
-						, s = 2 === o.tab ? G.getOffset2 : 3 === o.tab ? G.getOffset3 : 3 < o.tab ? q.mapTabs[o.tab-4].getOffset : {
-							x: 0,
-							y: 0
-						}
-						, n = o.animRadius + oe.foodSize;
-					/*_e.beginFill(parseInt(oe.foodColor.slice(1), 16), 1),
-                    _e.drawCircle(o.x - s.x, o.y - s.y, n);
-					_e.endFill();*/
-					const food = new PIXI.Sprite(this.cacheTextureR)
-						, ratio = n / (10 + oe.foodSize);
-					food.scale.set(ratio, ratio);
-					food.anchor.set(0.5, 0.5);
-					food.position.set(~~(o.x - s.x + (n - 10 - oe.foodSize)/2), ~~(o.y - s.y + (n - 10 - oe.foodSize)/2));
-					food.tint = parseInt(o.colorObject.hex.slice(1), 16);
-					e.addChild(food);
+                    e.fillStyle = i.colorObject.hex,
+                    2 > n * L.viewport ? e.fillRect(i.x - s.x - n, i.y - s.y - n, 2 * n, 2 * n) : (e.beginPath(),
+                    e.arc(i.x - s.x, i.y - s.y, n, 0, re.pi2, !0),
+                    e.closePath(),
+                    e.fill())
                 }
             }
         }]),
         e
-    })()),
+    }
+    )()),
 	ie = new ((()=>{
         function e() {
             _classCallCheck(this, e),
@@ -6664,12 +6513,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
 			key: "render",
 			value() {
-				const ue = settings.opponentRings;
+				const ue = k.opponentRings;
 				if (!('off' === ue || W.isSpectating)) {
-					const e = re.graphics;
-					//const e = re.opponentRingsGraphics;
+					const fe = re.ctx;
 					this.lineWidth = 0 | Math.min(3 / L.viewport, 14),
-					e.beginFill(0, 0),
+					fe.lineWidth = this.lineWidth,
 					this.renderGroup(this.STE, '#76FF03'),
 					this.renderGroup(this.smaller, '#2196F3'),
 					this.renderGroup(this.same, '#555555'),
@@ -6680,21 +6528,20 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 		}, {
 			key: "renderGroup",
 			value(ue, fe) {
-				const e = re.graphics;
-				//const e = re.opponentRingsGraphics;
-				e.lineStyle(this.lineWidth, parseInt(fe.slice(1), 16))
+				const he = re.ctx;
+				he.strokeStyle = fe,
+				he.beginPath();
 				for (let ke = ue.length; ke--; ) {
 					const ye = ue[ke];
 					const s = 2 === ye.tab ? G.getOffset2 : 3 === ye.tab ? G.getOffset3 : 3 < ye.tab ? q.mapTabs[ye.tab-4].getOffset : {
 						x: 0,
 						y: 0
 					};
-					e.moveTo(ye.x - s.x + ye.animRadius + 15 + (this.lineWidth >> 1), ye.y - s.y),
-					e.drawCircle(ye.x - s.x, ye.y - s.y, ye.animRadius + 15 + (this.lineWidth >> 1))
+					he.moveTo(ye.x - s.x + ye.animRadius + 15 + (this.lineWidth >> 1), ye.y - s.y),
+					he.arc(ye.x - s.x, ye.y - s.y, ye.animRadius + 15 + (this.lineWidth >> 1), 0, re.pi2, !0)
 				}
-				e.endFill(),
-				//re.mainContainer.addChild(e),
-				e.lineStyle(0)
+				he.closePath(),
+				he.stroke()
 			}
 		}]),
 		e
@@ -6723,22 +6570,24 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
 			key: "render",
 			value() {
-				if ('on' === settings.virusRange) {
-					const e = re.graphics;
-					//const e = re.virusRangeGraphics;
-					e.beginFill(0xffffff, .1),
+				if ('on' === k.virusRange) {
+					const ue = re.ctx;
+					ue.globalAlpha = 0.1,
+					ue.fillStyle = '#ffffff',
 					this.viruses.forEach(fe=>{
 						const s = 2 === fe.tab ? G.getOffset2 : 3 === fe.tab ? G.getOffset3 : 3 < fe.tab ? q.mapTabs[fe.tab-4].getOffset : {
 							x: 0,
 							y: 0
 						}
-						const he = 0 < fe.fadeStartTime ? Math.max(1 - (le.time - fe.fadeStartTime) / settings.CellAnimation, 0) : 1;
-						e.alpha = 0.1 * he,
-						e.drawCircle(fe.x - s.x, fe.y - s.y, fe.animRadius + 760)
-					}),
-					e.endFill(),
-					//re.mainContainer.addChild(e)//,
-					e.alpha = 1
+						const he = 0 < fe.fadeStartTime ? Math.max(1 - (le.time - fe.fadeStartTime) / k.CellAnimation, 0) : 1;
+						ue.globalAlpha = 0.1 * he,
+						ue.beginPath(),
+						ue.arc(fe.x - s.x, fe.y - s.y, fe.animRadius + 760, 0, re.pi2, !0),
+						ue.closePath(),
+						ue.fill()
+					}
+					),
+					ue.globalAlpha = 1
 				}
 			}
 		}]),
@@ -6758,8 +6607,8 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "render",
             value() {
                 this.skinMap.clear(),
-                A.isAlive && (this.skinMap.set(A.worldID, settings.hideOwnSkin === "on" ? "" : this.code2url(A.skin)),
-                this.skinMap.set(A.worldID2, settings.hideOwnSkin === "on" ? "" : this.code2url(A.skin2)));
+                A.isAlive && (this.skinMap.set(A.worldID, k.hideOwnSkin === "on" ? "" : this.code2url(A.skin)),
+                this.skinMap.set(A.worldID2, k.hideOwnSkin === "on" ? "" : this.code2url(A.skin2)));
                 for (const e of se.teammates.values())
 					e.isAlive && e.worldID !== A.worldID && e.worldID !== A.worldID2 && this.skinMap.set(e.worldID, e.skin ? (e.skin.includes("imgur") ? e.skin : this.code2url(e.skin)) : "https://i.imgur.com/O5k0G4p.png");
 				for (const e of ses.teammates.values())
@@ -6769,7 +6618,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
 			key: "getKanjis",
 			value() {
-				r.ajax("https://ex-script.com/fstyle/hslo/v5/540/image.php?name=kanjiSkins.js", {
+				r.ajax("https://yueagar-kanji.herokuapp.com/kanjis", {
 					error: () => console.error("AJAX in kanji server errored out!"),
 					success: data => {
 						this.kanjiSkinMap.clear();
@@ -6805,8 +6654,8 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "getVanillaSkin",
             value(e) {
-				//console.log(`https://configs-web.agario.miniclippt.com/live/v15/2858/${e.substr(1,1).toUpperCase() + e.slice(2)}.png`);
-                const o = this.downloadedSkins.get(`https://configs-web.agario.miniclippt.com/live/v15/2858/${e.substr(1,1).toUpperCase() + e.slice(2)}.png`);
+				//console.log(`https://configs-web.agario.miniclippt.com/live/v15/2637/${e.substr(1,1).toUpperCase() + e.slice(2)}.png`);
+                const o = this.downloadedSkins.get(`https://configs-web.agario.miniclippt.com/live/v15/2637/${e.substr(1,1).toUpperCase() + e.slice(2)}.png`);
                 return void 0 === o ? (this.downloadSkin(``),
                 !1) : o
             }
@@ -6829,7 +6678,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 					s.drawImage(o, 0, 0, 512, 512),
 					o.onload = null,
 					o.src = i.toDataURL(),
-					t.downloadedSkins.set(e, PIXI.Texture.from(o))
+					t.downloadedSkins.set(e, o)
 				}),
 				o.src = e
             }
@@ -6857,53 +6706,15 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             this.sectorEdge = 0,
             this.edge = 0,
             this.halfSectorEdge = 0,
-            this.letters = ["A", "B", "C", "D", "E"];
-			const sectorImage = new Image();
-			sectorImage.crossOrigin = "anonymous",
-			sectorImage.src = "https://senpa.io/web/resources/src/resources/img/sectors.png",
-			this.sectorImg = PIXI.Sprite.from(sectorImage),
-			this.texts = new PIXI.Container(),
-			this.snowTexts = new PIXI.Container(),
+            this.letters = ["A", "B", "C", "D", "E"],
             this.visible = new Set
         }
         return _createClass(e, [{
-			key: "updateText",
-			value() {
-				this.texts.children.forEach(t => t.destroy(true));
-				this.texts.removeChildren();
-				this.snowTexts.children.forEach(t => t.destroy(true));
-				this.snowTexts.removeChildren();
-				for (let t, o = 0; 5 > o; o++) {
-					t = this.halfSectorEdge + o * this.sectorEdge;
-					for (let i, s = 0; 5 > s; s++) {
-						i = this.letters[o] + (s + 1);
-						const e = new PIXI.Text(i, {
-							fontFamily: oe.gridTextFont,
-							fontWeight: 400,
-							fontSize: oe.gridTextSize + "px",
-							fill: parseInt(oe.gridTextColor.slice(1), 16)
-						});
-						const _o = this.halfSectorEdge + s * this.sectorEdge;
-						e.position.set(_o, t);
-						this.texts.addChild(e);
-						const _e = new PIXI.Text("\u2746", {
-							fontFamily: oe.gridTextFont,
-							fontWeight: 400,
-							fontSize: oe.gridTextSize + "px",
-							fill: parseInt(oe.gridTextColor.slice(1), 16)
-						});
-						_e.position.set(_o, t);
-						this.snowTexts.addChild(_e);
-					};
-				};
-			}
-		}, {
             key: "render",
             value() {
-                const e = settings.bgSectors;
+                const e = k.bgSectors;
                 if ("off" !== e && "fantasy" !== e) {
-                    //const t = re.graphics
-                    const t = re.gridGraphics
+                    const t = re.ctx
                       , o = oe.gridWidth
                       , i = o >> 1;
                     this.edge = G.edge - o,
@@ -6911,26 +6722,28 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     this.top = G.top + i,
                     this.sectorEdge = 0 | this.edge / 5,
                     this.halfSectorEdge = 0 | this.edge / 10,
-					t.beginFill(0, 0),
-					t.lineStyle(o, parseInt(oe.gridColor.slice(1), 16), 1),
-                    "onlyLines" === e || (this.updateViewSectors(),
-                    "snowflakes" === e ? this.snowflakes() : this.normal()),
-					this.sectors()
+                    t.lineWidth = o,
+                    t.strokeStyle = oe.gridColor,
+                    this.sectors(),
+                    "onlyLines" === e || (t.textAlign = "center",
+                    t.textBaseline = "middle",
+                    t.fillStyle = oe.gridTextColor,
+                    this.updateViewSectors(),
+                    "snowflakes" === e ? this.snowflakes() : this.normal())
                 }
             }
         }, {
             key: "sectors",
             value() {
-                //const e = re.graphics;
-                const e = re.gridGraphics;
-                e.drawRect(this.left + this.sectorEdge, this.top, this.sectorEdge, this.edge),
-                e.drawRect(this.left + 3 * this.sectorEdge, this.top, this.sectorEdge, this.edge),
-                e.drawRect(this.left, this.top + this.sectorEdge, this.edge, this.sectorEdge),
-                e.drawRect(this.left, this.top + 3 * this.sectorEdge, this.edge, this.sectorEdge),
-                e.drawRect(this.left, this.top, this.edge, this.edge),
-                e.endFill(),
-				re.mainContainer.addChild(e),
-				e.lineStyle(0)
+                const e = re.ctx;
+                e.beginPath(),
+                e.rect(this.left + this.sectorEdge, this.top, this.sectorEdge, this.edge),
+                e.rect(this.left + 3 * this.sectorEdge, this.top, this.sectorEdge, this.edge),
+                e.rect(this.left, this.top + this.sectorEdge, this.edge, this.sectorEdge),
+                e.rect(this.left, this.top + 3 * this.sectorEdge, this.edge, this.sectorEdge),
+                e.rect(this.left, this.top, this.edge, this.edge),
+                e.closePath(),
+                e.stroke()
             }
         }, {
             key: "updateViewSectors",
@@ -6944,50 +6757,37 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "normal",
             value() {
-                /*for (let t, o = 0; 5 > o; o++) {
+                const e = re.ctx;
+                e.font = "400 " + oe.gridTextSize + "px " + oe.gridTextFont;
+                for (let t, o = 0; 5 > o; o++) {
                     t = this.top + this.halfSectorEdge + o * this.sectorEdge;
                     for (let i, s = 0; 5 > s; s++)
                         if (i = this.letters[o] + (s + 1),
                         this.visible.has(i)) {
-							const e = this.texts[o + s];
-                            o = this.left + this.halfSectorEdge + s * this.sectorEdge;
-                            //e.fillText(i, o, t)
-							e.position.set(o, t);
-							re.mainContainer.addChild(e)
+                            const o = this.left + this.halfSectorEdge + s * this.sectorEdge;
+                            e.fillText(i, o, t)
                         }
-                }*/
-				//this.texts.position.set(G.left, G.top);
-				//re.mainContainer.addChild(this.texts);
-				const e = G.right - G.left
-					, i = G.bottom - G.top;
-				this.sectorImg.x = G.left,
-				this.sectorImg.y = G.top,
-				this.sectorImg.width = e,
-				this.sectorImg.height = i,
-				this.sectorImg.tint = parseInt(oe.gridTextColor.slice(1), 16),
-				re.mainContainer.addChild(this.sectorImg)
+                }
             }
         }, {
             key: "snowflakes",
             value() {
-                /*for (let t, o = 0; 5 > o; o++) {
+                const e = re.ctx;
+                e.font = "400 " + oe.gridTextSize + "px FontAwesome";
+                for (let t, o = 0; 5 > o; o++) {
                     t = this.top + this.halfSectorEdge + o * this.sectorEdge;
                     for (let i, s = 0; 5 > s; s++)
                         if (i = this.letters[o] + (s + 1),
                         this.visible.has(i)) {
-							const e = this.snowTexts[o + s];
-                            o = this.left + this.halfSectorEdge + s * this.sectorEdge;
-                            //e.fillText("\u2746", o, t)
-							e.position.set(o, t);
-							re.mainContainer.addChild(e)
+                            const o = this.left + this.halfSectorEdge + s * this.sectorEdge;
+                            e.fillText("\u2746", o, t)
                         }
-                }*/
-				//this.snowTexts.position.set(G.left, G.top);
-				//re.mainContainer.addChild(this.snowTexts);
+                }
             }
         }]),
         e
-    })()),
+    }
+    )()),
     W = (()=>{
         function e() {
             _classCallCheck(this, e)
@@ -7402,7 +7202,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 						switch (buf.readUInt8()) {
 							case 16:
 								le.refreshTime();
-								for (var o = "on" === settings.eatAnimation, i = buf.readUInt16(); i--; ) {
+								for (var o = "on" === k.eatAnimation, i = buf.readUInt16(); i--; ) {
 									const i = buf.readUInt32()
 										, s = buf.readUInt32()
 										, n = this.cells.get(s)
@@ -7414,13 +7214,13 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 									n.fadeStartTime = le.time,
 									this.cells.delete(s),
 									n.isFood || setTimeout(() => {
-										re.effectPoints.add({
-											x: n.staticX - (n.tab === 1 ? 0 : n.tab === 2 ? G.getOffset2.x : n.tab === 3 ? G.getOffset3.x : 3 < n.tab && q.mapTabs[n.tab-4].getOffset.x),
-											y: n.staticY - (n.tab === 1 ? 0 : n.tab === 2 ? G.getOffset2.y : n.tab === 3 ? G.getOffset3.y : 3 < n.tab && q.mapTabs[n.tab-4].getOffset.y),
-											time: le.time,
-											scale: 1/* > ~~(Math.sqrt(n.mass)/10) ? 1 : ~~(Math.sqrt(n.mass)/10)*/,
-											color: n.colorObject.hex
-										})
+										//re.effectPoints.add({
+											//x: n.staticX - (n.tab === 1 ? 0 : n.tab === 2 ? G.getOffset2.x : n.tab === 3 ? G.getOffset3.x : 3 < n.tab && q.mapTabs[n.tab-4].getOffset.x),
+											//y: n.staticY - (n.tab === 1 ? 0 : n.tab === 2 ? G.getOffset2.y : n.tab === 3 ? G.getOffset3.y : 3 < n.tab && q.mapTabs[n.tab-4].getOffset.y),
+											//time: le.time,
+											//scale: 1/* > ~~(Math.sqrt(n.mass)/10) ? 1 : ~~(Math.sqrt(n.mass)/10)*/,
+											//color: n.colorObject.hex
+										//})
 									}, 1000))
 								}
 								for (; !buf.endOfBuffer; ) {
@@ -7585,12 +7385,10 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             },
 			this.mapTabs = [],
             this.ipBox = r("#ip-box")
-            this.integrity = true
         }
         return _createClass(e, [{
             key: "init",
             value(e) {
-                this.integrity = e.indexOf('agar.io')>-1
                 e && (this.disconnect(),
                 this.resetData(),
                 j.init(),
@@ -7612,7 +7410,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.Tab1.onerror = (()=>{
                     this.onError(1)
                 }),
-                settings.multiboxMode === "on" && (this.Tab2 = new WebSocket("wss://" + e),
+                k.multiboxMode === "on" && (this.Tab2 = new WebSocket("wss://" + e),
                 this.Tab2.binaryType = "arraybuffer",
                 this.Tab2.onopen = (()=>{
                     window.Tab2WS = this.Tab2,
@@ -7682,7 +7480,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 						})
 					}, 100)
 				} else if (tab === 2) {
-					if (settings.multiboxMode === "off") return m.alert("HSLO", "You've to turn on multibox mode first!");
+					if (k.multiboxMode === "off") return m.alert("HSLO", "You've to turn on multibox mode first!");
 					q.Tab2.close(),
                     q.Tab2 = null,
                     j.protocolKey2 = null,
@@ -7917,21 +7715,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             value(e, t) {
                 const o = new D(e)
                   , i = o.readUInt8();
-                17 === i ? this.getSpectateData(o, t) : 
-                18 === i ? this.clearCells(t) : 
-                32 === i ? this.getMyCellId(o, t) : 
-                50 === i ? 1 === t && this.getLeaderboardTeam(o) : 
-                53 === i ? 1 === t && this.getLeaderboardFFA(o) : 
-                54 === i ? 1 === t && this.getLeaderboard(o) : 
-                69 === i ? 3 === t && this.getGhost(o) : 
-                85 === i && 3 != t ? y.display(t) : 
-                102 === i ? (this.mobileData(o, t), 20 > o.dataView.byteLength && (1 === t ? $.logout() : ee.logout())) : 
-                103 === i ? 1 === t ? (Q.loggedIn = !0, Q.freeCoins(1)) : (Q.loggedIn2 = !0, Q.freeCoins(2)) : 
-                226 === i ? this.ping(o, t) : 
-                241 === i ? this.getReceiveKey(o, t) : 
-                16 === i ? this.worldUpdate(o, t) :
-				64 === i ? this.borderUpdate(o, t) :
-                255 === i && this.compressedPacket(o, t)// : console.log("Unknown message opcode: " + i);
+                17 === i ? this.getSpectateData(o, t) : 18 === i ? this.clearCells(t) : 32 === i ? this.getMyCellId(o, t) : 50 === i ? 1 === t && this.getLeaderboardTeam(o) : 53 === i ? 1 === t && this.getLeaderboardFFA(o) : 54 === i ? 1 === t && this.getLeaderboard(o) : 69 === i ? 3 === t && this.getGhost(o) : 85 === i && 3 != t ? y.display(t) : 102 === i ? (this.mobileData(o, t), 20 > o.dataView.byteLength && (1 === t ? $.logout() : ee.logout())) : 103 === i ? 1 === t ? (Q.loggedIn = !0, Q.freeCoins(1)) : (Q.loggedIn2 = !0, Q.freeCoins(2)) : 226 === i ? this.ping(o, t) : 241 === i ? this.getReceiveKey(o, t) : 255 === i && this.compressedPacket(o, t)// : console.log("Unknown message opcode: " + i);
             }
         }, {
             key: "getGhost",
@@ -8084,7 +7868,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "worldUpdate",
             value(e, t) {
                 le.refreshTime();
-                for (var o = "on" === settings.eatAnimation, i = e.readUInt16(); i--; ) {
+                for (var o = "on" === k.eatAnimation, i = e.readUInt16(); i--; ) {
                     const i = e.readUInt32()
                       , s = e.readUInt32();
                     o && I.eatCell(i, s, t)
@@ -8155,7 +7939,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             this.loggedIn2 = !1,
 			this.triedCoins = !1,
 			this.triedCoins2 = !1;
-			if (settings.useBots === "on") {
+			if (k.useBots === "on") {
 				this.myTurn = !1;
 			} else {
 				this.myTurn = !0;
@@ -8181,7 +7965,6 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "sendPacket",
             value(e, t) {
-                if(q.integrity == false) return q.send(e.buffer, t)
                 if (1 === t) {
                     if (!j.clientKey)
                         return;
@@ -8269,19 +8052,19 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "spawn",
             // spawn
-            value(tab) {
-                const e = tab || A.controllingTab;
+            value() {
+                const e = A.controllingTab;
 				const _this = this;
 				try {
-					grecaptcha.reset();
-                    grecaptcha.reset(y.v2widget);
-                    grecaptcha.reset(y.v3widget);
+					//grecaptcha.reset();
+                    //grecaptcha.reset(y.v2widget);
+                    //grecaptcha.reset(y.v3widget);
 				} catch(e) {};
-                if (this.connected(e) || !(A.isAliveTab1 && 1 === e || A.isAliveTab2 && 2 === e) || settings.useBots === "on") {
+                if (this.connected(e) || !(A.isAliveTab1 && 1 === e || A.isAliveTab2 && 2 === e) || k.useBots === "on") {
 					grecaptcha.ready(() => {
 						grecaptcha.execute(0, {action: 'play'}).then(function(token) { 
 							if (_this.myTurn) {
-								2 === e && settings.primaryGoogle === "on" || 1 === e && settings.primaryGoogle === "off" ? Q.fbToken(e) : Q.googleToken(e);
+								2 === e && k.primaryGoogle === "on" || 1 === e && k.primaryGoogle === "off" ? Q.fbToken(e) : Q.googleToken(e);
 								//L.isSpectating = !1;
 								const t = 1 === e ? A.nick : A.nick2
 								  , o = unescape(encodeURIComponent(t))
@@ -8300,9 +8083,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 			                    //grecaptcha.reset(y.v2widget);
 								grecaptcha.reset(y.v3widget);
 								//k.useBots === "on" && window.connection.ws.readyState === WebSocket.OPEN && (_this.myTurn = false, _this.spawn());
-								/*k.useBots === "on" && window.connection.ws.readyState === WebSocket.OPEN && (_this.myTurn = false, setTimeout(() => {
+								k.useBots === "on" && window.connection.ws.readyState === WebSocket.OPEN && (_this.myTurn = false, setTimeout(() => {
 									_this.spawn()
-								}, 1000));*/
+								}, 1000));
 							} else if (_this.myTurn === false && window.connection.ws.readyState === WebSocket.OPEN) {
 								window.user.captchaToken = token;
 								window.connection.send(window.buffers.sendToken(token));
@@ -8310,9 +8093,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 								//grecaptcha.reset(y.v2widget);
 								grecaptcha.reset(y.v3widget);
 								//k.useBots === "on" && (_this.myTurn = false, _this.spawn());
-								/*k.useBots === "on" && (_this.myTurn = false, setTimeout(() => {
+								k.useBots === "on" && (_this.myTurn = false, setTimeout(() => {
 									_this.spawn()
-								}, 1000));*/
+								}, 1000));
 							}
 						})
 					})
@@ -8347,7 +8130,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
             key: "split",
             value(n) {
-                const e = n || A.controllingTab;
+                const e = n === 1 ? 1 : n === 2 ? 2 : A.controllingTab;
                 //const e = A.controllingTab;
                 //console.log("N split: " + n + " E split: " + e)
                 if (this.connected(e)) {
@@ -8465,7 +8248,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         return _createClass(e, [{
             key: "createParty",
             value() {
-                r("#loading-screen").append('<div class="info"><i class="fas fa-copyright"></i> 2020 HSLO edited by Mike(JP) and YueAgar_c(HK).</div>'),
+                r("#loading-screen").append('<div class="info"><i class="fas fa-copyright"></i> 2019 HSLO edited by Mike(JP) and YueAgar_c(HK).</div>'),
                 t.finishUp(),
 				g.createParty()
             }
@@ -8475,8 +8258,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
     J = new ((()=>{
         function e() {
             _classCallCheck(this, e),
-            this.address = "snez.org:8080/ws", // ogar, died
-            //this.address = "map-server.glitch.me/ws?030", // delta, maybe alive
+            this.address = "wss.ogario.eu:3443",
             this.ogarWS1 = null,
             this.ogarWS2 = null
         }
@@ -8490,7 +8272,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.ogarWS1.onmessage = (t=>e.onMessage(t, 1)),
                 this.ogarWS1.onclose = (()=>e.onClose(1)),
                 this.ogarWS1.onerror = (()=>e.onError(1)),
-                settings.multiboxMode === "on" && (this.ogarWS2 = new WebSocket("wss://" + this.address),
+                k.multiboxMode === "on" && (this.ogarWS2 = new WebSocket("wss://" + this.address),
                 this.ogarWS2.binaryType = "arraybuffer",
                 this.ogarWS2.onopen = (()=>e.onOpen(2)),
                 this.ogarWS2.onmessage = (t=>e.onMessage(t, 2)),
@@ -8509,7 +8291,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 this.ogarWS1.onopen = (()=>e.onOpen(1)),
                 this.ogarWS1.onmessage = (t=>e.onMessage(t, 1)),
                 this.ogarWS1.onclose = (()=>e.onClose(1)),
-                this.ogarWS1.onerror = (()=>e.onError(1))) : 2 === tab && settings.multiboxMode === "on" ? (this.ogarWS2.close(),
+                this.ogarWS1.onerror = (()=>e.onError(1))) : 2 === tab && k.multiboxMode === "on" ? (this.ogarWS2.close(),
 				this.ogarWS2 = null,
 				this.ogarWS2 = new WebSocket("wss://" + this.address),
                 this.ogarWS2.binaryType = "arraybuffer",
@@ -8576,7 +8358,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "init",
             value() {
                 const e = this;
-                settings.spySaigo === "on" && (this.saigoWS = new WebSocket("wss://" + this.address, "main"),
+                k.spySaigo === "on" && (this.saigoWS = new WebSocket("wss://" + this.address, "main"),
                 this.saigoWS.binaryType = "arraybuffer",
                 this.saigoWS.onopen = (()=>e.onOpen()),
                 this.saigoWS.onmessage = (t=>e.onMessage(t)),
@@ -8586,7 +8368,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         }, {
 			key: "reconnect",
 			value() {
-				if (settings.spySaigo === "off") return m.alert("HSLO", "You've to turn on Spy Saigo first!");
+				if (k.spySaigo === "off") return m.alert("HSLO", "You've to turn on Spy Saigo first!");
 				const e = this;
 				this.saigoWS.close(),
 				this.saigoWS = null,
@@ -8711,7 +8493,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "tag",
             value() {
                 this.sendString(11, A._tag, 1),
-                this.sendString(11, A._tag2, 2)
+                this.sendString(11, A._tag, 2)
             }
         }, {
             key: "skin",
@@ -8968,15 +8750,15 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     this._000054(f);
                     break;
                 case 20:
-                    /*f === 1 && */this.prePlayersData(t, f);
+                    f === 1 && this.prePlayersData(t, f);
                     break;
                 case 30:
-                    /*f === 1 && */this.prePlayersAlive(t, f);
+                    f === 1 && this.prePlayersAlive(t, f);
                     break;
                 case 96:
                     break;
                 case 100:
-                    /*f === 1 && */this.chat(t, f)
+                    f === 1 && this.chat(t, f)
                 }
             }
         }, {
@@ -8997,8 +8779,8 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "prePlayersData",
             value(e, f) {
                 //f = tab
-                /*if (f && f === 2)
-                    return;*/
+                if (f && f === 2)
+                    return;
                 const t = e.readUInt32()
                   , o = se.getPlayer(t);
                 o.nick = e.readUTF16string(),
@@ -9010,8 +8792,8 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "prePlayersAlive",
             value(e, f) {
                 //f = tab
-                /*if (f && f === 2)
-                    return;*/
+                if (f && f === 2)
+                    return;
                 const t = e.readUInt32()
                   , o = se.getPlayer(t);
                 o.x = e.readInt32(),
@@ -9024,8 +8806,8 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "chat",
             value(e, f) {
                 //f = tab
-                /*if (f && f === 2)
-                    return;*/
+                if (f && f === 2)
+                    return;
                 const t = e.readUInt8()
                   , o = (e.readUInt32(),
                 e.readUInt32(),
@@ -9042,9 +8824,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                         time: obj.date,
 						scale: 5
                     })
-                } else if (i === "[SERVER]" && (s.includes("connected") || s.includes("Delta"))) {
-					++this.connectedIndex//,
-					//m.alert("OGARio", `Tab ${this.connectedIndex} connected to szymy's server.`)
+                } else if (i === "[SERVER]" && s.includes("connected")) {
+					++this.connectedIndex,
+					m.alert("OGARio", `Tab ${this.connectedIndex} connected to szymy's server.`)
 				} else if (i === "[SERVER]" && s.includes("#")) {
 					!this.coronaNote && m.alert("Coronavirus", "Stay home or I'll kill you!"),
 					this.coronaNote = !0
@@ -9340,124 +9122,97 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         return _createClass(e, [{
             key: "init",
             value() {
-				const rgbImage = new Image();
-				rgbImage.crossOrigin = "anonymous",
-				rgbImage.src = "https://ex-script.com/fstyle/hslo/v5/540/image.php?name=deny/rgb_200.png",
-				this.rgbImg = PIXI.Texture.from(rgbImage),
-				this.filter1 = new PIXI.filters.ColorMatrixFilter(),
-				//this.filter2 = new PIXI.filters.ColorMatrixFilter(),
-				this.hueCounter1 = 0,
-				//this.hueCounter2 = 0,
-                this.cacheCorner(),
-                this.cacheEdge()
+                this.cache()
             }
         }, {
             key: "render",
             value() {
-                const m = re.mainContainer
-					//, c = new PIXI.Sprite(this.cornerTexture)
-					//, e = new PIXI.Sprite(this.edgeTexture)
-					, o = oe.borderWidth >> 1;
-				this.filter1.hue(this.hueCounter1);
-				//this.filter2.hue(this.hueCounter2);
-				this.hueCounter1 += 1;
-				//this.hueCounter2 -= 1;
-				if (this.hueCounter1 > 360) this.hueCounter1 = 0;
-				//if (this.hueCounter2 < -360) this.hueCounter2 = 0;
-				for (let i = 0; i < 4; i++) {
-					//if (i > 0) break;
-					const e = new PIXI.Sprite(this.edgeTexture);
-					//k.rainbowBorder === "on" && (e.tint = parseInt(pe.color.slice(1), 16));
-					settings.rainbowBorder !== "off" && (e.filters = [this.filter1]);
-					e.width = 1414.2 * 9 + ((i !== 1 && i !== 3) ? (2 * o) : 0);
-					e.rotation = i > 0 && i !== 2 ? Math.PI / 2 : 0;
-					0 === i ? e.position.set(G.left - o + 707.1, G.top - o - 200)
-					: 1 === i ? e.position.set(G.right + 2 * o + 200, G.top + 707.1)
-					: 2 === i ? e.position.set(G.left - o + 707.1, G.bottom - o - 200)
-					: 3 === i && e.position.set(G.left + 200, G.top + 707.1);
-					m.addChild(e);
-					const c = new PIXI.Sprite(this.cornerTexture);
-					//k.rainbowBorder === "on" && (c.tint = parseInt(pe.color.slice(1), 16));
-					settings.rainbowBorder !== "off" && (c.filters = [this.filter1])
-					c.rotation = i > 0 ? Math.PI / 2 * i : 0;
-					0 === i ? c.position.set(~~(G.left - o - 200), ~~(G.top - 200))
-					: 1 === i ? c.position.set(~~(G.right + o + 200), ~~(G.top - 200))
-					: 2 === i ? c.position.set(~~(G.right + o + 200), ~~(G.bottom + 200))
-					: 3 === i && c.position.set(~~(G.left - o - 200), ~~(G.bottom + 200));
-					m.addChild(c);
-					if (settings.rainbowBorder !== "off") {
-                            const rgb1 = new PIXI.Sprite(this.rgbImg); //1 = inner
-                            rgb1.filters = [this.filter1];
-                            rgb1.width = 1400.2 * 10 + 0 + ((i !== 1 && i !== 3) ? (2 * o) : 0) - (i === 3 ? o : 0);
-                            rgb1.height = 40 + oe.borderGlowSize;
-                            rgb1.rotation = Math.PI / 2 * i;
-                            0 === i ? rgb1.position.set(G.left - 0, G.top + o)
-                            : 1 === i ? rgb1.position.set(G.right, G.top + 35)
-                            : 2 === i ? rgb1.position.set(G.right + 0, G.bottom - o)
-                            : 3 === i && rgb1.position.set(G.left, G.bottom - 35);
-                            for (let i = 0; i < oe.borderGlowStrength; i++) m.addChild(rgb1);
-                            const rgb2 = new PIXI.Sprite(this.rgbImg); //2 = outer
-                            rgb2.filters = [this.filter1];
-                            rgb2.pivot.set(0, 1);
-                            rgb2.width = 1414.2 * 10 + 200.1 + ((i !== 1 && i !== 3) ? (2 * o) : 0) - (i === 3 ? o : 0);
-                            rgb2.height = 40 + oe.borderGlowSize;
-                            rgb2.scale.x *= -1;
-                            rgb2.rotation = Math.PI + Math.PI / 2 * i;
-                            0 === i ? rgb2.position.set(G.left - 180, G.top - o)
-                            : 1 === i ? rgb2.position.set(G.right + 2 * o, G.top - 125.1)
-                            : 2 === i ? rgb2.position.set(G.right + 160.1, G.bottom + o)
-                            : 3 === i && rgb2.position.set(G.left - 2 * o, G.bottom + 130.1);
-                            for (let i = 0; i < oe.borderGlowStrength; i++) m.addChild(rgb2);
-                        };
-				};
+                //const e = re.ctx;
+				//e.drawImage(this.cacheCanvas, ~~(G.left - 350 - (oe.borderWidth >> 1)), ~~(G.top - 350 - (oe.borderWidth >> 1)));
+                const e = re.ctx
+                  , t = "off" !== k.borderGlow
+                  , o = oe.borderWidth >> 1
+				  , strength = "off" !== k.borderGlow && oe.borderGlowStrength ? oe.borderGlowStrength : 1;
+                e.strokeStyle = k.rainbowBorder === "on" ? pe.color : oe.borderColor,
+                e.lineWidth = oe.borderWidth,
+                t && (e.shadowBlur = oe.borderGlowSize * L.viewport,
+                e.shadowColor = k.rainbowBorder === "on" ? pe.color : oe.borderGlow);
+                for (let i = 0; i < strength; i++) {
+                    e.strokeRect(G.left - o, G.top - o, G.edge + oe.borderWidth, G.edge + oe.borderWidth);
+                };
+				t && (e.shadowBlur = 0);
+				if (k.showViewportBoxes === "on") {
+					e.save();
+					e.strokeStyle = "#09f";
+					e.fillStyle = "#09f";
+					e.font = "192px Verdana";
+					e.shadowBlur = 0;
+					e.globalAlpha = 0.5;
+					const _e = I.bound
+					  , _t = 0 | _e.left
+					  , _o = 0 | _e.top
+					  , _i = 0 | _e.right - _e.left
+					  , _s = 0 | _e.bottom - _e.top;
+					e.strokeRect(_t, _o, _i, _s);
+					e.fillText("Tab 1 viewport", _t + 700, _o - 200);
+					e.restore();
+					e.save();
+					e.strokeStyle = "#0d00ff";
+					e.fillStyle = "#0d00ff";
+					e.font = "192px Verdana";
+					e.shadowBlur = 0;
+					e.globalAlpha = 0.5;
+					const _e2 = I.bound2
+					  , _t2 = 0 | _e2.left
+					  , _o2 = 0 | _e2.top
+					  , _i2 = 0 | _e2.right - _e2.left
+					  , _s2 = 0 | _e2.bottom - _e2.top;
+					e.strokeRect(_t2, _o2, _i2, _s2);
+					e.fillText("Tab 2 viewport", _t2 + 700, _o2 - 200);
+					e.restore();
+					e.save();
+					e.strokeStyle = "#ff0000";
+					e.fillStyle = "#ff0000";
+					e.font = "192px Verdana";
+					e.shadowBlur = 0;
+					e.globalAlpha = 0.5;
+					const _e3 = I.bound3
+					  , _t3 = 0 | _e3.left
+					  , _o3 = 0 | _e3.top
+					  , _i3 = 0 | _e3.right - _e3.left
+					  , _s3 = 0 | _e3.bottom - _e3.top;
+					e.strokeRect(_t3, _o3, _i3, _s3);
+					e.fillText("Tab 3 viewport", _t3 + 700, _o3 - 200);
+					e.restore();
+				}
             }
         }, {
-            key: "cacheCorner",
+            key: "cache",
             value() {
-				this.settings = {
-                    halfWidth: oe.borderWidth >> 1,
-                    isGlowOn: "off" !== settings.borderGlow,
-                    strength: "off" !== settings.borderGlow && oe.borderGlowStrength ? oe.borderGlowStrength : 1
+				/*this.settings = {
+                    isGlowOn: "off" !== k.borderGlow,
+                    strength: "off" !== k.borderGlow && oe.borderGlowStrength ? oe.borderGlowStrength : 1
                 };
-                this.cornerCanvas = document.createElement("canvas");
-                this.cornerCtx = this.cornerCanvas.getContext("2d");
-                this.cornerCanvas.width = 200 + 707.1;
-                this.cornerCanvas.height = 200 + 707.1;
-                this.settings.isGlowOn && (this.cornerCtx.shadowBlur = oe.borderGlowSize,
-                this.cornerCtx.shadowColor = settings.rainbowBorder !== "off" ? "#ff0000" : oe.borderGlow);
-                this.cornerCtx.strokeStyle = oe.borderColor;
-                this.cornerCtx.lineWidth = oe.borderWidth;
+                this.cacheCanvas = document.createElement("canvas");
+                this.cacheCtx = this.cacheCanvas.getContext("2d");
+                this.cacheCanvas.width = 14142 + oe.borderWidth + 1000;
+                this.cacheCanvas.height = 14142 + oe.borderWidth + 1000;
+                this.cacheCtx.save();
+                this.settings.isGlowOn && (this.cacheCtx.shadowBlur = oe.borderGlowSize,
+                this.cacheCtx.shadowColor = oe.borderGlow);
+                this.cacheCtx.strokeStyle = oe.borderColor;
+				this.cacheCtx.lineWidth = oe.borderWidth;
 				for (let i = 0; i < this.settings.strength; i++) {
-					this.cornerCtx.strokeRect(200, 200, 1000, 1000);
+					this.cacheCtx.strokeRect(~~(500 - (oe.borderWidth >> 1)), ~~(500 - (oe.borderWidth >> 1)), ~~(14142 + 500 + oe.borderWidth), ~~(14142 + 500 + oe.borderWidth));
 				};
-				this.settings.isGlowOn && (this.cornerCtx.shadowBlur = 0);
-				this.cornerTexture = PIXI.Texture.from(this.cornerCanvas);
-            }
-        }, {
-            key: "cacheEdge",
-            value() {
-				this.settings = {
-                    halfWidth: oe.borderWidth >> 1,
-                    isGlowOn: "off" !== settings.borderGlow,
-                    strength: "off" !== settings.borderGlow && oe.borderGlowStrength ? oe.borderGlowStrength : 1
-                };
-                this.edgeCanvas = document.createElement("canvas");
-                this.edgeCtx = this.edgeCanvas.getContext("2d");
-                this.edgeCanvas.width = 1414.2 + oe.borderWidth/10;
-                this.edgeCanvas.height = 1414.2 + oe.borderWidth/10;
-                this.settings.isGlowOn && (this.edgeCtx.shadowBlur = oe.borderGlowSize,
-                this.edgeCtx.shadowColor = settings.rainbowBorder !== "off" ? "#ff0000" : oe.borderGlow);
-                this.edgeCtx.fillStyle = oe.borderColor;
-				for (let i = 0; i < this.settings.strength; i++) {
-					this.edgeCtx.fillRect(-200, 210, 2000, oe.borderWidth);
-				};
-				this.settings.isGlowOn && (this.edgeCtx.shadowBlur = 0);
-				this.edgeTexture = PIXI.Texture.from(this.edgeCanvas);
+				this.settings.isGlowOn && (this.cacheCtx.shadowBlur = 0);
+				this.cacheCtx.restore();*/
             }
         }]),
         e
-    })());
-    window.be = be;
+    }
+    )());
+	window.be = be;
     de = new ((()=>{
         function e() {
             _classCallCheck(this, e)
@@ -9469,24 +9224,25 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             }
         }, {
             key: "render",
-            value(o) {
-                const e = re.mainContainer;
-				const s = 2 === o.tab ? G.getOffset2 : 3 === o.tab ? G.getOffset3 : 3 < o.tab ? q.mapTabs[o.tab-4].getOffset : {
-					x: 0,
-					y: 0
-				}
-				  , n = /*o.animRadius*/100 + 5;
-				const virus = new PIXI.Sprite(this.cacheTexture);
-				virus.anchor.set(0.5, 0.5);
-				virus.position.set(o.x - s.x, o.y - s.y);
-				return virus;
+            value() {
+                const e = re.ctx;
+                let i = I.sortedCells.length;
+                for (; i--; ) {
+                    const o = I.sortedCells[i]
+                      , s = 2 === o.tab ? G.getOffset2 : 3 === o.tab ? G.getOffset3 : 3 < o.tab ? q.mapTabs[o.tab-4].getOffset : {
+                        x: 0,
+                        y: 0
+                    }
+                      , n = /*o.animRadius*/100 + 5;
+                    o.isVirus && e.drawImage(this.cacheCanvas, ~~(o.x - s.x + n/2 - 350), ~~(o.y - s.y + n/2 - 350));
+                }
             }
         }, {
             key: "cache",
             value() {
 				this.settings = {
-                    isGlowOn: "off" !== settings.virusGlow,
-                    strength: "off" !== settings.virusGlow && oe.virusGlowStrength ? oe.virusGlowStrength : 1
+                    isGlowOn: "off" !== k.virusGlow,
+                    strength: "off" !== k.virusGlow && oe.virusGlowStrength ? oe.virusGlowStrength : 1
                 };
                 this.cacheCanvas = document.createElement("canvas");
                 this.cacheCtx = this.cacheCanvas.getContext("2d");
@@ -9508,11 +9264,11 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 				};
 				this.settings.isGlowOn && (this.cacheCtx.shadowBlur = 0);
 				this.cacheCtx.restore();
-				this.cacheTexture = PIXI.Texture.from(this.cacheCanvas);
             }
         }]),
         e
-    })());
+    }
+    )());
     const pe = new ((() => {
         function e(t) {
             _classCallCheck(this, e)
@@ -9563,53 +9319,21 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             const t = this;
             _classCallCheck(this, e),
             this.canvas = h.getElementById("canvas"),
-            //this.ctx = this.canvas.getContext("2d"),
-			this.graphics = new PIXI.Graphics(),
-			this.gridGraphics = new PIXI.Graphics(),
-			//this.borderGraphics = new PIXI.Graphics(),
-			//this.foodGraphics = new PIXI.Graphics(),
-			//this.opponentRingsGraphics = new PIXI.Graphics(),
-			//this.cellsGraphics = new PIXI.Graphics(),
-			//this.cellsGraphics2 = new PIXI.Graphics(),
-			//this.mouseTrackerGraphics = new PIXI.Graphics(),
-			//this.splitRingsGraphics = new PIXI.Graphics(),
-			//this.virusRangeGraphics = new PIXI.Graphics(),
-			//this.commanderGraphics = new PIXI.Graphics(),
-			this.renderer =	new PIXI.Renderer({
-				view: canvas,
-				width: s.innerWidth,
-				height: s.innerHeight,
-				resolution: s.devicePixelRatio,
-				backgroundColor: 0x0000,
-				autoDensity: !0,
-				antialias: !0
-			}),
-			this.cellsContainer = new PIXI.Container(),
-			this.cellsDestroyer = [],
-			this.mainContainer = new PIXI.Container(),
-			this.rootContainer = new PIXI.Container(),
-			this.commanderContainer = new PIXI.Container(),
-			this.commanderTriggered = !1,
-			this.globalRotation = 0,
-			this.globalRotationSpeed = 10,
-			this.nickImg = null,
-			this.massImg = null,
+            this.ctx = this.canvas.getContext("2d"),
             this.pi2 = 2 * Math.PI,
             this.commanderPoints = new Set,
-            this.effectPoints = new Set,
-            this.cellTexture = null,
             this.maouImg = null,
             this.fantasyImg = null,
             this.resizeCanvas(),
-            /*this.getMaouImg(),
+            this.getMaouImg(),
+			this.getTargetSkin(),
             this.getEveryoneSkin(),
-            this.getMultiboxShield(),*/
-            this.getTargetSkin(),
-			//this.getBGImg(),
-			this.getCommander(),
-			this.getCellTexture(),
+			this.getBGImg(),
 			pe.init(),
-            s.onresize = (() =>{
+			this.renderer = new PIXI.Renderer(window.innerWidth, window.innerHeight, {
+				view: canvas
+			}),
+            s.onresize = (()=>{
                 t.resizeCanvas()
             })
         }
@@ -9617,106 +9341,95 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             key: "resizeCanvas",
             value() {
                 this.canvas.width = 0 | s.innerWidth,
-                this.canvas.height = 0 | s.innerHeight,
-				this.renderer.resize(this.canvas.width, this.canvas.height)
+                this.canvas.height = 0 | s.innerHeight
             }
         }, {
             key: "run",
             value() {
-				this.cellsContainer.removeChildren(),
-				this.cellsDestroyer.forEach(t => t.destroy(true)),
-				this.cellsDestroyer = [],
-				this.mainContainer.removeChildren(),
-				this.rootContainer.removeChildren(),
-				this.graphics.clear(),
-				this.gridGraphics.clear(),
-				//this.borderGraphics.clear(),
-				//this.foodGraphics.clear(),
-				//this.opponentRingsGraphics.clear(),
-				//this.cellsGraphics.clear(),
-				//this.cellsGraphics2.clear(),
-				//this.mouseTrackerGraphics.clear(),
-				//this.splitRingsGraphics.clear(),
-				//this.virusRangeGraphics.clear(),
-				//this.commanderGraphics.clear(),
-				this.globalRotation += (this.globalRotationSpeed / 1000);
-                const e = (/*this.canvas.width*/s.innerWidth >> 1) / L.viewport - L.x
-                  , t = (/*this.canvas.height*/s.innerHeight >> 1) / L.viewport - L.y;
-				this.rootContainer.scale.set(L.viewport, L.viewport),
-				this.mainContainer.position.set(e, t),
+                const e = (this.canvas.width >> 1) / L.viewport - L.x
+                  , t = (this.canvas.height >> 1) / L.viewport - L.y;
+                this.ctx.save(),
+                this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height),
+                this.ctx.scale(L.viewport, L.viewport),
+                this.ctx.translate(e, t),
 				pe.update(),
 				this.drawBGImg(),
                 V.render(),
                 be.render(),
                 H.render(),
-                //de.render(),
                 N.render(),
-				settings.eatEffects === "on" && this.commands("effect"),
 				ve.render(),
 				this.mouseTracker(),
 				this.SplitRings(),
 				ie.render(),
-				this.mainContainer.addChild(this.graphics),
                 this.cells(),
-                this.commands("commander"),
+				//de.render(),
+                this.commands(),
                 P.cleaner(),
-				Pm.reset(),
-				this.rootContainer.addChild(this.mainContainer),
-                this.renderer.render(this.rootContainer)
+                this.ctx.restore()
             }
         }, {
             key: "drawBGImg",
             value() {
+                /*if (null !== this.fantasyImg) {
+                    const e = this.ctx;
+                    "on" === k.bgImg && (e.save(),
+					e.beginPath(),
+                    e.drawImage(this.fantasyImg, ~~G.left, ~~G.top, ~~G.edge, ~~G.edge),
+					oe.fantasyAlpha > 0 && (
+					e.globalAlpha = oe.fantasyAlpha * 0.1,
+					e.drawImage(this.cacheFantasyCanvas, ~~G.left, ~~G.top, ~~G.edge, ~~G.edge)),
+                    e.closePath(),
+					e.restore())
+                }*/
 				if (null !== this.fantasyImg) {
-                    const e = new PIXI.Sprite(this.fantasyTexture)
-						//, t = new PIXI.Sprite(this.whiteTexture)
-						, c = this.mainContainer;
-					"on" === settings.bgImg && (//t.position.set(~~G.left, ~~G.top),
-					//t.width = ~~G.edge,
-					//t.height = ~~G.edge,
-					//t.tint = window.tintColor || 0xff0000,
-					//t.blendMode = window.blendMode || PIXI.BLEND_MODES.OVERLAY,
-					e.position.set(~~G.left, ~~G.top),
-					e.width = ~~G.edge,
-					e.height = ~~G.edge,
-					//e.blendMode = window.blendMode || PIXI.BLEND_MODES.SCREEN,
-                    c.addChild(e/*, t*/));
+                    const e = this.ctx;
+                    "on" === k.bgImg && (e.beginPath(),
+                    e.drawImage(this.fantasyImg, ~~G.left, ~~G.top, ~~G.edge, ~~G.edge),
+                    e.closePath())
                 }
             }
         }, {
             key: "cells",
             value() {
-                const t = "off" !== settings.cellMass
-                  , o = "off" !== settings.cellNick
-                  , i = "on" === settings.hideOwnNick
-                  , s = "on" === settings.hideOwnMass
-                  , n = "on" === settings.urlSkins
-                  , _n = "on" === settings.everyoneSkins
-                  , __n = "on" === settings.kanjiSkins
-                  , ___n = "on" === settings.vanillaSkins
-                  , a = "on" === settings.teamIndicator
-                  , r = "on" === settings.multiboxRing
-				  , _r = "on" === settings.multiboxShield
-				  , __r = "on" === settings.multiboxCellColor
-				  , ___r = "on" === settings.rainbowCellColor
-                  , l = "off" !== settings.maouCircleSkin
-                  , h = "off" !== settings.virusGlow
+                const e = this.ctx
+                  , t = "off" !== k.cellMass
+                  , o = "off" !== k.cellNick
+                  , i = "on" === k.hideOwnNick
+                  , s = "on" === k.hideOwnMass
+                  , n = "on" === k.urlSkins
+                  , _n = "on" === k.everyoneSkins
+                  , __n = "on" === k.kanjiSkins
+                  , ___n = "on" === k.vanillaSkins
+                  , a = "on" === k.teamIndicator
+                  , r = "on" === k.multiboxRing
+                  , _r = "on" === k.multiboxShield
+                  , __r = "on" === k.multiboxCellColor
+                  , ___r = "on" === k.rainbowCellColor
+                  , l = "off" !== k.maouCircleSkin
+                  , _l = "off" !== k.maouCircleSkinGlow
+                  , h = "off" !== k.virusGlow
                   , ve = oe.skinBorder / 100
                   , c = oe.indicatorSize
                   , _ = oe.cellTransparency / 100
                   , d = oe.cellNickSize / 100
                   , m = oe.cellMassSize / 100
-                  , g = settings.cellTextAnimation
+                  , g = k.cellTextAnimation
                   , u = "off" === g ? 0 : "stepped" === g ? 1 : 2
                   , y = oe.lightenCellColor / 100
                   , f = oe.virusColor
                   , p = oe.multiboxActive
                   , v = oe.multiboxInactive
                   , x = oe.multiboxRingWidth;
+                e.strokeStyle = oe.virusBorderColor,
+                e.lineWidth = oe.virusBorderWidth;
+                let strokeGlowVirus = ()=>{
+                    for (let i = 0; i < oe.virusGlowStrength; i++) {
+                        e.stroke();
+                    }
+                    ;
+                }
                 for (const g of I.sortedCells) {
-					const e = new PIXI.Sprite(this.cellTexture);
-					const _e = new PIXI.Container();
-					let virusSprite;
                     const b = g.animate()
                       , C = 2 === g.tab ? G.getOffset2 : 3 === g.tab ? G.getOffset3 : 3 < g.tab ? q.mapTabs[g.tab-4].getOffset : {
                         x: 0,
@@ -9726,131 +9439,87 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     let w = 1;
                     if (g.fadeStartTime && (w = 1 - b),
                     w = 0 > w ? 0 : 1 < w ? 1 : w,
-					e.anchor.set(.5, .5),
-					e.position.set(g.x - C.x, g.y - C.y),
-                    g.isVirus ? (virusSprite = new PIXI.Sprite(de.cacheTexture),
-					virusSprite.scale.set(((g.animRadius+5)/105), ((g.animRadius+5)/105)),
-					virusSprite.anchor.set(0.5, 0.5),
-					virusSprite.position.set(~~(g.x - C.x + 52.5 + (g.animRadius+5-105)/2), ~~(g.y - C.y + 52.5 + (g.animRadius+5-105)/2)),
-					_e.addChild(virusSprite),
-                    "fill" === settings.virusMass && (e.tint = parseInt(oe.virusBorderColor.slice(1), 16),
-					e.width = 2 * 3 * (g.animRadius - 100),
-					e.height = 2 * 3 * (g.animRadius - 100))) : (e.tint = (g.isMine && __r) ? (g.tab === A.controllingTab ? parseInt(p.slice(1), 16) : parseInt(v.slice(1), 16)) : (g.isMine && ___r) ? parseInt(pe.color.slice(1), 16) : parseInt(g.colorObject.hex.slice(1), 16),
-					e.alpha = 1 > _ * w ? _ * w : 1,
-					e.width = 2 * (g.animRadius + 5),
-					e.height = 2 * (g.animRadius + 5)),
-					(!g.isVirus || g.isVirus && "fill" === settings.virusMass) && _e.addChild(e),
-					//this.cellsDestroyer.push(e),
+                    e.beginPath(),
+                    e.arc(g.x - C.x, g.y - C.y, g.animRadius + 5, 0, this.pi2, !0),
+                    e.closePath(),
+                    g.isVirus ? (e.drawImage(de.cacheCanvas, ~~(g.x - C.x + (((100 + 5)/2 - 350) * ((g.animRadius + 5)/105))), ~~(g.y - C.y + (((100 + 5)/2 - 350) * ((g.animRadius + 5)/105))), ~~(700 * ((g.animRadius + 5)/105)), ~~(700 * ((g.animRadius + 5)/105))),
+					//e.fillStyle = "#ff0000", //f,
+                    //virus
+                    /*e.globalAlpha = .7,
+                    e.fill(),
+					e.globalAlpha = 1,*/
+                    /*h && (e.shadowBlur = oe.virusGlowSize * L.viewport,
+                    e.shadowColor = oe.virusGlow),
+                    strokeGlowVirus(),
+                    h && (e.shadowBlur = 0),*/
+                    "fill" === k.virusMass && (e.beginPath(),
+                    e.arc(g.x - C.x, g.y - C.y, ~~(3 * (g.animRadius - 100)), 0, this.pi2, !0),
+					//console.log(g.animRadius),
+                    e.closePath(),
+                    e.fillStyle = oe.virusBorderColor,
+                    e.fill())) : (e.fillStyle = (g.isMine && __r) ? (g.tab === A.controllingTab ? p : v) : (g.isMine && ___r) ? pe.color : this.getColor(g.colorObject, y),
+                    1 > _ * w ? (e.globalAlpha = _ * w,
+                    e.fill(),
+                    e.globalAlpha = 1) : e.fill()),
                     !g.isEjected) {
                         if (!g.isVirus) {
-							const indTxt = a && (new PIXI.Sprite(R.indicator));
-                            //1 == w && a && !g.isMine && S && 50 > g.animRadius * L.viewport && e.drawImage(R.indicator, ~~(g.x - C.x - c / 2), ~~(g.y - C.y - g.animRadius - 10 - c), ~~c, ~~c);
-                            1 == w && a && !g.isMine && S && 50 > g.animRadius * L.viewport && (indTxt.position.set(~~(g.x - C.x - c / 2), ~~(g.y - C.y - g.animRadius - 10 - c)), indTxt.width = c, indTxt.height = c, _e.addChild(indTxt));
+                            1 == w && a && !g.isMine && S && 50 > g.animRadius * L.viewport && e.drawImage(R.indicator, ~~(g.x - C.x - c / 2), ~~(g.y - C.y - g.animRadius - 10 - c), ~~c, ~~c);
                             const t = l ? /*g.animRadius * x / 75*/0 : 0
                               , s = S && n && N.getCustomSkin(g.worldID)
-							  , _s = s && (new PIXI.Sprite(s))
-                              , sk =  !(settings.hideOwnSkin === "on" && g.isMine) && N.checkHasKanji(g.nick) && __n && N.getKanjiSkin(N.checkHasKanji(g.nick))
-							  , _sk = sk && (new PIXI.Sprite(sk))
-							  , __s = _n && (new PIXI.Sprite(this.everyoneSkinsTexture))
-							  , ts1 = this.checkIsTarget(g.worldID, 1) && (new PIXI.Sprite(this.target1SkinTexture))
-							  , ts2 = this.checkIsTarget(g.worldID, 2) && (new PIXI.Sprite(this.target2SkinTexture))
-                              , He = g.animRadius * ve
-							  , i = 16 * g.animRadius / 100
-							  , mTxt = l && (new PIXI.Sprite(this.maouTexture))
-							//console.log(s);
-							_n && !s && !sk && (__s.position.set(~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t))), __s.width = ~~(2 * (He + 5 - t)), __s.height = ~~(2 * (He + 5 - t)), _e.addChild(__s));
-							__n && !s && sk && (_sk.position.set(~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t))), _sk.width = ~~(2 * (He + 5 - t)), _sk.height = ~~(2 * (He + 5 - t)), _e.addChild(_sk));
-							!s && !sk && this.checkIsTarget(g.worldID, 1) && (ts1.position.set(~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t))), ts1.width = ~~(2 * (He + 5 - t)), ts1.height = ~~(2 * (He + 5 - t)), _e.addChild(ts1));
-							!s && !sk && this.checkIsTarget(g.worldID, 2) && (ts2.position.set(~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t))), ts2.width = ~~(2 * (He + 5 - t)), ts2.height = ~~(2 * (He + 5 - t)), _e.addChild(ts2));
-                            if (s && _s && (_s.position.set(~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t))), _s.width = ~~(2 * (He + 5 - t)), _s.height = ~~(2 * (He + 5 - t)), _e.addChild(_s)),
-							//N.getCustomSkin(g.worldID) && l && (e.save(), e.arc(~~(g.x - C.x + 540), ~~(g.x - C.x + 540), 540, 0, this.pi2, !0), e.shadowBlur = 25 * L.viewport, e.shadowColor = g.colorObject.hex, e.drawImage(this.maouImg, ~~(g.x - C.x - (g.animRadius + 5 + i)), ~~(g.y - C.y - (g.animRadius + 5 + i)), ~~(2 * (g.animRadius + 5 + i)), ~~(2 * (g.animRadius + 5 + i))), e.restore()),
-							((settings.maouCircleSkinRange === "team" && N.getCustomSkin(g.worldID)) || this.checkIsTarget(g.worldID, 1) || this.checkIsTarget(g.worldID, 2) || settings.maouCircleSkinRange === "everyone") && l && (mTxt.anchor.set(0.5, 0.5), mTxt.rotation += this.globalRotation, mTxt.position.set(~~(g.x - C.x), ~~(g.y - C.y)), mTxt.width = ~~(2 * (g.animRadius + 5 + i)), mTxt.height = ~~(2 * (g.animRadius + 5 + i)), _e.addChild(mTxt)),
+							  , _s = !(k.hideOwnSkin === "on" && g.isMine) && N.checkHasKanji(g.nick) && __n && N.getKanjiSkin(N.checkHasKanji(g.nick))
+							  , __s = !(k.hideOwnSkin === "on" && g.isMine) && ___n && N.getVanillaSkin(g.skin)
+							  , ts1 = this.checkIsTarget(g.worldID, 1) && this.target1Skin
+							  , ts2 = this.checkIsTarget(g.worldID, 2) && this.target2Skin
+							  , He = g.animRadius * ve
+							  , i = 16 * g.animRadius / 100;
+                            if ((s || _s || ts1 || ts2 || _n || ___n) && e.drawImage(s || _s || ts1 || ts2 || _n && this.everyoneSkins || ___n && __s,  ~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t)), ~~(2 * (He + 5 - t)), ~~(2 * (He + 5 - t))),
+							//this.checkIsTarget(g.worldID, 1) && (e.drawImage(this.target1Skin, ~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t)), ~~(2 * (He + 5 - t)), ~~(2 * (He + 5 - t)))),
+							//this.checkIsTarget(g.worldID, 2) && (e.drawImage(this.target2Skin, ~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t)), ~~(2 * (He + 5 - t)), ~~(2 * (He + 5 - t)))),
+							((k.maouCircleSkinRange === "team" && N.getCustomSkin(g.worldID)) || k.maouCircleSkinRange === "everyone" || this.checkIsTarget(g.worldID, 1) || this.checkIsTarget(g.worldID, 2)) && l && (_l && (e.arc(~~(g.x - C.x + 540), ~~(g.x - C.x + 540), 540, 0, this.pi2, !0), e.shadowBlur = 25 * L.viewport, e.shadowColor = (g.isMine && (r || __r)) ? ((g.tab === 1 && A.controllingTab === 1) ? p : (g.tab === 2 && A.controllingTab === 2) ? p : v) : g.colorObject.hex),
+							e.drawImage(this.maouImg, ~~(g.x - C.x - (g.animRadius + 5 + i)), ~~(g.y - C.y - (g.animRadius + 5 + i)), ~~(2 * (g.animRadius + 5 + i)), ~~(2 * (g.animRadius + 5 + i))), _l && (e.shadowBlur = 0)),
                             g.isMine) {
                                 const t = l ? /*20*/0 : 0
-                                  , o = g.animRadius * (x + t) / 100
-								  , e2 = new PIXI.Graphics();
-								let shield;
-                                r && (e2.beginFill(0, 0),
-								e2.lineStyle(0 | o, g.tab === A.controllingTab ? parseInt(p.slice(1), 16) : parseInt(v.slice(1), 16), 1),
-                                e2.drawCircle(g.x - C.x, g.y - C.y, g.animRadius + 5 - (o >> 1)),
-                                e2.endFill(),
-								e2.lineStyle(0),
-								_e.addChild(e2),
-								this.cellsDestroyer.push(e2));
-								_r && (shield = new PIXI.Sprite(this.multiboxShieldTexture),
-								//shield.texture = this.whiteTexture,
-								shield.tint = g.tab === A.controllingTab ? parseInt(p.slice(1), 16) : parseInt(v.slice(1), 16),
-								shield.position.set(~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t))),
-								shield.width = ~~(2 * (He + 5 - t)),
-								shield.height = ~~(2 * (He + 5 - t)),
-								_e.addChild(shield))
-                                const i = 16 * g.animRadius / 100
-									, mTxt2 = l && (new PIXI.Sprite(this.maouTexture))
-                                l && settings.maouCircleSkinRange === "myself" && (mTxt2.anchor.set(0.5, 0.5),
-								mTxt2.rotation += this.globalRotation,
-                                mTxt2.position.set(~~(g.x - C.x), ~~(g.y - C.y)),
-								mTxt2.width = ~~(2 * (g.animRadius + 5 + i)),
-								mTxt2.height = ~~(2 * (g.animRadius + 5 + i)),
-                                _e.addChild(mTxt2))
+                                  , o = g.animRadius * (x + t) / 100;
+                                r && (e.beginPath(),
+                                e.arc(g.x - C.x, g.y - C.y, g.animRadius + 5 - (o >> 1), 0, this.pi2, !0),
+                                e.closePath(),
+                                e.lineWidth = 0 | o,
+                                e.strokeStyle = g.tab === A.controllingTab ? p : v,
+                                e.stroke(),
+                                e.strokeStyle = oe.virusBorderColor,
+                                e.lineWidth = oe.virusBorderWidth);
+								_r && (e.drawImage(this.getMultiboxShield(null, g.tab === A.controllingTab ? p : v), ~~(g.x - C.x - (He + 5 - t)), ~~(g.y - C.y - (He + 5 - t)), ~~(2 * (He + 5 - t)), ~~(2 * (He + 5 - t))));
+                                const i = 16 * g.animRadius / 100;
+                                l && (e.beginPath(),
+                                e.drawImage(this.maouImg, ~~(g.x - C.x - (g.animRadius + 5 + i)), ~~(g.y - C.y - (g.animRadius + 5 + i)), ~~(2 * (g.animRadius + 5 + i)), ~~(2 * (g.animRadius + 5 + i))),
+                                e.closePath())
                             }
-                            if (1 == w && (g.isMine && !("on" === settings.hideOwnNick) || !g.isMine && o)) {
-                                const canvasNick = P.nick(g);
-                                if (canvasNick) {
-                                    const o = ((2 == u ? g.animRadius : 1 == u ? 50 + 75 * (0 | g.animRadius / 75) : g.animRadius) * d * .3 + 6 / L.viewport) / canvasNick.height
-                                      , i = canvasNick.width * o
-                                      , s = canvasNick.height * o
-									  , _t = new PIXI.Sprite(canvasNick);
-                                    //e.drawImage(t, ~~(g.x - C.x - (i >> 1)), ~~(g.y - C.y - (s >> 1)), ~~i, ~~s)
-									_t.x = ~~(g.x - C.x - (i >> 1)),
-									_t.y = ~~(g.y - C.y - (s >> 1)),
-									_t.width = ~~i,
-									_t.height = ~~s,
-									_e.addChild(_t);
-									//this.cellsDestroyer.push(_t.texture),
-									//this.cellsDestroyer.push(_t),
-									this.cellsDestroyer.push(canvasNick);
+                            if (1 == w && (g.isMine && !("on" === k.hideOwnNick) || !g.isMine && o)) {
+                                const t = P.nick(g);
+                                if (t) {
+                                    const o = ((2 == u ? g.animRadius : 1 == u ? 50 + 75 * (0 | g.animRadius / 75) : g.animRadius) * d * .3 + 6 / L.viewport) / t.height
+                                      , i = t.width * o
+                                      , s = t.height * o;
+                                    t.width && t.height && e.drawImage(t, ~~(g.x - C.x - (i >> 1)), ~~(g.y - C.y - (s >> 1)), ~~i, ~~s)
                                 }
                             }
                         }
-                        if (!P.isSmall(g) && (!g.isVirus || "text" === settings.virusMass && g.isVirus) && 1 == w && (g.isMine && !s || !g.isMine && t)) {
-							const d = g.mass
-								, b = Pm.get(d)
-								, k = m * (.3 * g.animRadius) / 256
-								, v = parseInt(oe.massColor.slice(1), 16);
-							if (b) {
-								b.scale.set(k, k),
-								b.position.set(~~(g.x - C.x), ~~(g.y - C.y + (g.isUnnamed || g.isMine && i || !g.isMine && !o ? 0 : (.3 * g.animRadius)))),
-								b.tint = v,
-								_e.addChild(b)
-								//console.log(b)
-							}
+                        if ((!g.isVirus || "text" === k.virusMass && g.isVirus) && 1 == w && (g.isMine && !s || !g.isMine && t)) {
+                            const t = P.mass(g);
+                            if (t) {
+                                const s = ((2 == u ? g.animRadius : 1 == u ? 50 + 75 * (0 | g.animRadius / 75) : g.animRadius) * m * .3 + 6 / L.viewport) / t.height
+                                  , n = t.width * s
+                                  , a = t.height * s
+                                  , r = g.y - C.y + (g.isUnnamed || g.isMine && i || !g.isMine && !o ? -a >> 1 : a >> 3);
+                                t.width && t.height && e.drawImage(t, ~~(g.x - C.x - (n >> 1)), ~~r, ~~n, ~~a)
+                            }
                         }
                     }
-					this.cellsContainer.addChild(_e)//,
-					//this.cellsDestroyer.push(_e)
                 }
-				this.mainContainer.addChild(this.cellsContainer)
-			}
+            }
         }, {
             key: "getColor",
-            value(e, t) {
-				return e.set(e.R * t, e.G * t, e.B * t),
-				e
-			}
-        }, {
-            key: "getCellTexture",
-            value(link) {
-				const t = h.createElement("canvas")
-				  , o = t.getContext("2d");
-				t.width = 500,
-				t.height = 500,
-				o.beginPath(),
-				o.arc(250, 250, 250, 0, this.pi2, !0),
-				o.closePath(),
-				o.fillStyle = "#ffffff",
-				o.fill(),
-				this.cellTexture = PIXI.Texture.from(t)
-            }
+            value: (e,t)=>"rgb(" + (0 | e.R * t) + "," + (0 | e.G * t) + "," + (0 | e.B * t) + ")"
         }, {
             key: "getMaouImg",
             value(link) {
@@ -9869,8 +9538,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     o.clip(),
                     o.drawImage(e, 0, 0, 1080, 1080),
                     e.onload = null,
-                    this.maouImg = t,
-					this.maouTexture = PIXI.Texture.from(t)
+                    this.maouImg = t
                 })
             }
         }, {
@@ -9882,25 +9550,64 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 e.onload = (()=>{
                     const t = h.createElement("canvas")
                       , o = t.getContext("2d");
-                    t.width = 512,
-                    t.height = 512,
+                    t.width = 500,
+                    t.height = 500,
                     o.beginPath(),
-                    o.arc(256, 256, 256, 0, this.pi2, !0),
+                    o.arc(250, 250, 250, 0, this.pi2, !0),
                     o.closePath(),
                     o.clip(),
-                    o.drawImage(e, 0, 0, 512, 512),
+                    o.drawImage(e, 0, 0, 500, 500),
                     e.onload = null,
-                    this.everyoneSkins = t,
-					this.everyoneSkinsTexture = PIXI.Texture.from(t)
+                    this.everyoneSkins = t
                 })
             }
         }, {
             key: "getMultiboxShield",
-            value(link) {
-                const e = new Image;
-                e.src = link || oe.multiboxShieldURL,
-                e.crossOrigin = "anonymous",
-                e.onload = (()=>{
+            value(link, color) {
+				const e = new Image;
+				let t, o;
+                if (link) {
+					e.src = link || oe.multiboxShieldURL,
+					e.crossOrigin = "anonymous",
+					e.onload = (()=>{
+						t = h.createElement("canvas"),
+						o = t.getContext("2d");
+						t.width = 500,
+						t.height = 500,
+						o.beginPath(),
+						o.arc(250, 250, 250, 0, this.pi2, !0),
+						o.closePath(),
+						o.clip(),
+						o.drawImage(e, 0, 0, 500, 500),
+						o.globalCompositeOperation='source-in',
+						o.fillStyle = color || "#fff",
+						o.fill(),
+						e.onload = null,
+						this.multiboxShield = t;
+					});
+				} else if (!link) {
+					t = h.createElement("canvas"),
+					o = t.getContext("2d");
+					t.width = 500,
+					t.height = 500,
+					o.beginPath(),
+					o.arc(250, 250, 250, 0, this.pi2, !0),
+					o.closePath(),
+					o.clip(),
+					o.drawImage(this.multiboxShield, 0, 0, 500, 500),
+					o.globalCompositeOperation='source-in',
+					o.fillStyle = color || "#fff",
+					o.fill();
+					return t;
+				};
+            }
+        }, {
+			key: "getTargetSkin",
+			value() {
+				const e2 = new Image;
+                e2.src = "https://i.imgur.com/SjmiESK.png",
+                e2.crossOrigin = "anonymous",
+                e2.onload = (()=>{
                     const t = h.createElement("canvas")
                       , o = t.getContext("2d");
                     t.width = 500,
@@ -9909,34 +9616,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     o.arc(250, 250, 250, 0, this.pi2, !0),
                     o.closePath(),
                     o.clip(),
-                    o.drawImage(e, 0, 0, 500, 500),
-					o.globalCompositeOperation='source-in',
-					o.fillStyle = "#ffffff",
-					o.fill(),
-                    e.onload = null,
-                    this.multiboxShield = t,
-					this.multiboxShieldTexture = PIXI.Texture.from(t)
-                })
-            }
-        }, {
-			key: "getTargetSkin",
-			value() {
-				const e2 = new Image;
-                e2.src = "https://ex-script.com/fstyle/hslo/v5/540/image.php?name=skins_vanilla/darts_of_fury.png",
-                e2.crossOrigin = "anonymous",
-                e2.onload = (()=>{
-                    const t = h.createElement("canvas")
-                      , o = t.getContext("2d");
-                    t.width = 512,
-                    t.height = 512,
-                    o.beginPath(),
-                    o.arc(256, 256, 256, 0, this.pi2, !0),
-                    o.closePath(),
-                    o.clip(),
-                    o.drawImage(e2, 0, 0, 512, 512),
+                    o.drawImage(e2, 0, 0, 500, 500),
                     e2.onload = null,
-                    this.target1Skin = t,
-					this.target1SkinTexture = PIXI.Texture.from(t)
+                    this.target1Skin = t
                 })
                 const e3 = new Image;
                 e3.src = "https://i.imgur.com/PfodXDy.png",
@@ -9944,16 +9626,15 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 e3.onload = (()=>{
                     const t = h.createElement("canvas")
                       , o = t.getContext("2d");
-                    t.width = 512,
-                    t.height = 512,
+                    t.width = 500,
+                    t.height = 500,
                     o.beginPath(),
-                    o.arc(256, 256, 256, 0, this.pi2, !0),
+                    o.arc(250, 250, 250, 0, this.pi2, !0),
                     o.closePath(),
                     o.clip(),
-                    o.drawImage(e3, 0, 0, 500, 512),
+                    o.drawImage(e3, 0, 0, 500, 500),
                     e3.onload = null,
-                    this.target2Skin = t,
-					this.target2SkinTexture = PIXI.Texture.from(t)
+                    this.target2Skin = t
                 })
 			}
 		}, {
@@ -9964,6 +9645,22 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 return id === target.worldID;
             }
         }, {
+			key: "cacheFantasy",
+			value() {
+				this.cacheFantasyCanvas = document.createElement("canvas");
+				this.cacheFantasyCtx = this.cacheFantasyCanvas.getContext("2d");
+				this.cacheFantasyCanvas.width = this.fantasyImg.width;
+				this.cacheFantasyCanvas.height = this.fantasyImg.height;
+				this.cacheFantasyCtx.save();
+				this.cacheFantasyCtx.fillStyle = oe.fantasyColor;
+				this.cacheFantasyCtx.globalCompositeOperation = "destination-atop";
+				this.cacheFantasyCtx.beginPath();
+				this.cacheFantasyCtx.fillRect(0, 0, this.fantasyImg.width, this.fantasyImg.height);
+				this.cacheFantasyCtx.drawImage(this.fantasyImg, 0, 0, this.fantasyImg.width, this.fantasyImg.height);
+				this.cacheFantasyCtx.closePath();
+				this.cacheFantasyCtx.restore();
+			}
+		}, {
             key: "getBGImg",
             value(link) {
 				const fantasyBG = new Image();
@@ -9980,77 +9677,8 @@ const onyxv4_s5_0x1ad2eb = (()=>{
 					t.clip(),
 					t.drawImage(fantasyBG, 0, 0, 2048, 2048),
 					fantasyBG.onload = null,
-					this.fantasyImg = e,
-					this.whiteTexture = PIXI.Texture.WHITE,
-					this.fantasyTexture = PIXI.Texture.from(link)
+					this.fantasyImg = e
 				})
-            }
-        }, {
-            key: "getCommander",
-            value() {
-                const e = new Image;
-                e.src = "https://ex-script.com/fstyle/hslo/v5/540/image.php?name=deny/drawCommander1.png",
-                e.crossOrigin = "anonymous",
-                e.onload = (()=>{
-                    const t = h.createElement("canvas")
-                      , o = t.getContext("2d");
-                    t.width = 512,
-                    t.height = 512,
-                    o.beginPath(),
-                    o.arc(256, 256, 256, 0, this.pi2, !0),
-                    o.closePath(),
-                    o.clip(),
-                    o.drawImage(e, 0, 0, 512, 512),
-					o.globalCompositeOperation='source-in',
-					o.fillStyle = "#ffffff",
-					o.fill(),
-                    e.onload = null,
-                    this.mc1 = t,
-					this.mc1Texture = PIXI.Texture.from(t)
-                });
-                const e2 = new Image;
-                e2.src = "https://ex-script.com/fstyle/hslo/v5/540/image.php?name=deny/drawCommander2.png",
-                e2.crossOrigin = "anonymous",
-                e2.onload = (()=>{
-                    const t = h.createElement("canvas")
-                      , o = t.getContext("2d");
-                    t.width = 512,
-                    t.height = 512,
-                    o.beginPath(),
-                    o.arc(256, 256, 256, 0, this.pi2, !0),
-                    o.closePath(),
-                    o.clip(),
-                    o.drawImage(e2, 0, 0, 512, 512),
-					o.globalCompositeOperation='source-in',
-					o.fillStyle = "#ffffff",
-					o.fill(),
-                    e2.onload = null,
-                    this.mc2 = t,
-					this.mc2Texture = PIXI.Texture.from(t)
-                });
-                const e3 = new Image;
-                e3.src = "https://ex-script.com/fstyle/hslo/v5/540/image.php?name=deny/drawCommander3.png",
-                e3.crossOrigin = "anonymous",
-                e3.onload = (()=>{
-                    const t = h.createElement("canvas")
-                      , o = t.getContext("2d");
-                    t.width = 512,
-                    t.height = 512,
-                    o.beginPath(),
-                    o.arc(256, 256, 256, 0, this.pi2, !0),
-                    o.closePath(),
-                    o.clip(),
-                    o.drawImage(e3, 0, 0, 512, 512),
-					o.globalCompositeOperation='source-in',
-					o.fillStyle = "#ffffff",
-					o.fill(),
-                    e3.onload = null,
-                    this.mc3 = t,
-					this.mc3Texture = PIXI.Texture.from(t)
-                });
-				/*this.mc1 = PIXI.Texture.from("https://i.imgur.com/NOP273q.png"),
-				this.mc2 = PIXI.Texture.from("https://i.imgur.com/EZlEpC1.png"),
-				this.mc3 = PIXI.Texture.from("https://i.imgur.com/ffMhray.png");*/
             }
         }, {
             key: "getImgurCode",
@@ -10066,61 +9694,45 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             value: e=>"https://i.imgur.com/" + e + ".png"
         }, {
             key: "commands",
-            value(type) {
-				const t = "off" === settings.commander
-					, points = type === "commander" ? this.commanderPoints : this.effectPoints;
-                //e.lineStyle(50, parseInt(oe.commanderColor.slice(1), 16), 1);
-                for (const o of points.values()) {
-					if (t) return;
-					this.commanderTriggered = !0;
+            value() {
+                const e = this.ctx
+                  , t = "off" === k.commander;
+                e.strokeStyle = "#ffffff",
+                e.lineWidth = 5;
+                for (const o of this.commanderPoints.values()) {
                     const i = o.x
                       , s = o.y
-                      , n = le.time - o.time
 					  , scale = o.scale || 1
-					  , color = o.color || oe.commanderColor
-					  , e = new PIXI.Sprite(this.mc1Texture)
-					  , _e = new PIXI.Sprite(this.mc2Texture)
-					  , __e = new PIXI.Sprite(this.mc3Texture);
-                    if (2000 < n)
-                        points.delete(o);
+                      , n = le.time - o.time;
+                    if (1250 < n)
+                        this.commanderPoints.delete(o);
                     else if (!(t || 1 > n)) {
-                        const t = 1e3 * n / 2000;
-                        /*e.alpha = 333 < t ? (1e3 - t) / 667 : 1;
-                        e.beginFill(0, 0),
-                        e.drawCircle(i, s, t, 0, this.pi2, !0),
-                        e.endFill()*/
-						e.anchor.set(0.5, 0.5);
-						_e.anchor.set(0.5, 0.5);
-						__e.anchor.set(0.5, 0.5);
-						e.rotation += this.globalRotation * 3;
-						_e.rotation -= this.globalRotation * 4;
-						__e.rotation += this.globalRotation * 5;
-						e.alpha = 333 < t ? (1e3 - t) / 667 : 1;
-						_e.alpha = 333 < t ? (1e3 - t) / 667 : 1;
-						__e.alpha = 333 < t ? (1e3 - t) / 667 : 1;
-						e.position.set(i, s);
-						_e.position.set(i, s);
-						__e.position.set(i, s);
-						e.tint = parseInt(color.slice(1), 16);
-						_e.tint = parseInt(color.slice(1), 16);
-						__e.tint = parseInt(color.slice(1), 16);
-						e.scale.set(t/1000 * scale, t/1000 * o.scale);
-						_e.scale.set(t/1000 * scale, t/1000 * o.scale);
-						__e.scale.set(t/1000 * scale, t/1000 * o.scale);
-						this.mainContainer.addChild(e, _e, __e);
+                        const t = 1e3 * n / 1250;
+                        e.globalAlpha = 333 < t ? (1e3 - t) / 667 : 1;
+                        const o = e.createRadialGradient(i, s, .7 * t * scale, i, s, t * scale);
+                        o.addColorStop(0, "rgba(0,0,0,0)"),
+                        o.addColorStop(1, oe.commanderColor),
+                        e.fillStyle = o,
+                        e.beginPath(),
+                        e.arc(i, s, t * scale, 0, this.pi2, !0),
+                        e.closePath(),
+                        e.fill(),
+                        e.stroke()
                     }
                 }
             }
         }, {
             key: "mouseTracker",
             value() {
-                if ("off" !== settings.cursorLine) {
-                    const e = this.graphics;
-                    //const e = this.mouseTrackerGraphics;
-					e.beginFill(0, 0);
-					e.lineStyle(4, parseInt(oe.cursorLineColor.slice(1), 16), 1)
+                if ("off" !== k.cursorLine) {
+                    const e = this.ctx;
+                    e.strokeStyle = oe.cursorLineColor || "#fff",
+                    e.lineWidth = 4,
+                    e.lineCap = "round",
+                    e.lineJoin = "round";
                     const t = (_.x - this.canvas.width / 2) / L.viewport + L.x
                       , o = (_.y - this.canvas.height / 2) / L.viewport + L.y;
+                    e.beginPath();
                     const i = 1 === A.controllingTab ? I.myCellsTab1 : I.myCellsTab2
                       , s = 1 === A.controllingTab ? {
                         x: 0,
@@ -10129,35 +9741,34 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     for (const n of i.values())
                         e.moveTo(n.x - s.x, n.y - s.y),
                         e.lineTo(t, o);
-                    e.endFill();
-					e.lineStyle(0);
-					//this.mainContainer.addChild(e);
+                    e.closePath(),
+                    e.stroke()
                 }
             }
         }, {
 			key: "SplitRings",
 			value() {
-				if ('off' !== settings.splitRings) {
-					const e = this.graphics;
-					//const e = this.splitRingsGraphics;
-					e.beginFill(0, 0),
-					e.lineStyle(3, 0x656565, 1),
+				if ('off' !== k.splitRings) {
+					const ue = this.ctx;
+					ue.lineWidth = 3,
+					ue.strokeStyle = '#656565',
+					ue.beginPath(),
 					I.myCellsTab1.forEach(fe=>{
-						60 > fe.radius || (e.moveTo(fe.x + 800, fe.y),
-						e.drawCircle(fe.x, fe.y, 800))
+						60 > fe.radius || (ue.moveTo(fe.x + 800, fe.y),
+						ue.arc(fe.x, fe.y, 800, 0, this.pi2, !0))
 					}),
 					I.myCellsTab2.forEach(fe=>{
-						60 > fe.radius || (e.moveTo(fe.x + 800 - G.getOffset2.x, fe.y - G.getOffset2.y),
-						e.drawCircle(fe.x - G.getOffset2.x, fe.y - G.getOffset2.y, 800))
+						60 > fe.radius || (ue.moveTo(fe.x + 800 - G.getOffset2.x, fe.y - G.getOffset2.y),
+						ue.arc(fe.x - G.getOffset2.x, fe.y - G.getOffset2.y, 800, 0, this.pi2, !0))
 					}),
-					e.endFill();
-					e.lineStyle(0);
-					//this.mainContainer.addChild(e);
+					ue.closePath(),
+					ue.stroke()
 				}
 			}
 		}]),
         e
-    })());
+    }
+    )());
 	window.re = re;
     // Bots by Nel#0001
     Writer = (()=>{
@@ -10241,9 +9852,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             setTimeout(()=>{
                 !this.connected && (this.tries < 5 ? (this.tries++,
                 //console.log(`Failed to connect to bot server --- Attempt ${this.tries} to reconnect...`),
-                !window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", `Retrying to connect to bot server... attempt ${this.tries}`),
+                !window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", `Retrying to connect to bot server... attempt ${this.tries}`),
                 this.connect()) : (//console.log("Failed to attempt reconnecting to bot server."),
-                !window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "Failed to connect to bot server.")))
+                !window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "Failed to connect to bot server.")))
             }
             , 5000)
         },
@@ -10254,9 +9865,9 @@ const onyxv4_s5_0x1ad2eb = (()=>{
         onopen() {
             this.connected = !0
             console.log("Connected to bot server.")
-            window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "Connected to bot server.")
+            window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "Connected to bot server.")
 			Q.myTurn = !1
-			//k.useBots === "on" && window.connection.ws.readyState === WebSocket.OPEN && Q.spawn()
+			k.useBots === "on" && window.connection.ws.readyState === WebSocket.OPEN && Q.spawn()
             //document.getElementById('userStatus').style.color = '#00C02E'
             //document.getElementById('userStatus').innerText = 'Connected'
             //document.getElementById('connect').disabled = true
@@ -10270,12 +9881,12 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 window.user.startedBots = true;
                 window.user.stoppingBots = false;
                 //alert('Bots started");
-                window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "Bots started.");
+                window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "Bots started.");
                 break;
             case 1:
                 window.user.stoppingBots = true;
                 //alert('Stopping Bots...');
-                window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "Stopping Bots in 30 seconds.")
+                window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "Stopping Bots in 30 seconds.")
                 break;
             case 2:
                 window.user.startedBots = false;
@@ -10283,7 +9894,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                 break;
             case 3:
                 //alert('Your IP has captcha and bots are unable to spawn, change your ip with a VPN or something to one that doesn\'t has captcha in order to use the bots');
-                (window.connection.connected && !window.user.captchaNotif) && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "Your IP has captcha and bots are unable to spawn, change your ip with a VPN or something to one that doesn\'t has captcha in order to use the bots.");
+                (window.connection.connected && !window.user.captchaNotif) && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "Your IP has captcha and bots are unable to spawn, change your ip with a VPN or something to one that doesn\'t has captcha in order to use the bots.");
                 window.bots.captcha = true;
                 window.user.captchaNotif = true;
                 break;
@@ -10303,7 +9914,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             window.user.captchaNotif = !1;
             //this.tries = 0
             console.log("Disconnected from bot server.");
-            window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "Disconnected from bot server.");
+            window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "Disconnected from bot server.");
             //this.connect()
             window.user.startedBots = false;
             window.bots.ai = false;
@@ -10355,17 +9966,17 @@ const onyxv4_s5_0x1ad2eb = (()=>{
             case 2:
                 window.bots.ai = !window.bots.ai
                 window.connection.send(new Uint8Array([4, Number(window.bots.ai)]).buffer)
-                window.connection.connected && window.user.startedBots && !window.user.stoppingBots && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", `AI Mode toggled${window.bots.ai ? "[On]" : "[Off]"}.`);
+                window.connection.connected && window.user.startedBots && !window.user.stoppingBots && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", `AI Mode toggled${window.bots.ai ? "[On]" : "[Off]"}.`);
                 break
             case 3:
                 if (window.game.url && window.game.protocolVersion && window.game.clientVersion && !window.user.startedBots) {
                     if (window.bots.name && window.bots.amount) {
                         window.connection.send(window.buffers.startBots(window.game.url, window.game.protocolVersion, window.game.clientVersion, window.user.isAlive, window.unescape(window.encodeURIComponent(window.bots.name)), window.bots.amount))
                         //alert('Starting bots')
-                        window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "Trying to start bots.")
+                        window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "Trying to start bots.")
                     } else {
                         //alert('Bots name and amount are required before starting the bots')
-                        window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "Bots name and amount are required before starting the bots.")
+                        window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "Bots name and amount are required before starting the bots.")
                     }
                 }
                 break
@@ -10375,7 +9986,7 @@ const onyxv4_s5_0x1ad2eb = (()=>{
                     //alert('Stopping bots')
                 }//else alert('You must have bots started in order to stop them')
                 else
-                    window.connection.connected && settings.showBotNotifNCount === "on" && settings.useBots === "on" && m.alert("Bot", "You must have bots started in order to stop them.");
+                    window.connection.connected && k.showBotNotifNCount === "on" && k.useBots === "on" && m.alert("Bot", "You must have bots started in order to stop them.");
                 break
             case 5:
                 if (!window.connection.connected)
@@ -10581,4 +10192,3 @@ const onyxv4_s5_0x1ad2eb = (()=>{
     })()
 }
 )(window, $, document);
-nyna('HSLO v540', 'bundle.js', Date.now(), 1);

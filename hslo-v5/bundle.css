@@ -2,7 +2,7 @@
     position:relative
 }
 .minicolors-sprite{
-    background-image:url(https://i.imgur.com/LjBxQT7.png)
+    background-image:url(https://hslo.yueagar.ml/images/colorpicker.png)
 }
 .minicolors-swatch{
     position:absolute;
@@ -4200,7 +4200,7 @@
     bottom:0;
     background-color:#f1ecfa;
     opacity:1;
-	background-image: url("https://ex-script.com/fstyle/hslo/v5/540/deby/anime01.jpg");
+	background-image: url("http://pic.sc.chinaz.com/files/pic/pic9/201602/apic18782.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
     transition:opacity 1s
@@ -4223,15 +4223,15 @@
     position:absolute
 }
 #loading-screen .maou-circle-container .maou-circle.p1{
-    background:url(https://ex-script.com/fstyle/hslo/v5/540/deby/maou1_white.png);
+    background:url(https://hslo.yueagar.ml/images/loading-screen/maoucircle1.png);
     animation:spinRight 32s linear infinite,fadeIn 6s
 }
 #loading-screen .maou-circle-container .maou-circle.p2{
-    background:url(https://ex-script.com/fstyle/hslo/v5/540/deby/maou2_white.png);
+    background:url(https://hslo.yueagar.ml/images/loading-screen/maoucircle2.png);
     animation:spinLeft 8s linear infinite,fadeIn 6s
 }
 #loading-screen .maou-circle-container .maou-circle.p3{
-    background:url(https://ex-script.com/fstyle/hslo/v5/540/deby/maou3_white.png);
+    background:url(https://hslo.yueagar.ml/images/loading-screen/maoucircle3.png);
     animation:spinRight 16s linear infinite,fadeIn 6s
 }
 #loading-screen .message{
@@ -4252,7 +4252,7 @@
     position:absolute;
     left:50%;
     transform:translateX(-50%);
-    background:#000000;
+    background:#f05c5b;
     border:none;
     height:30px;
     width:260px;
@@ -4529,98 +4529,97 @@ body{
     bottom:0;
     left:0;
     right:0;
-    opacity:.5;
+    opacity:.3;
     background-size:cover;
-    background-image:url(https://cdn.glitch.com/148228b3-0752-4091-ae7a-9f3edad442cd%2FmenuBlur.jpg)
+    background-image:url(https://hslo.yueagar.ml/images/menuBlur.jpg)
 }
 #musicPlayer {
 	position: absolute;
 	z-index: 1;
 	transform: translateX(-50%);
 	left: 50%;
-	top: 999px;
+	top: 100px;
 }
 iframe {
 	height: 150px;
 	width: 400px;
 }
-.control-bar-container {
-    background: rgba(26, 13, 48, 0.4);
-    position: absolute;
-    width: 835px;
-    height: 140px;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 0px;
-    z-index: 1;
-    box-shadow: 0 0 10px #000;
-    border-radius: 200px;
+.control-bar-container{
+    background:rgba(255,255,255,.04);
+    position:absolute;
+    width:100%;
+    height:210px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:0;
+    z-index:1
 }
-.control-bar {
-    width: 815px;
-    position: absolute;
-    height: 120px;
-    top: 10px;
-    left: 10px;
-    background: #222222;
-    border-radius: 200px;
+.control-bar{
+    width:100%;
+    position:absolute;
+    height:110px;
+    top:50px;
+    background:#222;
+    box-shadow:0 0 20px rgba(0,0,0,.24)
 }
-.bar-button-container {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 795px;
-    top: 10px;
+.bar-button-container{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    width:795px
 }
-.bar-button-bg {
-    width: 127px;
-    height: 100px;
-    display: inline-block;
-    margin-left: -1px;
-    margin-right: -1px;
-    position: relative;
-    transition: all .5s;
+.bar-button-bg{
+    width:127px;
+    height:110px;
+    background:linear-gradient(-90deg,#ff0 95%,#000 115%);
+    display:inline-block;
+    transform:skewX(-15deg) scaleY(1.05) scaleX(1.05);
+    margin-left:-1px;
+    margin-right:-1px;
+    position:relative;
+    transition:all .5s
 }
-.bar-button-bg.left {
+.bar-button-bg.left{
+    border-radius:5px 0 0 5px
 }
-.bar-button-bg.left:hover {
+.bar-button-bg.left:hover{
+    transform:skewX(-15deg) scaleY(1.05) scaleX(1.15)
 }
-.bar-button-bg.center {
-    border-radius: 0 5px 5px 0;
-    z-index: 5
+.bar-button-bg.center{
+    border-radius:0 5px 5px 0;
+    z-index:5
 }
-.bar-button-bg.right {
+.bar-button-bg.right{
+    border-radius:0 5px 5px 0
 }
-.bar-button-bg.right:hover {
+.bar-button-bg.right:hover{
+    transform:skewX(-15deg) scaleY(1.05) scaleX(1.15)
 }
-.bar-button-bg.settings {
-    background: #E23333;
-    border-radius: 200px 0 0 200px;
+.bar-button-bg.settings{
+    background:#444
 }
-.bar-button-bg.play {
-    background: #fff;
-    z-index: 4
+.bar-button-bg.play{
+    background:#6442CA;
+    z-index:4
 }
-.bar-button-bg.spectate {
-    background: #fff;
-    z-index: 3
+.bar-button-bg.spectate{
+    background:#ef9010;
+    z-index:3
 }
-.bar-button-bg.inputs {
-    background: #fff;
-    z-index: 2
+.bar-button-bg.inputs{
+    background:#8fd80d;
+    z-index:2
 }
-.bar-button-bg.theme {
-    background: #fff;
-    border-radius: 0 200px 200px 0;
-    z-index: 1;
+.bar-button-bg.theme{
+    background:#ec3098;
+    z-index:1
 }
-.bar-button-bg.dummy {
-    background: linear-gradient(-90deg,#fff 50%,#ff006e 50%);
-    width: 170px
+.bar-button-bg.dummy{
+    background:linear-gradient(-90deg, #6442CA 50%, #444 50%);
+    width:170px;
 }
-.bar-button i {
-    font-size: 36px
+.bar-button i{
+    font-size:36px
 }
 @keyframes bounceSkinCircle{
     50%{
@@ -4638,7 +4637,6 @@ iframe {
     background:rgba(255,255,255,.3);
     border-radius:50%;
     left:50%;
-    top:-20%;
     transform:scale(1) translateX(-295px);
     transition:transform .5s
 }
@@ -4664,10 +4662,10 @@ iframe {
 }
 .bar-button{
     cursor:pointer;
-    margin-top:23px;
+    margin-top:30px;
     margin-left:-1px;
     width:125px;
-    color:#E23333;
+    color:#fff;
     user-select:none;
     font-size:10px;
     text-align:center;
@@ -4977,7 +4975,7 @@ iframe {
     width:346px;
     height:346px;
     left:50%;
-    top:-96px;
+    top:-68px;
     transform:translateX(-363px);
     animation:wheel-rotate 120s linear infinite
 }
@@ -5053,7 +5051,7 @@ iframe {
 #player-data{
     position:absolute;
     left:50%;
-    top:45%;
+    top:50%;
     width:300px;
     transform:translate(-50%,125px);
     padding:15px;
