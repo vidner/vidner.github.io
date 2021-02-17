@@ -1,7 +1,7 @@
 {
     "profile":
         {
-            "author": "vidner",
+            "name": "vidner",
             "bio": "A Security Researcher. Focus study about static and dynamic binary analysis also reverse engineering in general.",
             "skill": ["reverse-engineering", "microservices"]
         },
