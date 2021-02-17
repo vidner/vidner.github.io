@@ -6,20 +6,20 @@
             "skill": ["reverse-engineering", "microservices"]
         },
     "blogs":
-        {
+        [{
             "title": "Reverse Engineering Cyber Jawara 2020",
             "url": "https://medium.com/@vidner/reverse-engineering-cyber-jawara-2020-c50ee30bdad0",
             "date": "Sep 2020"
-        },
+        }],
     "projects": 
-        {
+        [{
             "name": "morph",
             "url": "https://github.com/vidner/morph",
             "description": "Polymorphic ELF Runtime Crypter written in rust."
-        },
+        }],
     "achievements":
-        {
+        [{
             "title": "🥇 1st Place Cyber Jawara",
             "description": "Oct 2020, Indonesia Network Security Association"
-        }
+        }]
 }
