@@ -1,0 +1,97 @@
+{
+    "profile":
+        {
+            "name": "vidner",
+            "bio": "A Security Researcher. Focus study about static and dynamic binary analysis also reverse engineering in general."
+        },
+    "blogs":
+        [   
+            {
+                "title": "Reverse Engineer Game Boy Advance ROM",
+                "url": "https://medium.com/@vidner/reverse-engineer-game-boy-advance-rom-63a1fcd87bbe",
+                "date": "Oct 2020"
+            },
+            {
+                "title": "Reverse Engineering Cyber Jawara 2020",
+                "url": "https://medium.com/@vidner/reverse-engineering-cyber-jawara-2020-c50ee30bdad0",
+                "date": "Sep 2020"
+            },
+            {
+                "title": "Reverse Engineering COMPFEST 12",
+                "url": "https://medium.com/@vidner/reverse-engineering-compfest-12-69c6b8c041b7",
+                "date": "Sep 2020"
+            }
+        ],
+    "projects": 
+        [
+            {
+                "name": "morph",
+                "url": "https://github.com/vidner/morph",
+                "description": "Polymorphic ELF Runtime Crypter written in rust."
+            },
+            {
+                "name": "termvin",
+                "url": "https://github.com/vidner/termvin",
+                "description": "Termbin clone written in V."
+            },
+            {
+                "name": "reflect",
+                "url": "https://github.com/vidner/reflect",
+                "description": "Platform to reflect who you are. (this website)"
+            },
+            {
+                "name": "hactory",
+                "url": "https://www.facebook.com/cysecipb/posts/1947339142068003",
+                "description": "CTF platform that built with rust as backend and elm as frontend."
+            },
+            {
+                "name": "codepwnda-ctf",
+                "url": "https://github.com/vidner/codepwnda-ctf",
+                "description": "Formerly a CTF website, made with love by CSI to the community"
+            },
+            {
+                "name": "rest-mark",
+                "url": "https://github.com/vidner/rest-mark",
+                "description": "Benchmark rest api with python requests"
+            }
+        ],
+    "achievements":
+        [
+            {
+                "title": "🥉 3rd Place IDSECCONF CTF",
+                "description": "Dec 2020, Indonesia IT Security Conference"
+            },
+            {
+                "title": "🥉 3rd Place REDMASK CTF",
+                "description": "Dec 2020, CSIRT.ID"
+            },
+            {
+                "title": "🥉 3rd Place Hology CTF",
+                "description": "Nov 2020, Universitas Brawijaya"
+            },
+            {
+            "title": "🥇 1st Place IFEST CTF",
+            "description": "Oct 2020, Universitas Padjadjaran"
+            },
+            {
+                "title": "🥈 2nd Place GEMASTIK XIII: Cyber Security",
+                "description": "Oct 2020, Indonesian Ministry of Education"
+            },
+            {
+                "title": "🥉 3rd Place Cyber Jawara CTF",
+                "description": "Oct 2020, Indonesian Network Security Association"
+            },
+            {
+                "title": "🥉 3rd Place CSI CTF",
+                "description": "Jun 2020, VIT University, India"
+            },
+            {
+                "title": "🥉 3rd Place Arkavidia 6 CTF",
+                "description": "Feb 2020, Institut Teknologi Bandung"
+            },
+            {
+                "title": "🥇 1st Place CSC National CTF",
+                "description": "Dec 2019, Bina Nusantara University"
+            }
+        ]
+}
