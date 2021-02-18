@@ -50,9 +50,9 @@
                 "description": "Formerly a CTF website, made with love by CSI to the community"
             },
             {
-                "name": "rest-mark",
-                "url": "https://github.com/vidner/rest-mark",
-                "description": "Benchmark rest api with python requests"
+                "name": "dCTF,
+                "url": "https://github.com/vidner/dCTF",
+                "description": "CTF platform as a discord bot because why not"
             }
         ],
     "achievements":
