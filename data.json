@@ -58,6 +58,10 @@
     "achievements":
         [
             {
+                "title": "🥈 2nd Place Arkavidia 7 CTF",
+                "description": "Feb 2021, Institut Teknologi Bandung"
+            },
+            {
                 "title": "🥉 3rd Place IDSECCONF CTF",
                 "description": "Dec 2020, Indonesia IT Security Conference"
             },
@@ -83,7 +87,7 @@
             },
             {
                 "title": "🥉 3rd Place CSI CTF",
-                "description": "Jun 2020, VIT University, India"
+                "description": "Jun 2020, VIT University India"
             },
             {
                 "title": "🥉 3rd Place Arkavidia 6 CTF",
