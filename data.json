@@ -58,6 +58,10 @@
     "achievements":
         [
             {
+                "title": "🥇 1st Place CyberThreatForce CTF",
+                "description": "Jul 2021, cyberthreatforce-ctf.com"
+            },
+            {
                 "title": "🥈 2nd Place Find IT CTF",
                 "description": "Jun 2021, Universitas Gadjah Mada"
             },
@@ -78,8 +82,8 @@
                 "description": "Nov 2020, Universitas Brawijaya"
             },
             {
-            "title": "🥇 1st Place IFEST CTF",
-            "description": "Oct 2020, Universitas Padjadjaran"
+                "title": "🥇 1st Place IFEST CTF",
+                "description": "Oct 2020, Universitas Padjadjaran"
             },
             {
                 "title": "🥈 2nd Place GEMASTIK XIII: Cyber Security",
