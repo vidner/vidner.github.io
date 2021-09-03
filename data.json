@@ -5,7 +5,12 @@
             "bio": "A Security Researcher. Focus study about static and dynamic binary analysis also reverse engineering in general."
         },
     "blogs":
-        [   
+        [               
+            {
+                "title": "Reverse Engineering Gemastik XIV",
+                "url": "https://medium.com/@vidner/reverse-engineering-gemastik-xiv-1ca2a2723750",
+                "date": "Aug 2021"
+            },
             {
                 "title": "Reverse Engineer Game Boy Advance ROM",
                 "url": "https://medium.com/@vidner/reverse-engineer-game-boy-advance-rom-63a1fcd87bbe",
