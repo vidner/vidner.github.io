@@ -63,6 +63,10 @@
     "achievements":
         [
             {
+                "title": "🥉 3rd Place COMPFEST13 CTF",
+                "description": "Oct 2021, Universitas Indonesia"
+            },
+            {
                 "title": "🥇 1st Place CyberThreatForce CTF",
                 "description": "Jul 2021, cyberthreatforce-ctf.com"
             },
