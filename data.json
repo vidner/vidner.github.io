@@ -63,6 +63,10 @@
     "achievements":
         [
             {
+                "title": "🥇 1st Place VULNCON CTF 2021",
+                "description": "Dec 2021, noobarmy.org"
+            },
+            {
                 "title": "🥉 3rd Place COMPFEST13 CTF",
                 "description": "Oct 2021, Universitas Indonesia"
             },
