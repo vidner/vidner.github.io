@@ -63,6 +63,10 @@
     "achievements":
         [
             {
+                "title": "🥇 1st Place IDSECCONF CTF",
+                "description": "Oct 2022, Indonesia IT Security Conference"
+            },
+            {
                 "title": "🥇 1st Place VULNCON CTF",
                 "description": "Dec 2021, noobarmy.org"
             },
