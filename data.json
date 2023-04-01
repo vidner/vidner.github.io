@@ -35,6 +35,11 @@
                 "description": "Polymorphic ELF Runtime Crypter written in rust."
             },
             {
+                "name": "vision",
+                "url": "https://github.com/vidner/vision",
+                "description": "All in one target enumeration tool."
+            },
+            {
                 "name": "termvin",
                 "url": "https://github.com/vidner/termvin",
                 "description": "Termbin clone written in V."
