@@ -68,6 +68,10 @@
     "achievements":
         [
             {
+                "title": "🥇 1st Place Internet Festival 2023 CTF",
+                "description": "Jun 2023, internetfestival.it"
+            },
+            {
                 "title": "🥇 1st Place IDSECCONF CTF",
                 "description": "Oct 2022, Indonesia IT Security Conference"
             },
