@@ -68,8 +68,12 @@
     "achievements":
         [
             {
+                "title": "🥈 2nd Place IDSECCONF CTF",
+                "description": "Nov 2023, Indonesia IT Security Conference"
+            },
+            {
                 "title": "🥇 1st Place nullcon HackIM Goa CTF",
-                "description": "Aug 2023, ctf.nullcon.net"
+                "description": "Aug 2023, Nullcon Security Conference Goa"
             },
             {
                 "title": "🥇 1st Place CTFZone CTF",
