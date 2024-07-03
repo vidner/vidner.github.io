@@ -35,6 +35,11 @@
                 "description": "Polymorphic ELF Runtime Crypter written in rust."
             },
             {
+                "name": "gemastik-xvi-final",
+                "url": "https://github.com/vidner/gemastik-xvi-final",
+                "description": "Attack Defense services & exploit for gemastik-xvi-final."
+            },
+            {
                 "name": "vision",
                 "url": "https://github.com/vidner/vision",
                 "description": "All in one target enumeration tool."
