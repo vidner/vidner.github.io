@@ -68,6 +68,18 @@
     "achievements":
         [
             {
+                "title": "🥇 1st Place nullcon HackIM Goa CTF",
+                "description": "Aug 2023, ctf.nullcon.net"
+            },
+            {
+                "title": "🥇 1st Place CTFZone CTF",
+                "description": "Aug 2023, ctf.bi.zone"
+            },
+            {
+                "title": "🥇 1st Place Securinets CTF",
+                "description": "Aug 2023, ctf.securinets.tn"
+            },
+            {
                 "title": "🥇 1st Place Internet Festival CTF",
                 "description": "Jun 2023, internetfestival.it"
             },
